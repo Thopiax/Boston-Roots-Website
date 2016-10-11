@@ -1,0 +1,149 @@
+$ui-color: rgb(122, 193, 111);
+$header-bg-color: rgb(125, 198, 80);
+$call-to-action: rgb(97, 172, 251);
+$text-color: rgb(66, 66, 66);
+$header-color: rgb(255, 255, 255);
+
+$font: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+
+$smaller-screens: 800px;
+
+@mixin clearfix {
+  overflow: auto;
+  zoom: 1;
+}
+
+body {
+  max-width: 100%;
+  font-family: $font;
+  padding: 0;
+  margin: 0;
+  font-size: 18px;
+  color: $text-color;
+}
+
+#navbar {
+  padding: 1.5em 8em;
+  box-shadow: 0 0 1em rgba(84, 82, 82, 0.51);
+  background-color: white;
+  box-sizing: border-box;
+  width: 100%;
+  // position: relative;
+  position: fixed;
+  z-index: 1;
+  @include clearfix;
+  @media (max-width: $smaller-screens) {
+    padding: 1em 0.5em;
+  }
+  ul {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+  }
+  li {
+    float: left;
+    list-style: none;
+    padding: 0 1em;
+    margin: 0.25em 0;
+    @media (max-width: $smaller-screens) {
+      padding: 0 0.5em;
+    }
+  }
+  a {
+    text-decoration: none;
+    color: $ui-color;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+  #links {
+    float: right;
+    @media (max-width: $smaller-screens) {
+      float: left;
+    }
+  }
+}
+
+#get-involved {
+  display: inline-block;
+  font-family: $font;
+  padding: 1em 2em;
+  border-radius: 4px;
+  background-color: $call-to-action;
+  color: $header-color;
+  border: none;
+  font-weight: bold;
+  margin: 2em 0;
+  text-decoration: none;
+}
+
+#home {
+  background-color: $header-bg-color;
+  background-image: url(/images/books.jpeg);
+  background-size: cover;
+  color: $header-color;
+  padding: 3em 0em;
+  padding-top: 8em;
+}
+
+.content {
+  box-sizing: border-box;
+  max-width: 40em;
+  margin: 0 auto;
+  padding: 0em 1em;
+  padding-top: 1em;
+}
+
+.side-image {
+  padding-right: 1em;
+  width: 33%;
+  box-sizing: border-box;
+  float: left;
+  display: block;
+  @media (max-width: $smaller-screens) {
+    width: 50%;
+  }
+}
+
+.side-text {
+  box-sizing: border-box;
+  float: left;
+  width: 66%;
+  @media (max-width: $smaller-screens) {
+    width: 100%;
+    float: none;
+  }
+}
+
+.description {
+  @media (max-width: $smaller-screens) {
+    float: left;
+    width: 50%;
+  }
+}
+
+.row {
+  width: 100%;
+  padding: 0;
+  padding-bottom: 2em;
+  @include clearfix();
+}
+
+p {
+  line-height: 1.4em;
+  margin: 0;
+  margin-bottom: 1em;
+}
+
+#contact {
+  margin-bottom: 6em;
+}
+
+.green {
+  color: $ui-color;
+}
+
+#footer {
+  padding: 1em;
+  margin-bottom: 6em;
+}

@@ -1,0 +1,52 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ *= require_self
+ #= require main
+ */
+
+* {
+   font-size:   18px;
+   box-sizing:  border-box;
+   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" !important;
+   color: $text-color !important;
+}
+
+/*
+  Main html elements
+*/
+
+html, body {
+   padding: 0;
+   margin:  0;
+   width:   100%;
+   color:            #2e3842;
+   background-color: #f2f1ef;
+   overflow-x: hidden;
+}
+
+section {
+  width:  100vw;
+  height: 100vh;
+  margin: 0;
+}
+
+.wrapper {
+  margin: 0;
+  border: 0;
+  padding: 0 ! important;
+}
+
+
+/*
+  Navbar
+*/

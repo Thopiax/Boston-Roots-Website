@@ -1,0 +1,158 @@
+// Place all the styles related to the StaticPages controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+@import "../base/globals.scss";
+
+/*
+  Home
+*/
+
+#home {
+  color: $sec_color;
+  background-image: image-url("college_template_photo.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  font-size: 18px;
+}
+
+.jumbotron {
+  width: 100vw;
+  height: 100%;
+  margin: 0;
+  color:            #f2f1ef;
+  background-color: rgba($main_color, 0.5) ! important;
+  padding-right: 10rem;
+  padding-left: 10rem;
+  display: table;
+}
+
+#jumboimagecontainer {
+  display: table-row;
+  vertical-align: middle;
+}
+
+#jumboimage {
+  width: 70%;
+  display: table-cell;
+  text-align: center;
+  vertical-align: bottom;
+  img {
+    max-width: 80%;
+  }
+}
+
+#jumbotext {
+  display: table-row;
+  vertical-align: middle;
+  text-align: center;
+
+  h1 {
+    font-size: 4rem;
+  }
+
+  b {
+    font-size: inherit;
+  }
+
+}
+
+#timeline {
+  background-color: $sec_color;
+  display: table;
+
+  .header {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    height: 100%;
+
+    h1 {
+      font-size:  5rem;
+      font-color: $grey_color;
+    }
+
+  }
+
+}
+
+#mission {
+  color: $sec_color;
+  background-image: image-url("graduation_caps.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  min-height: 100vh;
+  height: auto;
+  margin: 0;
+  padding: 0;
+
+  .filter {
+    padding: 2em 5em;
+    padding-right: 6em;
+    height: auto;
+    min-height: 100%;
+    width: 100%;
+    margin: 0;
+    background-color: rgba($grey_color, 0.5);
+    display: block;
+    position: relative;
+
+    #missionheader {
+      margin-bottom: 5rem;
+    }
+
+    #missionbody {
+      width: 100%;
+      @media only screen and (min-width: $screen-sm-max) {
+        display: flex;
+      }
+    }
+
+    .card {
+      width: 100%;
+      @media only screen and (min-width: $screen-sm-max) {
+        flex: 1;
+      }
+    }
+
+  }
+
+}
+
+#team {
+  background-color: $thi_color;
+}
+
+#contact {
+  background-color: rgb(81, 99, 157);
+}
+
+#footer {
+  background-color: #556270;
+  height: 50%;
+}
+
+
+@media only screen and (min-width: $screen-sm-min) {
+  .jumbotron {
+    #jumboimagecontainer {
+      display: table-cell;
+      vertical-align: middle;
+      height: 100%;
+      #jumboimage {
+        width: 70%;
+        height: auto;
+        img {
+          max-width: 100%;
+        }
+      }
+    }
+
+    #jumbotext {
+      display: table-cell;
+      vertical-align: middle;
+      text-align: right;
+    }
+
+  }
+}

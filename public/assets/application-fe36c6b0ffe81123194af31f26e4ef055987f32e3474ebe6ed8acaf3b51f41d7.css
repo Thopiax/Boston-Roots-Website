@@ -1,0 +1,139 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+
+
+ */
+
+
+
+* {
+   font-size:      1rem;
+   box-sizing: border-box;
+}
+
+/*
+  Main html elements
+*/
+
+html, body {
+   padding: 0;
+   margin:  0;
+   width:            100%;
+   color:            #2e3842;
+   background-color: #f2f1ef;
+}
+
+section {
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+}
+
+.wrapper {
+  margin: 0;
+  border: 0;
+  padding: 0 ! important;
+}
+
+/*
+  Adaptation
+*/
+
+@media screen and (max-width: 992px) {
+  .jumbotron {
+    padding-right: 5rem ! important;
+  }
+  a.navbar-brand {
+    text-align: center ! important;
+  }
+}
+
+@media (min-width: @screen-sm-min) {
+  .navbar-brand {
+
+  }
+}
+
+
+/*
+  Navbar
+*/
+
+nav a {
+  color: #f2f1ef;
+}
+
+nav {
+  padding: 25px 4%;
+  background-color: #2e3842;
+}
+
+a.navbar-brand {
+  font-size: 3rem;
+  font-weight: 600;
+  display: inline-block;
+  text-align: left;
+  width: 100%;
+  margin-left: 0 ! important;
+  padding-left: 0;
+}
+
+.navbar .active a {
+  font-size: 1.65rem;
+}
+
+.navbar-nav a {
+  font-size: 1.65rem;
+}
+
+.navbar-header {
+  width: 100%;
+}
+
+/*
+  Home
+*/
+
+.jumbotron {
+  width: 100vw;
+  height: 90vh;
+  margin: 0;
+  color:            #f2f1ef;
+  background-color: #2e3842 ! important;
+  padding-right: 10rem;
+  padding-left: 5rem;
+  display: table;
+}
+
+#jumbotext {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: right;
+}
+
+#home {
+  color: #f2f1ef;
+  background-color: #2e3842;
+}
+
+#mission {
+  background-color: rgba(81, 99, 157, 0.7);
+}
+
+#team {
+  background-color: rgba(92, 187, 249, 0.7);
+}
+
+#contact {
+  background-color: rgb(81, 99, 157);
+}

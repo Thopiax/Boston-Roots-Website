@@ -1,0 +1,140 @@
+// FILE FOR GLOBAL VARIABLES
+
+$screen-sm-min: 768px;
+$screen-xs-max: ($screen-sm-min - 1);
+$screen-md-min: 992px;
+$screen-sm-max: ($screen-md-min - 1);
+$screen-lg-min: 1200px;
+$screen-md-max: ($screen-lg-min - 1);
+
+// COLORING
+
+$color_alpha: 0.7;
+$min-width: 600px;
+
+$main_color: rgb(05, 56,  66);
+$ui-color:   rgb(122, 193, 111);
+$sec_color:  rgb(242,241,239);
+$thi_color:  rgb(162,171, 88);
+$grey_color: rgb(85,98,112);
+$call-to-action: rgb(97, 172, 251);
+$text-color: rgb(66, 66, 66);
+
+$font: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+
+@mixin clearfix {
+  overflow: auto;
+  zoom:     1;
+}
+
+// NAVBAR
+
+body {
+  max-width:   100%;
+  font-family: $font;
+  padding: 0;
+  margin:  0;
+  font-size: 18px;
+  color: $text-color;
+}
+
+$nav_pad: 25px;
+
+a {
+  text-decoration: none;
+  color: inherit;
+  font-size: inherit;
+  font-family: inherit;
+
+  &:hover {
+    color:inherit;
+  }
+}
+
+h1 {
+  font-size: 5rem;
+}
+
+nav {
+  padding: $nav_pad 4%;
+  background-color: $sec_color;
+  @include clearfix;
+  @media only screen and (max-width: $screen-sm-min) {
+    padding: 0.5em 0.5em;
+    background: transparent;
+  }
+
+  a {
+    color: $main_color;
+    background-color: transparent;
+    &:hover {
+      color: $main_color;
+      background-color: transparent;
+      background-color: lighten($sec_color, 30%);
+    }
+  }
+
+  a.navbar-brand {
+    display: inline-block;
+    text-align: left;
+    margin-left: 0;
+    padding-left: 0;
+  }
+
+  .navbar-brand img {
+    width: 200px;
+    height: auto;
+    transform: translateY(-40%);
+    @media only screen and (max-width: $screen-sm-min) {
+      display: none;
+    }
+  }
+
+  .active a, .navbar-nav a {
+    font-size: 1.75rem;
+  }
+
+  .active a {
+    background-color: $main_color ! important;
+  }
+
+  .navbar-header {
+    width: 100%;
+  }
+}
+
+.card {
+  color: $text-color;
+  min-width: 50px;
+  min-height: 100px;
+  margin-bottom: 2rem;
+  box-shadow: 5px 5px 10px black;
+  background-color: $sec_color;
+  padding: 4%;
+
+  h2 {
+    margin-top: 0;
+    margin-bottom: 1em;
+  }
+
+  p {
+    text-indent: 2em;
+  }
+
+}
+
+.foreground {
+  min-width: $min-width;
+}
+/* Area where there will be the majority of text */
+.notebook {
+  min-width: $min-width * 0.8;
+  max-width: $screen-sm-max;
+  margin: auto;
+}
+
+.btn {
+  padding: 1em 2em;
+  border-radius: 4px;
+  background-color: $call-to-action;
+}
