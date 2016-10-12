@@ -8,22 +8,32 @@
   Home
 */
 
+$home_background_root: "college_template_photo";
+$mission_background_root: "graduation_caps";
+
 #home {
   color: $sec_color;
-  background-image: image-url("college_template_photo.jpg");
-  background-attachment: fixed;
-  background-size: cover;
-  font-size: 18px;
+  height: auto;
+  min-height: 100vh;
+
+  .background {
+    @include import_image($home_background_root);
+    background-size: 100% 100%;
+  }
+
 }
 
 .jumbotron {
   width: 100vw;
-  height: 100%;
-  margin: 0;
+  position: relative;
+  z-index: 1;
+  height: auto;
+  min-height: 100%;
+  margin:           0;
   color:            #f2f1ef;
   background-color: rgba($main_color, 0.5) ! important;
-  padding-right: 10rem;
-  padding-left: 10rem;
+  padding-right: 7%;
+  padding-left: 7%;
   display: table;
 }
 
@@ -33,13 +43,18 @@
 }
 
 #jumboimage {
-  width: 70%;
   display: table-cell;
   text-align: center;
   vertical-align: bottom;
+
   img {
-    max-width: 80%;
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    max-width: 400px;
+    max-height: 45vh;
   }
+
 }
 
 #jumbotext {
@@ -48,7 +63,12 @@
   text-align: center;
 
   h1 {
-    font-size: 4rem;
+    font-size: 2em;
+    margin-bottom: 0.25em;
+  }
+
+  p {
+    margin-bottom: 1em;
   }
 
   b {
@@ -68,27 +88,25 @@
     height: 100%;
 
     h1 {
-      font-size:  5rem;
+      font-size:  5em;
       font-color: $grey_color;
     }
-
   }
-
 }
 
 #mission {
   color: $sec_color;
-  background-image: image-url("graduation_caps.jpg");
-  background-attachment: fixed;
-  background-size: cover;
+  background-size: 100% 100%;
+
+  @include import_image($mission_background_root);
+
   min-height: 100vh;
   height: auto;
   margin: 0;
   padding: 0;
 
   .filter {
-    padding: 2em 5em;
-    padding-right: 6em;
+    padding: 4% 10%;
     height: auto;
     min-height: 100%;
     width: 100%;
@@ -142,9 +160,6 @@
       #jumboimage {
         width: 70%;
         height: auto;
-        img {
-          max-width: 100%;
-        }
       }
     }
 

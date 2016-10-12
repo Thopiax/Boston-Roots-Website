@@ -10,7 +10,8 @@ $screen-md-max: ($screen-lg-min - 1);
 // COLORING
 
 $color_alpha: 0.7;
-$min-width: 600px;
+$min-width: 330px;
+$bg_format: "jpg";
 
 $main_color: rgb(05, 56,  66);
 $ui-color:   rgb(122, 193, 111);
@@ -27,18 +28,66 @@ $font: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, 
   zoom:     1;
 }
 
-// NAVBAR
-
-body {
-  max-width:   100%;
-  font-family: $font;
+@mixin clearspc {
+  margin: 0;
   padding: 0;
-  margin:  0;
-  font-size: 18px;
-  color: $text-color;
 }
 
-$nav_pad: 25px;
+@mixin short-shadow {
+  box-shadow: 1px 1px 2px black;
+}
+
+@mixin import_image($root) {
+  @media only screen and (max-width: $screen-sm-max) {
+    background-image: image-url($root + "_600." + $bg_format);
+  }
+
+  // @media
+  // only screen and (min-resolution: 192dpi) and (max-width: $screen-sm-max),
+  // only screen and (min-resolution: 2dppx)  and (max-width: $screen-sm-max) {
+  //
+  //   background-image: image-url($root + "_600_hd." + $bg_format);
+  //
+  // }
+
+  @media only screen and (min-width: $screen-md-min) and (max-width: $screen-md-max) {
+    background-image: image-url($root + "_786." + $bg_format);
+  }
+
+  // @media
+  // only screen and (min-resolution: 192dpi) and (min-width: $screen-md-min) and (max-width: $screen-md-max),
+  // only screen and (min-resolution: 2dppx)  and (min-width: $screen-md-min) and (max-width: $screen-md-max) {
+  //
+  //   background-image: image-url($root + "_786_hd." + $bg_format);
+  //
+  // }
+
+
+  @media only screen and (min-width: $screen-lg-min) {
+    background-image: image-url($root + "_1080." + $bg_format);
+  }
+
+  // @media
+  // only screen and (min-resolution: 192dpi) and (min-width: $screen-lg-min),
+  // only screen and (min-resolution: 2dppx)  and (min-width: $screen-lg-min) {
+  //
+  //   background-image: image-url($root + "_1080_hd." + $bg_format);
+  //
+  // }
+
+}
+
+* {
+  font-family: $font;
+}
+
+body {
+  font-size:   18px;
+  max-width:   100%;
+  font-family: $font;
+  @include clearspc;
+  color: $text-color;
+}
 
 a {
   text-decoration: none;
@@ -52,43 +101,54 @@ a {
 }
 
 h1 {
-  font-size: 5rem;
+  font-size: 2em;
+  color: $sec_color;
 }
 
+// NAVBAR
+
 nav {
-  padding: $nav_pad 4%;
-  background-color: $sec_color;
+  padding: 1.5em 3em;
+  background: transparent;
+  box-shadow: none;
   @include clearfix;
   @media only screen and (max-width: $screen-sm-min) {
     padding: 0.5em 0.5em;
-    background: transparent;
+  }
+
+  #nav_bg {
+    display: none;
+    background-color: $sec_color;
+    width: 100%;
+    height: 100%;
   }
 
   a {
-    color: $main_color;
+    color: $sec_color;
     background-color: transparent;
     &:hover {
-      color: $main_color;
+      color: $sec_color;
       background-color: transparent;
-      background-color: lighten($sec_color, 30%);
     }
   }
 
-  a.navbar-brand {
-    display: inline-block;
+  .navbar-brand {
+    display: none;
     text-align: left;
     margin-left: 0;
     padding-left: 0;
+
+    img {
+      width: 200px;
+      height: auto;
+      transform: translateY(-40%);
+      @media only screen and (max-width: $screen-sm-min) {
+        display: none;
+      }
+    }
+
   }
 
-  .navbar-brand img {
-    width: 200px;
-    height: auto;
-    transform: translateY(-40%);
-    @media only screen and (max-width: $screen-sm-min) {
-      display: none;
-    }
-  }
 
   .active a, .navbar-nav a {
     font-size: 1.75rem;
@@ -98,9 +158,10 @@ nav {
     background-color: $main_color ! important;
   }
 
-  .navbar-header {
-    width: 100%;
-  }
+}
+
+.card.right {
+  text-align: right;
 }
 
 .card {
@@ -108,17 +169,13 @@ nav {
   min-width: 50px;
   min-height: 100px;
   margin-bottom: 2rem;
-  box-shadow: 5px 5px 10px black;
+  @include short-shadow;
   background-color: $sec_color;
-  padding: 4%;
+  padding: 5%;
 
   h2 {
     margin-top: 0;
     margin-bottom: 1em;
-  }
-
-  p {
-    text-indent: 2em;
   }
 
 }
@@ -126,6 +183,8 @@ nav {
 .foreground {
   min-width: $min-width;
 }
+
+
 /* Area where there will be the majority of text */
 .notebook {
   min-width: $min-width * 0.8;
