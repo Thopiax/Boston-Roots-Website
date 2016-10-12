@@ -2,52 +2,61 @@
 # All this logic will automatically be available in application.js.
 # You can use CoffeeScript in this file: http://coffeescript.org/
 
-
 $(document).ready ->
+
 
   just_started = true
 
   nav         = $("nav", "#site_wrapper")
-  nav_bg      = $("#nav_bg", nav)
+  nav_a       = $("a", "nav")
   nav_brand   = $("#nav_brand", nav)
   nav_height  = nav.height()
   win_top_above = true
-
 
   home = $("#home")
   mission = $("#mission")
   setBackgroundSize(home, 1800/2702)
   setBackgroundSize(mission, 1080/1621)
 
-  $(window).on "resize", () ->
-    setBackgroundSize(home, 1800/2702)
-    setBackgroundSize(mission, 1080/1621)
+  $(window).on "load", () ->
+
+    addNavToController("home", controller)
+    addNavToController("timeline", controller)
+    addNavToController("mission", controller)
+    addNavToController("team", controller)
+    addNavToController("contact", controller)
 
   $(window).on "load scroll", () ->
 
-    win_top = $(@).scrollTop();
+    win_top = $(@).scrollTop()
 
     if (win_top > nav_height && (win_top_above || just_started))
-      nav_bg.velocity("fadeIn",
-        duration: 350)
+      nav.css("background-color", "white")
+      nav_a.css("color", "")
+      # console.log nav.css("background")
       nav_brand.velocity("fadeIn",
-        duration: 350)
+        duration: 150)
 
       nav.toggleClass "short-shadow"
       win_top_above = !win_top_above
     else if (win_top < nav_height && (!win_top_above || just_started))
-      nav_bg.velocity("fadeOut",
-        duration: 350)
+      nav.css("background", "transparent")
+      nav_a.css("color", "white")
       nav_brand.velocity("fadeOut",
-        duration: 350)
+        duration: 150)
 
       nav.toggleClass "short-shadow"
       win_top_above = !win_top_above
 
-
     just_started = false
 
-    return
+  $(window).on "resize", () ->
+    setBackgroundSize(home, 1800/2702)
+    setBackgroundSize(mission, 1080/1621)
+
+
+addNavToController = (name, controller) ->
+  new ScrollMagic.Scene(triggerElement: "##{name}").setClassToggle("#nav#{name}", "active").addTo controller
 
 
 setBackgroundSize = (div, img_ratio) ->

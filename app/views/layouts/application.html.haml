@@ -21,15 +21,15 @@
             = link_to image_tag("boston_roots_nav.png"), "#home"
         .hidden-xs.hidden-sm.navbar-right
           %ul.nav.navbar-nav.nav-pills
-            %li.active#navhome
-              %a{ href:"#home" }Home
+            %li#navhome
+              =link_to "Home", "#home"
             %li#navtimeline
-              %a{ href:"#timeline"}Our Timeline
+              =link_to "Our Timeline", "#timeline"
             %li#navmission
-              %a{ href:"#mission" }Our Mission
+              =link_to "Our Mission", "#mission"
             %li#navteam
-              %a{ href:"#team" }Our Team
+              =link_to "Our Team", "#team"
             %li#navcontact
-              %a{ href:"#contact" }Join Us
+              =link_to "Join Us", "#contact"
 
       = yield

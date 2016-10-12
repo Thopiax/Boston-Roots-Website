@@ -11,13 +11,15 @@
             Because Higher education is a
             %b right.
           %button.btn.btn-primary
-            %a{ href: "#contact", style: "text-decoration: none;"} Get Involved
+            =link_to "Get Involved", "#contact", :style => "text-decoration: none"
+        .fa.fa-arrow-circle-down
+
   %section#timeline
     .header
       %h1 Our Timeline
   %section#mission
     .filter#missionfilter.foreground
-      #missionheader
+      #missionheader.header
         %h1 Our Mission
       #missionbody.notebook
         .card
@@ -30,5 +32,25 @@
           %h2 Connection
           %p This is done by connecting students to 3rd party counselors and financial providers. Unlike other college access program, Boston Roots firmly believes that parent involvement contributes to a higher degree of student success. As a result, our program works with parents to give their children greater support through parent seminars. Topics include student progress, financial saving information, and support strategies to motivate students.
   %section#team
+    #teamheader.header
+      %h1 Our Team
+    #teambody.notebook
+      .profile_table
+      - @teamMembers.each do |member|
+        .profile_wrapper
+          .card.profile
+            .profile_pic.hidden-xs.col-sm-3
+              - if member.path.blank?
+                =image_tag "default_profile.jpg"
+              - else
+                =image_tag "#{member.path}"
+            .profile_text_wrapper.col-xs-12.col-sm-8.col-sm-offset-1
+              .profile_text
+                .profile_header
+                  %h2= member.name
+                  %h4= member.position
+                .profile_body
+                  %p= member.bio
+
   %section#contact
   %section#footer

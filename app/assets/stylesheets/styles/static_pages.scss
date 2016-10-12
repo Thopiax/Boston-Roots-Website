@@ -17,10 +17,17 @@ $mission_background_root: "graduation_caps";
   min-height: 100vh;
 
   .background {
-    @include import_image($home_background_root);
+    @include import_dynamic_image($home_background_root, true);
     background-size: 100% 100%;
   }
 
+}
+
+.fa-arrow-circle-down {
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate3d(-50%, -50%,0);
 }
 
 .jumbotron {
@@ -98,12 +105,11 @@ $mission_background_root: "graduation_caps";
   color: $sec_color;
   background-size: 100% 100%;
 
-  @include import_image($mission_background_root);
+  @include import_dynamic_image($mission_background_root);
 
   min-height: 100vh;
   height: auto;
-  margin: 0;
-  padding: 0;
+  @include clearspc;
 
   .filter {
     padding: 4% 10%;
@@ -139,6 +145,76 @@ $mission_background_root: "graduation_caps";
 
 #team {
   background-color: $thi_color;
+
+  min-height: 100vh;
+  height: auto;
+  @include clearspc;
+  padding: 4% 10%;
+
+  .profile_table {
+    display: table;
+    min-height: 100%;
+    height: auto;
+  }
+
+  .profile_wrapper {
+    width: 100%;
+    height: auto;
+    display: table-row;
+    position: relative;
+  }
+
+  .profile {
+    padding: 5%;
+    height: auto;
+    max-height: 100%;
+    overflow: hidden;
+    margin: 0;
+    position: relative;
+
+    .profile_text {
+      flex: 1;
+      .profile_header {
+        h2 {
+          margin-bottom: 0.25rem;
+        }
+
+        h4 {
+          margin-top: 0;
+          font-weight: 400;
+        }
+      }
+
+    }
+
+    .profile_pic {
+      flex: 1;
+      height: 100%;
+      padding: 2% 0;
+
+      &::after {
+        content:'';
+        width: 1px;
+        height: 80%;
+        background: rgba($text-color, 0.8);
+        position:absolute;
+        top: 10%;
+        left: 120%;
+      }
+
+      img {
+        display: table-cell;
+
+        width: 100%;
+        height: auto;
+        margin: auto;
+      }
+    }
+
+  }
+
+
+
 }
 
 #contact {

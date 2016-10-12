@@ -13,4 +13,13 @@
 //= require jquery
 //= require velocity
 //= require turbolinks
+//= require scrollmagic
 //= require_tree .
+
+var controller = new ScrollMagic.Controller({
+  globalSceneOptions: {
+    duration: $(window).height(),
+    triggerHook: .025,
+    reverse: true
+  }
+});
