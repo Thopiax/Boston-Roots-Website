@@ -1,0 +1,21 @@
+{
+  "name": "bostonroots.github.io",
+  "homepage": "https://github.com/Thopiax/bosroots.github.io",
+  "authors": [
+    "Rafael Toletti Ballestiero <rb2215@ic.ac.uk>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "velocity": "^1.3.1"
+  }
+}

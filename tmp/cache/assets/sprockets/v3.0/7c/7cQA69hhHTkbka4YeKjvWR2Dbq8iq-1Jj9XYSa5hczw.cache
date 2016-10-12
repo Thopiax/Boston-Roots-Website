@@ -1,0 +1,34 @@
+I"±(function() {
+  var magicNav;
+
+  $(document).ready(function() {});
+
+  $(window).on("load resize scroll", function() {
+    var win_top;
+    win_top = $(this).scrollTop();
+    return magicNav(win_top);
+  });
+
+  magicNav = function(win_top) {
+    var nav, nav_height;
+    nav = $("nav", "#site_wrapper");
+    nav_height = nav.height();
+    if (win_top < nav_height) {
+      nav.css({
+        "background-color": "transparent"
+      });
+      $(".navbar-brand", nav).css({
+        "display": "none"
+      });
+    } else {
+      nav.css({
+        "background-color": "initial"
+      });
+      $(".navbar-brand", nav).css({
+        "display": "inline-block"
+      });
+    }
+  };
+
+}).call(this);
+:ET

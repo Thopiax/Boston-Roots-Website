@@ -1,0 +1,27 @@
+I"ã(function() {
+  $(document).ready(function() {
+    var nav, nav_height, win_top_above;
+    nav = $("nav", "#site_wrapper");
+    nav_height = nav.height();
+    win_top_above = true;
+    return $(window).on("load scroll", function() {
+      var win_top;
+      win_top = $(window).scrollTop();
+      if (win_top > nav_height && win_top_above) {
+        nav.velocity({
+          "box-shadow": "2px 2px 10px black",
+          "background-color": "$sec_color"
+        });
+        win_top_above = !win_top_above;
+      } else if (win_top < nav_height && !win_top_above) {
+        nav.velocity({
+          "box-shadow": "",
+          "background-color": ""
+        });
+        win_top_above = !win_top_above;
+      }
+    });
+  });
+
+}).call(this);
+:ET

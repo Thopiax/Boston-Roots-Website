@@ -1,0 +1,46 @@
+I"0(function() {
+  var setBackgroundSize;
+
+  $(document).ready(function() {
+    var home, mission, nav, nav_height, win_top_above;
+    nav = $("nav", "#site_wrapper");
+    nav_height = nav.height();
+    win_top_above = true;
+    home = $("#home");
+    mission = $("#mission");
+    setBackgroundSize(home, 1800 / 2702);
+    setBackgroundSize(mission, 1080 / 1621);
+    $(window).on("resize", function() {
+      setBackgroundSize(home, 1800 / 2702);
+      return setBackgroundSize(mission, 1080 / 1621);
+    });
+    return $(window).on("load scroll", function() {
+      var home_h, win_top;
+      win_top = $(this).scrollTop();
+      home_h = $(home).height();
+      if (win_top < home_h) {
+        home_h;
+      }
+      if ((win_top > nav_height && win_top_above) || (win_top < nav_height && !win_top_above)) {
+        nav.toggleClass("glory");
+        win_top_above = !win_top_above;
+      }
+    });
+  });
+
+  setBackgroundSize = function(div, img_ratio) {
+    var bg_size, cnt_ratio;
+    bg_size = "";
+    cnt_ratio = div.height() / div.width();
+    if (cnt_ratio > img_ratio) {
+      bg_size = (div.height() / img_ratio) + "px " + (div.height()) + "px";
+    } else {
+      bg_size = (div.width()) + "px " + (div.width() * img_ratio) + "px";
+    }
+    return div.css({
+      "background-size": bg_size
+    });
+  };
+
+}).call(this);
+:ET

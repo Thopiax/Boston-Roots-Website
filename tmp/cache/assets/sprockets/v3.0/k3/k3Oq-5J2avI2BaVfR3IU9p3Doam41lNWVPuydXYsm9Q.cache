@@ -1,0 +1,69 @@
+I">(function() {
+  var setBackgroundSize;
+
+  $(document).ready(function() {
+    var home, home_bg, home_h, just_started, mission, nav, nav_bg, nav_brand, nav_height, win_top_above;
+    just_started = true;
+    nav = $("nav", "#site_wrapper");
+    nav_bg = $("#nav_bg", nav);
+    nav_brand = $("#nav_brand", nav);
+    nav_height = nav.height();
+    win_top_above = true;
+    home = $("#home");
+    home_h = $(home).height();
+    home_bg = $(".background", home);
+    mission = $("#mission");
+    setBackgroundSize(home, 1800 / 2702);
+    setBackgroundSize(mission, 1080 / 1621);
+    $(window).on("resize", function() {
+      setBackgroundSize(home, 1800 / 2702);
+      return setBackgroundSize(mission, 1080 / 1621);
+    });
+    return $(window).on("load scroll", function() {
+      var win_top;
+      win_top = $(this).scrollTop();
+      if (win_top < home_h) {
+        home_bg.css({
+          "transform": "translate3d(0, -1%, 0)",
+          "-webkit-transform": "translate3d(0, -" + (win_top / home_h) + "%, 0)"
+        });
+      }
+      if (win_top < nav_height && (!win_top_above || just_started)) {
+        nav_bg.velocity("fadeIn", {
+          duration: 350
+        });
+        nav_brand.velocity("fadeIn", {
+          duration: 350
+        });
+        nav.toggleClass("short-shadow");
+        win_top_above = !win_top_above;
+      } else if (win_top > nav_height && (win_top_above || just_started)) {
+        nav_bg.velocity("fadeOut", {
+          duration: 350
+        });
+        nav_brand.velocity("fadeOut", {
+          duration: 350
+        });
+        nav.toggleClass("short-shadow");
+        win_top_above = !win_top_above;
+      }
+      just_started = false;
+    });
+  });
+
+  setBackgroundSize = function(div, img_ratio) {
+    var bg_size, cnt_ratio;
+    bg_size = "";
+    cnt_ratio = div.height() / div.width();
+    if (cnt_ratio > img_ratio) {
+      bg_size = (div.height() / img_ratio) + "px " + (div.height()) + "px";
+    } else {
+      bg_size = (div.width()) + "px " + (div.width() * img_ratio) + "px";
+    }
+    return div.css({
+      "background-size": bg_size
+    });
+  };
+
+}).call(this);
+:ET
