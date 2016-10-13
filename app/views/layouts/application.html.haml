@@ -22,14 +22,14 @@
         .hidden-xs.hidden-sm.navbar-right
           %ul.nav.navbar-nav.nav-pills
             %li#navhome
-              =link_to "Home", "#home"
+              %a{to: "#home"}Home
             %li#navtimeline
-              =link_to "Our Timeline", "#timeline"
+              %a{to: "#timeline"}Our Timeline
             %li#navmission
-              =link_to "Our Mission", "#mission"
+              %a{to: "#mission"}Our Mission
             %li#navteam
-              =link_to "Our Team", "#team"
+              %a{to: "#team"}Our Team
             %li#navcontact
-              =link_to "Join Us", "#contact"
+              %a{to: "#contact"}Join Us
 
       = yield

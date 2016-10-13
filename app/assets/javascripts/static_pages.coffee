@@ -4,7 +4,6 @@
 
 $(document).ready ->
 
-
   just_started = true
 
   nav         = $("nav", "#site_wrapper")
@@ -18,22 +17,30 @@ $(document).ready ->
   setBackgroundSize(home, 1800/2702)
   setBackgroundSize(mission, 1080/1621)
 
+  $("li>a", nav).on "click", () ->
+    target = $(this).attr('to');
+    $(target).velocity 'scroll',
+      duration: 500,
+      offset: -40,
+      easing: 'ease-in-out'
+
   $(window).on "load", () ->
 
-    addNavToController("home", controller)
-    addNavToController("timeline", controller)
-    addNavToController("mission", controller)
-    addNavToController("team", controller)
+    just_started = true
+
+    addNavToController("home", controller).offset(-nav_height)
+    addNavToController("timeline", controller).offset(-nav_height)
+    addNavToController("mission", controller).offset(-nav_height)
+    addNavToController("team", controller).duration("#{$("#team").height()}")
     addNavToController("contact", controller)
 
   $(window).on "load scroll", () ->
 
     win_top = $(@).scrollTop()
 
-    if (win_top > nav_height && (win_top_above || just_started))
+    if (win_top > nav_height && win_top_above)
       nav.css("background-color", "white")
       nav_a.css("color", "")
-      # console.log nav.css("background")
       nav_brand.velocity("fadeIn",
         duration: 150)
 
@@ -56,8 +63,9 @@ $(document).ready ->
 
 
 addNavToController = (name, controller) ->
-  new ScrollMagic.Scene(triggerElement: "##{name}").setClassToggle("#nav#{name}", "active").addTo controller
-
+  return new ScrollMagic.Scene(
+              triggerElement: "##{name}",
+              offset:         "-100px").setClassToggle("#nav#{name}", "active").addTo(controller)
 
 setBackgroundSize = (div, img_ratio) ->
   bg_size = ""
