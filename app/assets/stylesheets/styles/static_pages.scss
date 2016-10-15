@@ -19,6 +19,7 @@ $mission_background_root: "graduation_caps";
   .background {
     @include import_dynamic_image($home_background_root, true);
     background-size: 100% 100%;
+    min-height: 100%;
   }
 
 }
