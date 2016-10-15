@@ -1,0 +1,24 @@
+{
+  "name": "bostonroots",
+  "private": true,
+  "authors": [
+    {
+      "name": "Rafael Toletti Ballestiero",
+      "homepage": "http://www.doc.ic.ac.uk/~rb2215"
+    }
+  ],
+  "devDependencies" : {
+    "bower": "~1.2.8"
+  },
+  "dependencies": {
+    "bootstrap": "~> 3.0",
+    "jquery": ">=0.0",
+    "scrollmagic": "2.0.5",
+    "velocity": ">=0.0"
+  },
+  "engines": {
+  },
+  "scripts": {
+    "postinstall": "./node_modules/bower/bin/bower install"
+}
+}
