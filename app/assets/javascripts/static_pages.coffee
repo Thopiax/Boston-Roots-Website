@@ -8,7 +8,10 @@ $(document).ready ->
 
   nav         = $("nav", "#site_wrapper")
   nav_a       = $("a", "nav")
+  nav_drop    = $('#navdropdown', nav)
   nav_brand   = $("#nav_brand", nav)
+  nav_brand_l = $("#nav_brand > a", nav)
+
   nav_height  = nav.height()
   win_top_above = true
 
@@ -17,42 +20,57 @@ $(document).ready ->
   setBackgroundSize(home, 1800/2702)
   setBackgroundSize(mission, 1080/1621)
 
-  $("li>a", nav).on "click", () ->
-    target = $(this).attr('to');
+  $("li>a", nav).on "click", ->
+    target = $(@).attr('to');
     $(target).velocity 'scroll',
       duration: 500,
       offset: -40,
       easing: 'ease-in-out'
 
-  $(window).on "load", () ->
+  nav_brand_l.on "click", ->
+    target = $(@).attr('to');
+    $(target).velocity 'scroll',
+      duration: 500,
+      offset: -40,
+      easing: 'ease-in-out'
+
+  addNavToController("home", controller).offset("-15%")
+  addNavToController("timeline", controller).offset(-nav_height)
+  addNavToController("mission", controller).offset(-nav_height)
+  addNavToController("team", controller).duration("#{$("#team").height()}")
+  addNavToController("contact", controller)
+
+  # if ($(window).width() < 768)
+  #   # NEED TO IMPLEMENT
+  #   # nav_brand_l.on "click", ->
+  #   #   slideDir = if nav_drop.is ':visible' then 'slideUp' else 'slideDown'
+  #   #   nav_drop.velocity slideDir
+  # else
+  nav_drop.toggleClass("nav-pills navbar-right")
+
+  $(window).on "load", ->
 
     just_started = true
 
-    addNavToController("home", controller).offset(-nav_height)
-    addNavToController("timeline", controller).offset(-nav_height)
-    addNavToController("mission", controller).offset(-nav_height)
-    addNavToController("team", controller).duration("#{$("#team").height()}")
-    addNavToController("contact", controller)
-
-  $(window).on "load scroll", () ->
+  $(window).on "load scroll", ->
 
     win_top = $(@).scrollTop()
 
     if (win_top > nav_height && win_top_above)
-      nav.css("background-color", "white")
+      nav.css("background-color", "rgba(236,236,236, 0.9)")
       nav_a.css("color", "")
-      nav_brand.velocity("fadeIn",
-        duration: 150)
+      nav_brand_l.velocity "fadeIn",
+        duration: 150
 
-      nav.toggleClass "short-shadow"
+      nav.addClass "short-shadow"
       win_top_above = !win_top_above
     else if (win_top < nav_height && (!win_top_above || just_started))
       nav.css("background", "transparent")
       nav_a.css("color", "white")
-      nav_brand.velocity("fadeOut",
+      nav_brand_l.velocity("fadeOut",
         duration: 150)
 
-      nav.toggleClass "short-shadow"
+      nav.removeClass "short-shadow"
       win_top_above = !win_top_above
 
     just_started = false
@@ -60,7 +78,11 @@ $(document).ready ->
   $(window).on "resize", () ->
     setBackgroundSize(home, 1800/2702)
     setBackgroundSize(mission, 1080/1621)
-
+    addNavToController("home", controller).offset("-15%")
+    addNavToController("timeline", controller).offset(-nav_height)
+    addNavToController("mission", controller).offset(-nav_height)
+    addNavToController("team", controller).duration("#{$("#team").height()}")
+    addNavToController("contact", controller)
 
 addNavToController = (name, controller) ->
   return new ScrollMagic.Scene(

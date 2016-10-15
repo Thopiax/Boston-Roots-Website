@@ -14,12 +14,11 @@ $min-width: 330px;
 $bg_format: "jpg";
 
 $main_color: rgb(05, 56,  66);
-$ui-color:   rgb(122, 193, 111);
-$sec_color:  rgb(242,241,239);
-$thi_color:  rgb(162,171, 88);
-$grey_color: rgb(85,98,112);
+$sec_color:  rgb(238,242,236);
+$thi_color:  rgb(142,182, 99);
+$grey_color: rgb(8, 28, 46);
 $call-to-action: rgb(97, 172, 251);
-$text-color: rgb(66, 66, 66);
+$text-color: rgb(57, 57, 57);
 
 $font: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 
@@ -33,8 +32,12 @@ $font: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, 
   padding: 0;
 }
 
-@mixin short-shadow {
-  box-shadow: 1px 1px 2px black;
+.card, .short-shadow {
+  box-shadow: 1px 1px 2px $text-color;
+}
+
+.long-shadow {
+  box-shadow: 2px 2px 10px $text-color;
 }
 
 @mixin import_dynamic_image($root, $hd: false) {
@@ -70,9 +73,6 @@ $font: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, 
   @media only screen and (min-width: $screen-lg-min) {
     background-image: image-url($root + "_large." + $bg_format);
   }
-
-
-
 }
 
 * {
@@ -105,15 +105,19 @@ h1 {
 
 // NAVBAR
 
+// .navbar-toggle {
+//   @include clearspc;
+// }
+
 nav {
-  padding: 0.5em 0.5em;
+  padding: 0em 1em;
   background: transparent;
   box-shadow: none;
-  @include clearfix;
-  @media only screen and (min-width: $screen-sm-min) {
-    padding: 1.5em 3em;
-  }
+  z-index: 2;
 
+  @media only screen and (min-width: $screen-md-min) {
+    padding: 0.75em 1.25em;
+  }
 
   a {
     color: $main_color;
@@ -132,27 +136,55 @@ nav {
   }
 
   .navbar-brand {
-    display: none;
-    text-align: left;
-    margin-left: 0;
-    padding-left: 0;
+    margin: 0.75em 0;
+    padding: 0.1em 0;
+    text-align: center;
+
+    @media only screen and (min-width: $screen-md-min) {
+      text-align: left;
+      margin: 0;
+      display: inline-block;
+    }
+
+    a {
+      display: none;
+    }
+
+    a:hover {
+      background-color: transparent !important;
+    }
 
     img {
-      width: 200px;
-      height: auto;
-      transform: translateY(-40%);
+      height: 100%;
+      width: auto;
     }
 
   }
 
+  .nav {
+    display: none;
 
-  .active a, .navbar-nav a {
-    font-size: 1.75rem;
+    @media only screen and (min-width: $screen-md-min) {
+      display: inline-block;
+      width: auto;
+    }
+
+    .active a, a {
+      font-size: 1.75rem;
+    }
+
+    .active a {
+      background-color: $main_color;
+    }
+
+    li {
+      text-align: center;
+      border-top: 1px rgba($main_color, 0.5);
+      border-bottom: 1px rgba($main_color, 0.5);
+    }
   }
 
-  .active a {
-    background-color: $main_color ! important;
-  }
+
 
 }
 
@@ -165,7 +197,6 @@ nav {
   min-width: 50px;
   min-height: 100px;
   margin-bottom: 2rem;
-  @include short-shadow;
   background-color: $sec_color;
   padding: 5%;
 
@@ -185,11 +216,15 @@ nav {
 .notebook {
   min-width: $min-width * 0.8;
   max-width: $screen-sm-max;
+  @media only screen and (min-width: $screen-lg-min) {
+    max-width: $screen-md-max;
+  }
   margin: auto;
 }
 
 .btn {
   padding: 1em 2em;
   border-radius: 4px;
-  background-color: $call-to-action;
+  border-color: darken($thi_color, 20%);
+  background-color: $thi_color;
 }

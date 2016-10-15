@@ -7,7 +7,6 @@
     %meta{ "http-equiv" => "x-ua-compatible", content: "ie=edge"}
     %meta{ name:"viewport", content:"width=device-width, initial-scale=1" }
 
-    = stylesheet_link_tag    "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css", integrity: "sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u", crossorigin: "anonymous"
     = stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload'
     = favicon_link_tag       'favicon.png', type: 'image/png'
     = javascript_include_tag 'application', 'data-turbolinks-track': 'reload'
@@ -15,21 +14,20 @@
   %body{"data-spy" => "scroll", "data-target" => ".navbar", "data-offset" => "50"}
     #site_wrapper
       %nav.navbar.navbar-fixed-top
-        #nav_bg
-        .col-xs-12.col-sm-12.col-md-4.col-lg-4{ style: "padding: 0;" }
-          .navbar-brand#nav_brand
-            = link_to image_tag("boston_roots_nav.png"), "#home"
-        .hidden-xs.hidden-sm.navbar-right
-          %ul.nav.navbar-nav.nav-pills
-            %li#navhome
-              %a{to: "#home"}Home
-            %li#navtimeline
-              %a{to: "#timeline"}Our Timeline
-            %li#navmission
-              %a{to: "#mission"}Our Mission
-            %li#navteam
-              %a{to: "#team"}Our Team
-            %li#navcontact
-              %a{to: "#contact"}Join Us
+        .navbar-brand#nav_brand.col-xs-12.col-md-4
+          %a{to: "#home"}
+            = image_tag("favicon.png")
+        %ul#navdropdown.nav.navbar-nav
+          %li#navhome
+            %a{to: "#home"}Home
+          %li#navtimeline
+            %a{to: "#timeline"}Timeline
+          %li#navmission
+            %a{to: "#mission"}Mission
+          %li#navteam
+            %a{to: "#team"}Team
+          %li#navcontact
+            %a{to: "#contact"}Join Us
+
 
       = yield

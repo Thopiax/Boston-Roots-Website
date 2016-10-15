@@ -35303,3 +35303,1055 @@ Processing by StaticPagesController#home as HTML
 Completed 200 OK in 54ms (Views: 51.2ms | ActiveRecord: 0.2ms)
 
 
+Started GET "/" for ::1 at 2016-10-14 04:50:46 +0100
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.haml within layouts/application
+  Rendered static_pages/home.html.haml within layouts/application (399.5ms)
+Completed 500 Internal Server Error in 421ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (couldn't find file 'tether-drop/dist/js/drop.min' with type 'application/javascript'
+Checked in these paths: 
+  /Users/rafa/dv/Personal/BostonRoots/bostonroots.github.io/app/assets/config
+  /Users/rafa/dv/Personal/BostonRoots/bostonroots.github.io/app/assets/images
+  /Users/rafa/dv/Personal/BostonRoots/bostonroots.github.io/app/assets/javascripts
+  /Users/rafa/dv/Personal/BostonRoots/bostonroots.github.io/app/assets/stylesheets
+  /Users/rafa/dv/Personal/BostonRoots/bostonroots.github.io/vendor/assets/bower_components
+  /Users/rafa/dv/Personal/BostonRoots/bostonroots.github.io/vendor/assets/javascripts
+  /Users/rafa/dv/Personal/BostonRoots/bostonroots.github.io/vendor/assets/stylesheets
+  /Users/rafa/.rvm/gems/ruby-2.3.0/gems/jquery-rails-4.2.1/vendor/assets/javascripts
+  /Users/rafa/.rvm/gems/ruby-2.3.0/gems/coffee-rails-4.2.1/lib/assets/javascripts
+  /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actioncable-5.0.0.1/lib/assets/compiled
+  /Users/rafa/.rvm/gems/ruby-2.3.0/gems/turbolinks-source-5.0.0/lib/assets/javascripts
+  /Users/rafa/dv/Personal/BostonRoots/bostonroots.github.io/vendor/assets/bower_components):
+    4:       .jumbotron.foreground
+    5:         #jumboimagecontainer
+    6:           #jumboimage
+    7:             =image_tag "bostonroots_log_new.png"
+    8:         #jumbotext
+    9:           %h1 Find your roots with Boston Roots!
+   10:           %p
+  
+app/assets/javascripts/application.js:17
+app/views/static_pages/home.html.haml:7:in `_app_views_static_pages_home_html_haml___4367461823924321216_70172030437700'
+  Rendering /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (13.4ms)
+  Rendering /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.6ms)
+  Rendering /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (88.1ms)
+Started GET "/" for ::1 at 2016-10-14 04:51:11 +0100
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.haml within layouts/application
+  Rendered static_pages/home.html.haml within layouts/application (59.7ms)
+Completed 500 Internal Server Error in 72ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (couldn't find file 'tether-drop/dist/js/drop.min' with type 'application/javascript'
+Checked in these paths: 
+  /Users/rafa/dv/Personal/BostonRoots/bostonroots.github.io/app/assets/config
+  /Users/rafa/dv/Personal/BostonRoots/bostonroots.github.io/app/assets/images
+  /Users/rafa/dv/Personal/BostonRoots/bostonroots.github.io/app/assets/javascripts
+  /Users/rafa/dv/Personal/BostonRoots/bostonroots.github.io/app/assets/stylesheets
+  /Users/rafa/dv/Personal/BostonRoots/bostonroots.github.io/vendor/assets/bower_components
+  /Users/rafa/dv/Personal/BostonRoots/bostonroots.github.io/vendor/assets/javascripts
+  /Users/rafa/dv/Personal/BostonRoots/bostonroots.github.io/vendor/assets/stylesheets
+  /Users/rafa/.rvm/gems/ruby-2.3.0/gems/jquery-rails-4.2.1/vendor/assets/javascripts
+  /Users/rafa/.rvm/gems/ruby-2.3.0/gems/coffee-rails-4.2.1/lib/assets/javascripts
+  /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actioncable-5.0.0.1/lib/assets/compiled
+  /Users/rafa/.rvm/gems/ruby-2.3.0/gems/turbolinks-source-5.0.0/lib/assets/javascripts
+  /Users/rafa/dv/Personal/BostonRoots/bostonroots.github.io/vendor/assets/bower_components):
+    4:       .jumbotron.foreground
+    5:         #jumboimagecontainer
+    6:           #jumboimage
+    7:             =image_tag "bostonroots_log_new.png"
+    8:         #jumbotext
+    9:           %h1 Find your roots with Boston Roots!
+   10:           %p
+  
+app/assets/javascripts/application.js:17
+app/views/static_pages/home.html.haml:7:in `_app_views_static_pages_home_html_haml___4367461823924321216_70172065173180'
+  Rendering /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (6.7ms)
+  Rendering /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.1ms)
+  Rendering /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (68.8ms)
+Started GET "/" for ::1 at 2016-10-14 04:52:59 +0100
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.haml within layouts/application
+  Rendered static_pages/home.html.haml within layouts/application (171.9ms)
+Completed 500 Internal Server Error in 183ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (couldn't find file 'bootstrap/dist/css/bootstrap.min' with type 'text/css'
+Checked in these paths: 
+  /Users/rafa/dv/Personal/BostonRoots/bostonroots.github.io/app/assets/config
+  /Users/rafa/dv/Personal/BostonRoots/bostonroots.github.io/app/assets/images
+  /Users/rafa/dv/Personal/BostonRoots/bostonroots.github.io/app/assets/javascripts
+  /Users/rafa/dv/Personal/BostonRoots/bostonroots.github.io/app/assets/stylesheets
+  /Users/rafa/dv/Personal/BostonRoots/bostonroots.github.io/vendor/assets/bower_components
+  /Users/rafa/dv/Personal/BostonRoots/bostonroots.github.io/vendor/assets/javascripts
+  /Users/rafa/dv/Personal/BostonRoots/bostonroots.github.io/vendor/assets/stylesheets
+  /Users/rafa/.rvm/gems/ruby-2.3.0/gems/jquery-rails-4.2.1/vendor/assets/javascripts
+  /Users/rafa/.rvm/gems/ruby-2.3.0/gems/coffee-rails-4.2.1/lib/assets/javascripts
+  /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actioncable-5.0.0.1/lib/assets/compiled
+  /Users/rafa/.rvm/gems/ruby-2.3.0/gems/turbolinks-source-5.0.0/lib/assets/javascripts
+  /Users/rafa/dv/Personal/BostonRoots/bostonroots.github.io/vendor/assets/bower_components):
+    4:       .jumbotron.foreground
+    5:         #jumboimagecontainer
+    6:           #jumboimage
+    7:             =image_tag "bostonroots_log_new.png"
+    8:         #jumbotext
+    9:           %h1 Find your roots with Boston Roots!
+   10:           %p
+  
+app/assets/stylesheets/application.css:14
+app/views/static_pages/home.html.haml:7:in `_app_views_static_pages_home_html_haml___4367461823924321216_70172058392700'
+  Rendering /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (5.8ms)
+  Rendering /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (6.2ms)
+  Rendering /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (84.3ms)
+Started GET "/" for ::1 at 2016-10-14 04:55:00 +0100
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.haml within layouts/application
+  [1m[36mMember Load (0.5ms)[0m  [1m[34mSELECT "members".* FROM "members"[0m
+  Rendered static_pages/home.html.haml within layouts/application (128.2ms)
+Completed 200 OK in 259ms (Views: 254.9ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/" for ::1 at 2016-10-14 04:55:48 +0100
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.haml within layouts/application
+  [1m[36mMember Load (0.8ms)[0m  [1m[34mSELECT "members".* FROM "members"[0m
+  Rendered static_pages/home.html.haml within layouts/application (25.0ms)
+Completed 200 OK in 524ms (Views: 519.2ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/" for ::1 at 2016-10-14 04:59:27 +0100
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.haml within layouts/application
+  [1m[36mMember Load (0.3ms)[0m  [1m[34mSELECT "members".* FROM "members"[0m
+  Rendered static_pages/home.html.haml within layouts/application (36.7ms)
+Completed 200 OK in 636ms (Views: 630.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for ::1 at 2016-10-14 04:59:45 +0100
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.haml within layouts/application
+  [1m[36mMember Load (0.3ms)[0m  [1m[34mSELECT "members".* FROM "members"[0m
+  Rendered static_pages/home.html.haml within layouts/application (26.6ms)
+Completed 200 OK in 405ms (Views: 401.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for ::1 at 2016-10-14 05:00:09 +0100
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.haml within layouts/application
+  [1m[36mMember Load (0.5ms)[0m  [1m[34mSELECT "members".* FROM "members"[0m
+  Rendered static_pages/home.html.haml within layouts/application (31.1ms)
+Completed 200 OK in 426ms (Views: 421.3ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/" for ::1 at 2016-10-14 05:00:33 +0100
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.haml within layouts/application
+  [1m[36mMember Load (0.3ms)[0m  [1m[34mSELECT "members".* FROM "members"[0m
+  Rendered static_pages/home.html.haml within layouts/application (27.1ms)
+Completed 200 OK in 342ms (Views: 336.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for ::1 at 2016-10-14 05:02:28 +0100
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.haml within layouts/application
+  [1m[36mMember Load (0.7ms)[0m  [1m[34mSELECT "members".* FROM "members"[0m
+  Rendered static_pages/home.html.haml within layouts/application (43.1ms)
+Completed 200 OK in 509ms (Views: 499.3ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/" for ::1 at 2016-10-14 05:02:51 +0100
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.haml within layouts/application
+  [1m[36mMember Load (0.3ms)[0m  [1m[34mSELECT "members".* FROM "members"[0m
+  Rendered static_pages/home.html.haml within layouts/application (27.4ms)
+Completed 200 OK in 387ms (Views: 382.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for ::1 at 2016-10-14 05:03:28 +0100
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.haml within layouts/application
+  [1m[36mMember Load (0.3ms)[0m  [1m[34mSELECT "members".* FROM "members"[0m
+  Rendered static_pages/home.html.haml within layouts/application (23.8ms)
+Completed 200 OK in 351ms (Views: 347.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for ::1 at 2016-10-14 05:03:44 +0100
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.haml within layouts/application
+  [1m[36mMember Load (0.2ms)[0m  [1m[34mSELECT "members".* FROM "members"[0m
+  Rendered static_pages/home.html.haml within layouts/application (22.7ms)
+Completed 200 OK in 362ms (Views: 356.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for ::1 at 2016-10-14 05:04:09 +0100
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.haml within layouts/application
+  [1m[36mMember Load (0.4ms)[0m  [1m[34mSELECT "members".* FROM "members"[0m
+  Rendered static_pages/home.html.haml within layouts/application (90.0ms)
+Completed 200 OK in 541ms (Views: 533.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for ::1 at 2016-10-14 05:04:45 +0100
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.haml within layouts/application
+  [1m[36mMember Load (0.2ms)[0m  [1m[34mSELECT "members".* FROM "members"[0m
+  Rendered static_pages/home.html.haml within layouts/application (26.0ms)
+Completed 200 OK in 136ms (Views: 132.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for ::1 at 2016-10-14 05:05:37 +0100
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.haml within layouts/application
+  [1m[36mMember Load (0.3ms)[0m  [1m[34mSELECT "members".* FROM "members"[0m
+  Rendered static_pages/home.html.haml within layouts/application (17.0ms)
+Completed 200 OK in 127ms (Views: 123.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for ::1 at 2016-10-14 05:07:37 +0100
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.haml within layouts/application
+  [1m[36mMember Load (0.1ms)[0m  [1m[34mSELECT "members".* FROM "members"[0m
+  Rendered static_pages/home.html.haml within layouts/application (16.0ms)
+Completed 200 OK in 164ms (Views: 160.3ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for ::1 at 2016-10-14 05:07:47 +0100
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.haml within layouts/application
+  [1m[36mMember Load (0.1ms)[0m  [1m[34mSELECT "members".* FROM "members"[0m
+  Rendered static_pages/home.html.haml within layouts/application (12.5ms)
+Completed 200 OK in 41ms (Views: 37.8ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for ::1 at 2016-10-14 05:08:49 +0100
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.haml within layouts/application
+  [1m[36mMember Load (0.2ms)[0m  [1m[34mSELECT "members".* FROM "members"[0m
+  Rendered static_pages/home.html.haml within layouts/application (11.5ms)
+Completed 200 OK in 46ms (Views: 43.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for ::1 at 2016-10-14 05:09:08 +0100
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.haml within layouts/application
+  [1m[36mMember Load (0.2ms)[0m  [1m[34mSELECT "members".* FROM "members"[0m
+  Rendered static_pages/home.html.haml within layouts/application (13.4ms)
+Completed 200 OK in 46ms (Views: 43.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for ::1 at 2016-10-14 05:11:29 +0100
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.haml within layouts/application
+  [1m[36mMember Load (0.4ms)[0m  [1m[34mSELECT "members".* FROM "members"[0m
+  Rendered static_pages/home.html.haml within layouts/application (20.1ms)
+Completed 200 OK in 615ms (Views: 611.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for ::1 at 2016-10-14 05:12:35 +0100
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.haml within layouts/application
+  [1m[36mMember Load (0.1ms)[0m  [1m[34mSELECT "members".* FROM "members"[0m
+  Rendered static_pages/home.html.haml within layouts/application (12.0ms)
+Completed 200 OK in 402ms (Views: 399.3ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for ::1 at 2016-10-14 05:13:08 +0100
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.haml within layouts/application
+  [1m[36mMember Load (0.3ms)[0m  [1m[34mSELECT "members".* FROM "members"[0m
+  Rendered static_pages/home.html.haml within layouts/application (19.2ms)
+Completed 200 OK in 442ms (Views: 437.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for ::1 at 2016-10-14 05:13:18 +0100
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.haml within layouts/application
+  [1m[36mMember Load (0.4ms)[0m  [1m[34mSELECT "members".* FROM "members"[0m
+  Rendered static_pages/home.html.haml within layouts/application (14.7ms)
+Completed 200 OK in 355ms (Views: 350.9ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for ::1 at 2016-10-14 05:13:59 +0100
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.haml within layouts/application
+  [1m[36mMember Load (0.3ms)[0m  [1m[34mSELECT "members".* FROM "members"[0m
+  Rendered static_pages/home.html.haml within layouts/application (15.5ms)
+Completed 200 OK in 452ms (Views: 449.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for ::1 at 2016-10-14 05:14:32 +0100
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.haml within layouts/application
+  [1m[36mMember Load (0.2ms)[0m  [1m[34mSELECT "members".* FROM "members"[0m
+  Rendered static_pages/home.html.haml within layouts/application (22.5ms)
+Completed 200 OK in 55ms (Views: 50.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for ::1 at 2016-10-14 05:14:50 +0100
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.haml within layouts/application
+  [1m[36mMember Load (0.2ms)[0m  [1m[34mSELECT "members".* FROM "members"[0m
+  Rendered static_pages/home.html.haml within layouts/application (19.6ms)
+Completed 200 OK in 349ms (Views: 346.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for ::1 at 2016-10-14 05:15:15 +0100
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.haml within layouts/application
+  [1m[36mMember Load (0.2ms)[0m  [1m[34mSELECT "members".* FROM "members"[0m
+  Rendered static_pages/home.html.haml within layouts/application (17.7ms)
+Completed 200 OK in 425ms (Views: 420.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for ::1 at 2016-10-14 05:16:03 +0100
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.haml within layouts/application
+  [1m[36mMember Load (0.4ms)[0m  [1m[34mSELECT "members".* FROM "members"[0m
+  Rendered static_pages/home.html.haml within layouts/application (23.5ms)
+Completed 200 OK in 409ms (Views: 405.5ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for ::1 at 2016-10-14 05:19:11 +0100
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.haml within layouts/application
+  [1m[36mMember Load (0.4ms)[0m  [1m[34mSELECT "members".* FROM "members"[0m
+  Rendered static_pages/home.html.haml within layouts/application (17.7ms)
+Completed 200 OK in 651ms (Views: 648.7ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for ::1 at 2016-10-14 05:20:05 +0100
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.haml within layouts/application
+  [1m[36mMember Load (0.3ms)[0m  [1m[34mSELECT "members".* FROM "members"[0m
+  Rendered static_pages/home.html.haml within layouts/application (31.2ms)
+Completed 200 OK in 256ms (Views: 252.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for ::1 at 2016-10-14 05:26:49 +0100
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.haml within layouts/application
+  [1m[36mMember Load (0.2ms)[0m  [1m[34mSELECT "members".* FROM "members"[0m
+  Rendered static_pages/home.html.haml within layouts/application (41.4ms)
+Completed 200 OK in 657ms (Views: 647.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for ::1 at 2016-10-14 05:27:02 +0100
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.haml within layouts/application
+  [1m[36mMember Load (0.2ms)[0m  [1m[34mSELECT "members".* FROM "members"[0m
+  Rendered static_pages/home.html.haml within layouts/application (40.2ms)
+Completed 200 OK in 195ms (Views: 191.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for ::1 at 2016-10-14 05:28:04 +0100
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.haml within layouts/application
+  [1m[36mMember Load (0.2ms)[0m  [1m[34mSELECT "members".* FROM "members"[0m
+  Rendered static_pages/home.html.haml within layouts/application (21.1ms)
+Completed 200 OK in 81ms (Views: 76.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for ::1 at 2016-10-14 05:29:01 +0100
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.haml within layouts/application
+  [1m[36mMember Load (0.4ms)[0m  [1m[34mSELECT "members".* FROM "members"[0m
+  Rendered static_pages/home.html.haml within layouts/application (28.4ms)
+Completed 200 OK in 175ms (Views: 171.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for ::1 at 2016-10-14 05:29:17 +0100
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.haml within layouts/application
+  [1m[36mMember Load (0.2ms)[0m  [1m[34mSELECT "members".* FROM "members"[0m
+  Rendered static_pages/home.html.haml within layouts/application (14.8ms)
+Completed 200 OK in 163ms (Views: 159.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for ::1 at 2016-10-14 05:29:33 +0100
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.haml within layouts/application
+  [1m[36mMember Load (0.1ms)[0m  [1m[34mSELECT "members".* FROM "members"[0m
+  Rendered static_pages/home.html.haml within layouts/application (11.4ms)
+Completed 200 OK in 118ms (Views: 114.5ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for ::1 at 2016-10-14 05:29:55 +0100
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.haml within layouts/application
+  [1m[36mMember Load (0.1ms)[0m  [1m[34mSELECT "members".* FROM "members"[0m
+  Rendered static_pages/home.html.haml within layouts/application (9.1ms)
+Completed 200 OK in 103ms (Views: 101.1ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for ::1 at 2016-10-14 05:30:50 +0100
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.haml within layouts/application
+  [1m[36mMember Load (0.1ms)[0m  [1m[34mSELECT "members".* FROM "members"[0m
+  Rendered static_pages/home.html.haml within layouts/application (12.0ms)
+Completed 200 OK in 313ms (Views: 311.4ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for ::1 at 2016-10-14 05:32:04 +0100
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.haml within layouts/application
+  [1m[36mMember Load (0.4ms)[0m  [1m[34mSELECT "members".* FROM "members"[0m
+  Rendered static_pages/home.html.haml within layouts/application (21.1ms)
+Completed 200 OK in 194ms (Views: 189.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for ::1 at 2016-10-14 05:34:01 +0100
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.haml within layouts/application
+  [1m[36mMember Load (0.1ms)[0m  [1m[34mSELECT "members".* FROM "members"[0m
+  Rendered static_pages/home.html.haml within layouts/application (17.1ms)
+Completed 200 OK in 171ms (Views: 166.5ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for ::1 at 2016-10-14 05:34:14 +0100
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.haml within layouts/application
+  [1m[36mMember Load (0.1ms)[0m  [1m[34mSELECT "members".* FROM "members"[0m
+  Rendered static_pages/home.html.haml within layouts/application (11.8ms)
+Completed 200 OK in 126ms (Views: 123.8ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for ::1 at 2016-10-14 05:35:04 +0100
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.haml within layouts/application
+  [1m[36mMember Load (0.2ms)[0m  [1m[34mSELECT "members".* FROM "members"[0m
+  Rendered static_pages/home.html.haml within layouts/application (24.0ms)
+Completed 200 OK in 101ms (Views: 98.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for ::1 at 2016-10-14 05:36:24 +0100
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.haml within layouts/application
+  [1m[36mMember Load (0.2ms)[0m  [1m[34mSELECT "members".* FROM "members"[0m
+  Rendered static_pages/home.html.haml within layouts/application (16.5ms)
+Completed 200 OK in 317ms (Views: 313.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for ::1 at 2016-10-14 05:37:14 +0100
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.haml within layouts/application
+  [1m[36mMember Load (0.3ms)[0m  [1m[34mSELECT "members".* FROM "members"[0m
+  Rendered static_pages/home.html.haml within layouts/application (20.1ms)
+Completed 200 OK in 59ms (Views: 55.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for ::1 at 2016-10-14 05:39:10 +0100
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.haml within layouts/application
+  [1m[36mMember Load (0.2ms)[0m  [1m[34mSELECT "members".* FROM "members"[0m
+  Rendered static_pages/home.html.haml within layouts/application (14.0ms)
+Completed 200 OK in 454ms (Views: 452.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for ::1 at 2016-10-14 05:39:22 +0100
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.haml within layouts/application
+  [1m[36mMember Load (0.2ms)[0m  [1m[34mSELECT "members".* FROM "members"[0m
+  Rendered static_pages/home.html.haml within layouts/application (14.5ms)
+Completed 200 OK in 122ms (Views: 120.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for ::1 at 2016-10-14 05:40:00 +0100
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.haml within layouts/application
+  [1m[36mMember Load (0.2ms)[0m  [1m[34mSELECT "members".* FROM "members"[0m
+  Rendered static_pages/home.html.haml within layouts/application (21.3ms)
+Completed 200 OK in 58ms (Views: 54.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for ::1 at 2016-10-14 05:40:17 +0100
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.haml within layouts/application
+  [1m[36mMember Load (0.2ms)[0m  [1m[34mSELECT "members".* FROM "members"[0m
+  Rendered static_pages/home.html.haml within layouts/application (58.4ms)
+Completed 200 OK in 143ms (Views: 139.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for ::1 at 2016-10-14 05:40:30 +0100
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.haml within layouts/application
+  [1m[36mMember Load (0.2ms)[0m  [1m[34mSELECT "members".* FROM "members"[0m
+  Rendered static_pages/home.html.haml within layouts/application (13.6ms)
+Completed 200 OK in 46ms (Views: 43.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for ::1 at 2016-10-14 05:40:42 +0100
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.haml within layouts/application
+  [1m[36mMember Load (0.1ms)[0m  [1m[34mSELECT "members".* FROM "members"[0m
+  Rendered static_pages/home.html.haml within layouts/application (9.3ms)
+Completed 200 OK in 33ms (Views: 30.8ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for ::1 at 2016-10-14 05:41:47 +0100
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.haml within layouts/application
+  [1m[36mMember Load (0.3ms)[0m  [1m[34mSELECT "members".* FROM "members"[0m
+  Rendered static_pages/home.html.haml within layouts/application (38.3ms)
+Completed 200 OK in 112ms (Views: 108.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for ::1 at 2016-10-14 05:42:16 +0100
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.haml within layouts/application
+  [1m[36mMember Load (0.2ms)[0m  [1m[34mSELECT "members".* FROM "members"[0m
+  Rendered static_pages/home.html.haml within layouts/application (12.8ms)
+Completed 200 OK in 43ms (Views: 39.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for ::1 at 2016-10-14 05:42:35 +0100
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.haml within layouts/application
+  [1m[36mMember Load (0.2ms)[0m  [1m[34mSELECT "members".* FROM "members"[0m
+  Rendered static_pages/home.html.haml within layouts/application (12.8ms)
+Completed 200 OK in 57ms (Views: 53.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for ::1 at 2016-10-14 05:43:25 +0100
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.haml within layouts/application
+  [1m[36mMember Load (0.2ms)[0m  [1m[34mSELECT "members".* FROM "members"[0m
+  Rendered static_pages/home.html.haml within layouts/application (13.0ms)
+Completed 200 OK in 595ms (Views: 593.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for ::1 at 2016-10-14 05:43:49 +0100
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.haml within layouts/application
+  [1m[36mMember Load (0.2ms)[0m  [1m[34mSELECT "members".* FROM "members"[0m
+  Rendered static_pages/home.html.haml within layouts/application (14.1ms)
+Completed 200 OK in 360ms (Views: 357.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for ::1 at 2016-10-14 05:44:07 +0100
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.haml within layouts/application
+  [1m[36mMember Load (0.2ms)[0m  [1m[34mSELECT "members".* FROM "members"[0m
+  Rendered static_pages/home.html.haml within layouts/application (15.3ms)
+Completed 200 OK in 348ms (Views: 345.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for ::1 at 2016-10-14 05:44:10 +0100
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.haml within layouts/application
+  [1m[36mMember Load (0.2ms)[0m  [1m[34mSELECT "members".* FROM "members"[0m
+  Rendered static_pages/home.html.haml within layouts/application (10.8ms)
+Completed 200 OK in 35ms (Views: 32.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for ::1 at 2016-10-14 05:45:30 +0100
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.haml within layouts/application
+  [1m[36mMember Load (0.3ms)[0m  [1m[34mSELECT "members".* FROM "members"[0m
+  Rendered static_pages/home.html.haml within layouts/application (37.4ms)
+Completed 200 OK in 538ms (Views: 534.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for ::1 at 2016-10-14 05:46:48 +0100
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.haml within layouts/application
+  [1m[36mMember Load (0.2ms)[0m  [1m[34mSELECT "members".* FROM "members"[0m
+  Rendered static_pages/home.html.haml within layouts/application (13.1ms)
+Completed 200 OK in 329ms (Views: 326.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for ::1 at 2016-10-14 05:47:07 +0100
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.haml within layouts/application
+  [1m[36mMember Load (0.2ms)[0m  [1m[34mSELECT "members".* FROM "members"[0m
+  Rendered static_pages/home.html.haml within layouts/application (22.6ms)
+Completed 200 OK in 225ms (Views: 221.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for ::1 at 2016-10-14 05:47:26 +0100
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.haml within layouts/application
+  [1m[36mMember Load (0.2ms)[0m  [1m[34mSELECT "members".* FROM "members"[0m
+  Rendered static_pages/home.html.haml within layouts/application (12.4ms)
+Completed 200 OK in 116ms (Views: 113.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for ::1 at 2016-10-14 05:47:43 +0100
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.haml within layouts/application
+  [1m[36mMember Load (0.1ms)[0m  [1m[34mSELECT "members".* FROM "members"[0m
+  Rendered static_pages/home.html.haml within layouts/application (13.5ms)
+Completed 200 OK in 113ms (Views: 110.5ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for ::1 at 2016-10-14 05:49:24 +0100
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.haml within layouts/application
+  [1m[36mMember Load (0.4ms)[0m  [1m[34mSELECT "members".* FROM "members"[0m
+  Rendered static_pages/home.html.haml within layouts/application (15.7ms)
+Completed 200 OK in 61ms (Views: 56.8ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for ::1 at 2016-10-14 05:49:48 +0100
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.haml within layouts/application
+  [1m[36mMember Load (0.2ms)[0m  [1m[34mSELECT "members".* FROM "members"[0m
+  Rendered static_pages/home.html.haml within layouts/application (10.4ms)
+Completed 200 OK in 39ms (Views: 36.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for ::1 at 2016-10-14 05:50:36 +0100
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.haml within layouts/application
+  [1m[36mMember Load (0.1ms)[0m  [1m[34mSELECT "members".* FROM "members"[0m
+  Rendered static_pages/home.html.haml within layouts/application (12.7ms)
+Completed 200 OK in 43ms (Views: 40.8ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for ::1 at 2016-10-14 05:50:40 +0100
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.haml within layouts/application
+  [1m[36mMember Load (0.1ms)[0m  [1m[34mSELECT "members".* FROM "members"[0m
+  Rendered static_pages/home.html.haml within layouts/application (11.4ms)
+Completed 200 OK in 37ms (Views: 35.0ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for ::1 at 2016-10-14 05:50:46 +0100
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.haml within layouts/application
+  [1m[36mMember Load (0.2ms)[0m  [1m[34mSELECT "members".* FROM "members"[0m
+  Rendered static_pages/home.html.haml within layouts/application (20.6ms)
+Completed 200 OK in 61ms (Views: 57.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for ::1 at 2016-10-14 05:51:00 +0100
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.haml within layouts/application
+  [1m[36mMember Load (0.2ms)[0m  [1m[34mSELECT "members".* FROM "members"[0m
+  Rendered static_pages/home.html.haml within layouts/application (14.6ms)
+Completed 200 OK in 49ms (Views: 45.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for ::1 at 2016-10-14 05:52:14 +0100
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.haml within layouts/application
+  [1m[36mMember Load (0.2ms)[0m  [1m[34mSELECT "members".* FROM "members"[0m
+  Rendered static_pages/home.html.haml within layouts/application (28.0ms)
+Completed 200 OK in 141ms (Views: 137.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for ::1 at 2016-10-14 05:54:10 +0100
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.haml within layouts/application
+  [1m[36mMember Load (0.3ms)[0m  [1m[34mSELECT "members".* FROM "members"[0m
+  Rendered static_pages/home.html.haml within layouts/application (23.8ms)
+Completed 500 Internal Server Error in 344ms (ActiveRecord: 0.3ms)
+
+
+  
+ActionView::Template::Error (SyntaxError: [stdin]:26:52: unexpected )):
+     9: 
+    10:     = stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload'
+    11:     = favicon_link_tag       'favicon.png', type: 'image/png'
+    12:     = javascript_include_tag 'application', 'data-turbolinks-track': 'reload'
+    13: 
+    14:   %body{"data-spy" => "scroll", "data-target" => ".navbar", "data-offset" => "50"}
+    15:     #site_wrapper
+  
+app/views/layouts/application.html.haml:12:in `_app_views_layouts_application_html_haml__183905638089044669_70172010604600'
+  Rendering /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (6.0ms)
+  Rendering /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.5ms)
+  Rendering /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (68.5ms)
+Started GET "/" for ::1 at 2016-10-14 05:54:19 +0100
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.haml within layouts/application
+  [1m[36mMember Load (0.1ms)[0m  [1m[34mSELECT "members".* FROM "members"[0m
+  Rendered static_pages/home.html.haml within layouts/application (12.5ms)
+Completed 200 OK in 385ms (Views: 381.9ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for ::1 at 2016-10-14 05:54:29 +0100
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.haml within layouts/application
+  [1m[36mMember Load (0.2ms)[0m  [1m[34mSELECT "members".* FROM "members"[0m
+  Rendered static_pages/home.html.haml within layouts/application (12.9ms)
+Completed 200 OK in 380ms (Views: 376.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for ::1 at 2016-10-14 05:54:37 +0100
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.haml within layouts/application
+  [1m[36mMember Load (0.2ms)[0m  [1m[34mSELECT "members".* FROM "members"[0m
+  Rendered static_pages/home.html.haml within layouts/application (11.2ms)
+Completed 200 OK in 327ms (Views: 323.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for ::1 at 2016-10-14 05:55:03 +0100
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.haml within layouts/application
+  [1m[36mMember Load (0.2ms)[0m  [1m[34mSELECT "members".* FROM "members"[0m
+  Rendered static_pages/home.html.haml within layouts/application (14.9ms)
+Completed 200 OK in 50ms (Views: 44.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for ::1 at 2016-10-14 05:55:55 +0100
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.haml within layouts/application
+  [1m[36mMember Load (0.3ms)[0m  [1m[34mSELECT "members".* FROM "members"[0m
+  Rendered static_pages/home.html.haml within layouts/application (15.5ms)
+Completed 200 OK in 348ms (Views: 343.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for ::1 at 2016-10-14 05:57:07 +0100
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.haml within layouts/application
+  [1m[36mMember Load (0.4ms)[0m  [1m[34mSELECT "members".* FROM "members"[0m
+  Rendered static_pages/home.html.haml within layouts/application (18.8ms)
+Completed 200 OK in 79ms (Views: 72.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for ::1 at 2016-10-14 05:57:26 +0100
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.haml within layouts/application
+  [1m[36mMember Load (0.2ms)[0m  [1m[34mSELECT "members".* FROM "members"[0m
+  Rendered static_pages/home.html.haml within layouts/application (16.9ms)
+Completed 200 OK in 52ms (Views: 49.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for ::1 at 2016-10-14 05:57:45 +0100
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.haml within layouts/application
+  [1m[36mMember Load (0.2ms)[0m  [1m[34mSELECT "members".* FROM "members"[0m
+  Rendered static_pages/home.html.haml within layouts/application (15.9ms)
+Completed 200 OK in 155ms (Views: 151.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for ::1 at 2016-10-14 05:58:43 +0100
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.haml within layouts/application
+  [1m[36mMember Load (0.1ms)[0m  [1m[34mSELECT "members".* FROM "members"[0m
+  Rendered static_pages/home.html.haml within layouts/application (9.9ms)
+Completed 200 OK in 36ms (Views: 33.6ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for ::1 at 2016-10-14 05:58:47 +0100
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.haml within layouts/application
+  [1m[36mMember Load (0.1ms)[0m  [1m[34mSELECT "members".* FROM "members"[0m
+  Rendered static_pages/home.html.haml within layouts/application (11.9ms)
+Completed 200 OK in 40ms (Views: 37.0ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for ::1 at 2016-10-14 05:58:50 +0100
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.haml within layouts/application
+  [1m[36mMember Load (0.1ms)[0m  [1m[34mSELECT "members".* FROM "members"[0m
+  Rendered static_pages/home.html.haml within layouts/application (14.0ms)
+Completed 200 OK in 60ms (Views: 56.4ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for ::1 at 2016-10-14 05:59:41 +0100
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.haml within layouts/application
+  [1m[36mMember Load (0.3ms)[0m  [1m[34mSELECT "members".* FROM "members"[0m
+  Rendered static_pages/home.html.haml within layouts/application (15.9ms)
+Completed 200 OK in 369ms (Views: 365.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for ::1 at 2016-10-14 06:00:29 +0100
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.haml within layouts/application
+  [1m[36mMember Load (0.2ms)[0m  [1m[34mSELECT "members".* FROM "members"[0m
+  Rendered static_pages/home.html.haml within layouts/application (12.0ms)
+Completed 200 OK in 42ms (Views: 38.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for ::1 at 2016-10-14 06:01:18 +0100
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.haml within layouts/application
+  [1m[36mMember Load (0.3ms)[0m  [1m[34mSELECT "members".* FROM "members"[0m
+  Rendered static_pages/home.html.haml within layouts/application (23.8ms)
+Completed 200 OK in 155ms (Views: 149.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for ::1 at 2016-10-14 06:01:58 +0100
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.haml within layouts/application
+  [1m[36mMember Load (0.2ms)[0m  [1m[34mSELECT "members".* FROM "members"[0m
+  Rendered static_pages/home.html.haml within layouts/application (12.7ms)
+Completed 200 OK in 110ms (Views: 107.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for ::1 at 2016-10-14 06:02:36 +0100
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.haml within layouts/application
+  [1m[36mMember Load (0.3ms)[0m  [1m[34mSELECT "members".* FROM "members"[0m
+  Rendered static_pages/home.html.haml within layouts/application (13.9ms)
+Completed 200 OK in 117ms (Views: 114.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for ::1 at 2016-10-14 06:03:27 +0100
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.haml within layouts/application
+  [1m[36mMember Load (0.2ms)[0m  [1m[34mSELECT "members".* FROM "members"[0m
+  Rendered static_pages/home.html.haml within layouts/application (10.1ms)
+Completed 200 OK in 320ms (Views: 316.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for ::1 at 2016-10-14 06:06:59 +0100
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.haml within layouts/application
+  [1m[36mMember Load (0.2ms)[0m  [1m[34mSELECT "members".* FROM "members"[0m
+  Rendered static_pages/home.html.haml within layouts/application (18.8ms)
+Completed 200 OK in 499ms (Views: 495.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for ::1 at 2016-10-14 06:07:28 +0100
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.haml within layouts/application
+  [1m[36mMember Load (0.2ms)[0m  [1m[34mSELECT "members".* FROM "members"[0m
+  Rendered static_pages/home.html.haml within layouts/application (14.7ms)
+Completed 200 OK in 145ms (Views: 142.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for ::1 at 2016-10-14 06:08:11 +0100
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.haml within layouts/application
+  [1m[36mMember Load (0.1ms)[0m  [1m[34mSELECT "members".* FROM "members"[0m
+  Rendered static_pages/home.html.haml within layouts/application (11.7ms)
+Completed 200 OK in 119ms (Views: 115.4ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for ::1 at 2016-10-14 06:08:50 +0100
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.haml within layouts/application
+  [1m[36mMember Load (0.1ms)[0m  [1m[34mSELECT "members".* FROM "members"[0m
+  Rendered static_pages/home.html.haml within layouts/application (11.7ms)
+Completed 200 OK in 41ms (Views: 39.0ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for ::1 at 2016-10-14 06:09:37 +0100
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.haml within layouts/application
+  [1m[36mMember Load (0.2ms)[0m  [1m[34mSELECT "members".* FROM "members"[0m
+  Rendered static_pages/home.html.haml within layouts/application (20.9ms)
+Completed 200 OK in 141ms (Views: 137.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for ::1 at 2016-10-14 06:09:54 +0100
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.haml within layouts/application
+  [1m[36mMember Load (0.1ms)[0m  [1m[34mSELECT "members".* FROM "members"[0m
+  Rendered static_pages/home.html.haml within layouts/application (10.4ms)
+Completed 200 OK in 130ms (Views: 127.0ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for ::1 at 2016-10-14 06:10:42 +0100
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.haml within layouts/application
+  [1m[36mMember Load (0.2ms)[0m  [1m[34mSELECT "members".* FROM "members"[0m
+  Rendered static_pages/home.html.haml within layouts/application (14.7ms)
+Completed 200 OK in 127ms (Views: 125.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for ::1 at 2016-10-14 06:10:49 +0100
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.haml within layouts/application
+  [1m[36mMember Load (0.2ms)[0m  [1m[34mSELECT "members".* FROM "members"[0m
+  Rendered static_pages/home.html.haml within layouts/application (13.1ms)
+Completed 200 OK in 109ms (Views: 107.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for ::1 at 2016-10-14 06:10:52 +0100
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.haml within layouts/application
+  [1m[36mMember Load (0.4ms)[0m  [1m[34mSELECT "members".* FROM "members"[0m
+  Rendered static_pages/home.html.haml within layouts/application (15.7ms)
+Completed 200 OK in 52ms (Views: 48.6ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for ::1 at 2016-10-14 06:11:27 +0100
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.haml within layouts/application
+  [1m[36mMember Load (0.1ms)[0m  [1m[34mSELECT "members".* FROM "members"[0m
+  Rendered static_pages/home.html.haml within layouts/application (10.5ms)
+Completed 200 OK in 107ms (Views: 104.7ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for ::1 at 2016-10-14 06:11:43 +0100
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.haml within layouts/application
+  [1m[36mMember Load (0.2ms)[0m  [1m[34mSELECT "members".* FROM "members"[0m
+  Rendered static_pages/home.html.haml within layouts/application (12.2ms)
+Completed 200 OK in 118ms (Views: 116.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for ::1 at 2016-10-14 06:12:06 +0100
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.haml within layouts/application
+  [1m[36mMember Load (0.1ms)[0m  [1m[34mSELECT "members".* FROM "members"[0m
+  Rendered static_pages/home.html.haml within layouts/application (10.8ms)
+Completed 200 OK in 120ms (Views: 116.1ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for ::1 at 2016-10-14 06:12:21 +0100
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.haml within layouts/application
+  [1m[36mMember Load (0.4ms)[0m  [1m[34mSELECT "members".* FROM "members"[0m
+  Rendered static_pages/home.html.haml within layouts/application (16.6ms)
+Completed 200 OK in 129ms (Views: 126.6ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for ::1 at 2016-10-14 06:12:27 +0100
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.haml within layouts/application
+  [1m[36mMember Load (0.2ms)[0m  [1m[34mSELECT "members".* FROM "members"[0m
+  Rendered static_pages/home.html.haml within layouts/application (14.6ms)
+Completed 200 OK in 130ms (Views: 127.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for ::1 at 2016-10-14 06:12:34 +0100
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.haml within layouts/application
+  [1m[36mMember Load (0.1ms)[0m  [1m[34mSELECT "members".* FROM "members"[0m
+  Rendered static_pages/home.html.haml within layouts/application (10.3ms)
+Completed 200 OK in 121ms (Views: 118.2ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for ::1 at 2016-10-14 06:13:20 +0100
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.haml within layouts/application
+  [1m[36mMember Load (0.1ms)[0m  [1m[34mSELECT "members".* FROM "members"[0m
+  Rendered static_pages/home.html.haml within layouts/application (11.4ms)
+Completed 200 OK in 373ms (Views: 371.0ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for ::1 at 2016-10-14 06:13:36 +0100
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.haml within layouts/application
+  [1m[36mMember Load (0.1ms)[0m  [1m[34mSELECT "members".* FROM "members"[0m
+  Rendered static_pages/home.html.haml within layouts/application (12.6ms)
+Completed 200 OK in 322ms (Views: 320.2ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for ::1 at 2016-10-14 06:14:19 +0100
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.haml within layouts/application
+  [1m[36mMember Load (0.2ms)[0m  [1m[34mSELECT "members".* FROM "members"[0m
+  Rendered static_pages/home.html.haml within layouts/application (16.1ms)
+Completed 200 OK in 442ms (Views: 438.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for ::1 at 2016-10-14 06:15:11 +0100
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.haml within layouts/application
+  [1m[36mMember Load (0.2ms)[0m  [1m[34mSELECT "members".* FROM "members"[0m
+  Rendered static_pages/home.html.haml within layouts/application (14.1ms)
+Completed 200 OK in 463ms (Views: 458.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for ::1 at 2016-10-14 06:16:05 +0100
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.haml within layouts/application
+  [1m[36mMember Load (2.1ms)[0m  [1m[34mSELECT "members".* FROM "members"[0m
+  Rendered static_pages/home.html.haml within layouts/application (21.3ms)
+Completed 200 OK in 422ms (Views: 416.9ms | ActiveRecord: 2.1ms)
+
+
+Started GET "/" for ::1 at 2016-10-14 06:18:05 +0100
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.haml within layouts/application
+  [1m[36mMember Load (0.2ms)[0m  [1m[34mSELECT "members".* FROM "members"[0m
+  Rendered static_pages/home.html.haml within layouts/application (17.7ms)
+Completed 200 OK in 412ms (Views: 408.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for ::1 at 2016-10-14 06:18:38 +0100
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.haml within layouts/application
+  [1m[36mMember Load (0.2ms)[0m  [1m[34mSELECT "members".* FROM "members"[0m
+  Rendered static_pages/home.html.haml within layouts/application (12.4ms)
+Completed 200 OK in 349ms (Views: 346.4ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for ::1 at 2016-10-14 06:19:05 +0100
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.haml within layouts/application
+  [1m[36mMember Load (0.3ms)[0m  [1m[34mSELECT "members".* FROM "members"[0m
+  Rendered static_pages/home.html.haml within layouts/application (38.2ms)
+Completed 200 OK in 615ms (Views: 611.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for ::1 at 2016-10-14 06:19:52 +0100
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.haml within layouts/application
+  [1m[36mMember Load (0.4ms)[0m  [1m[34mSELECT "members".* FROM "members"[0m
+  Rendered static_pages/home.html.haml within layouts/application (24.5ms)
+Completed 200 OK in 160ms (Views: 157.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for ::1 at 2016-10-14 06:20:06 +0100
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.haml within layouts/application
+  [1m[36mMember Load (0.2ms)[0m  [1m[34mSELECT "members".* FROM "members"[0m
+  Rendered static_pages/home.html.haml within layouts/application (14.5ms)
+Completed 200 OK in 556ms (Views: 553.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for ::1 at 2016-10-14 06:20:35 +0100
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.haml within layouts/application
+  [1m[36mMember Load (0.2ms)[0m  [1m[34mSELECT "members".* FROM "members"[0m
+  Rendered static_pages/home.html.haml within layouts/application (9.5ms)
+Completed 200 OK in 37ms (Views: 33.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for ::1 at 2016-10-14 06:21:21 +0100
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.haml within layouts/application
+  [1m[36mMember Load (0.2ms)[0m  [1m[34mSELECT "members".* FROM "members"[0m
+  Rendered static_pages/home.html.haml within layouts/application (21.3ms)
+Completed 200 OK in 562ms (Views: 558.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for ::1 at 2016-10-14 06:26:21 +0100
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.haml within layouts/application
+  [1m[36mMember Load (0.2ms)[0m  [1m[34mSELECT "members".* FROM "members"[0m
+  Rendered static_pages/home.html.haml within layouts/application (38.9ms)
+Completed 200 OK in 92ms (Views: 87.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for ::1 at 2016-10-14 18:37:37 +0100
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.haml within layouts/application
+  [1m[36mMember Load (2.1ms)[0m  [1m[34mSELECT "members".* FROM "members"[0m
+  Rendered static_pages/home.html.haml within layouts/application (56.4ms)
+Completed 200 OK in 131ms (Views: 117.5ms | ActiveRecord: 2.1ms)
+
+
