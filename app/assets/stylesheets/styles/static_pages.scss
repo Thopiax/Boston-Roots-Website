@@ -13,13 +13,12 @@ $mission_background_root: "graduation_caps";
 
 #home {
   color: $sec_color;
-  height: auto;
   min-height: 100vh;
 
   .background {
     @include import_dynamic_image($home_background_root, true);
-    background-size: 100% 100%;
-    min-height: 100%;
+    // background-size: 100% 100%;
+    // min-height: 100%;
   }
 
 }
