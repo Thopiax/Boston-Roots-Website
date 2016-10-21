@@ -4,6 +4,8 @@
 
 $(document).ready ->
 
+  # DECLARATION
+
   just_started = true
 
   nav         = $("nav", "#site_wrapper")
@@ -20,6 +22,8 @@ $(document).ready ->
   setBackgroundSize(home, 1800/2702)
   setBackgroundSize(mission, 1080/1621)
 
+  # SCROLLING ANIMATION
+
   $("li>a", nav).on "click", ->
     target = $(@).attr('to');
     $(target).velocity 'scroll',
@@ -34,11 +38,16 @@ $(document).ready ->
       offset: -40,
       easing: 'ease-in-out'
 
+  # Adaptive NAVBAR
+
   addNavToController("home", controller).offset("-15%")
   addNavToController("timeline", controller).offset(-nav_height)
   addNavToController("mission", controller).offset(-nav_height)
   addNavToController("team", controller).duration("#{$("#team").height()}")
   addNavToController("contact", controller)
+
+  # Hyphenator
+
 
   # if ($(window).width() < 768)
   #   # NEED TO IMPLEMENT
@@ -55,6 +64,8 @@ $(document).ready ->
   $(window).on "load scroll", ->
 
     win_top = $(@).scrollTop()
+
+    # NAVBAR FADE OUT
 
     if (win_top > nav_height && win_top_above)
       nav.css("background-color", "rgba(236,236,236, 0.9)")
@@ -76,6 +87,7 @@ $(document).ready ->
     just_started = false
 
   $(window).on "resize", () ->
+
     setBackgroundSize(home, 1800/2702)
     setBackgroundSize(mission, 1080/1621)
     addNavToController("home", controller).offset("-15%")
@@ -83,6 +95,7 @@ $(document).ready ->
     addNavToController("mission", controller).offset(-nav_height)
     addNavToController("team", controller).duration("#{$("#team").height()}")
     addNavToController("contact", controller)
+
 
 addNavToController = (name, controller) ->
   return new ScrollMagic.Scene(

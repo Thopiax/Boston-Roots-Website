@@ -11,6 +11,7 @@
 $home_background_root: "college_template_photo";
 $mission_background_root: "graduation_caps";
 
+
 #home {
   color: $sec_color;
   min-height: 100vh;
@@ -18,7 +19,6 @@ $mission_background_root: "graduation_caps";
   .background {
     @include import_dynamic_image($home_background_root, true);
     background-size: 100% 100%;
-    // min-height: 100%;
   }
 
 }
@@ -28,8 +28,8 @@ $mission_background_root: "graduation_caps";
   position: relative;
   z-index: 1;
   height: 100%;
-  margin:           0;
-  color:            #f2f1ef;
+  margin: 0;
+  color:  #f2f1ef;
   background-color: rgba($text_color, 0.5) ! important;
   padding-right: 7%;
   padding-left: 7%;
@@ -97,11 +97,10 @@ $mission_background_root: "graduation_caps";
   color: $sec_color;
   background-size: 100% 100%;
 
-  @include import_dynamic_image($mission_background_root);
-
   min-height: 100vh;
   height: auto;
   @include clearspc;
+  @include import_dynamic_image($mission_background_root);
 
   .filter {
     padding: 4% 10%;
@@ -113,12 +112,7 @@ $mission_background_root: "graduation_caps";
     display: block;
     position: relative;
 
-    #missionheader {
-      margin-bottom: 5rem;
-    }
-
     #missionbody {
-      width: 100%;
       @media only screen and (min-width: $screen-sm-max) {
         display: flex;
       }
@@ -135,6 +129,9 @@ $mission_background_root: "graduation_caps";
 
 }
 
+
+
+
 #team {
   background-color: $sec_color;
 
@@ -145,6 +142,7 @@ $mission_background_root: "graduation_caps";
   h1 {
     color: $text-color;
     margin-bottom: 1em;
+    text-align: center;
   }
 
   .profile_table {
@@ -158,6 +156,7 @@ $mission_background_root: "graduation_caps";
     margin: 5%;
     width: 90%;
     height: auto;
+    @include makeSqr(width);
 
     @media only screen and (min-width: $screen-sm-min) {
       width: 30%;
@@ -181,7 +180,20 @@ $mission_background_root: "graduation_caps";
 
 #footer {
   background-color: #556270;
-  height: 50%;
+  height: 20%;
+  width: 100%;
+  display: table;
+
+  .notebook {
+    display: table-cell;
+    vertical-align: middle;
+    p {
+      color: $sec_color;
+      text-align: center;
+    }
+
+  }
+
 }
 
 

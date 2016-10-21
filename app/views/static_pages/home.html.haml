@@ -32,7 +32,7 @@
           %p Boston Roots firmly believes that parent involvement contributes to a higher degree of student success. As a result, our program works with parents to give their children greater support through parent seminars. Topics include student progress, financial saving information, and support strategies to motivate students. Moreover, we intend to connect students with third party SAT/ACT tutors and financial experts for extra support when it is needed.
   %section#team
     #teamheader.header
-      %h1 Our Team
+      %h1 The Team
     #teambody.notebook
       .profile_table
         - @teamMembers.each_with_index do |member, index|
@@ -41,6 +41,17 @@
               =image_tag "default_profile.jpg"
             - else
               =image_tag "#{member.path}"
-
   %section#contact
+    #contactheader.header
+      %h1 Send us a message!
+    #contactbody.notebook
+      - simple_form_for @contact do |f|
+        = f.input :name, require: true
+        = f.input :email, require: true
+        = f.input :message, :required => true, :as => :text
+        %div{style: "display:none;"}
+          = f.input :nickname, :hint => 'Leave this field blank!'
+        =  f.button :submit, 'Send message', :class=> "btn btn-primary"
   %section#footer
+    .notebook
+      %p © Copyright 2016 Boston Roots, All Rights Reserved
