@@ -86,7 +86,7 @@ $(document).ready ->
 
     just_started = false
 
-  $(window).on "resize", () ->
+  $(window).on "resize load", () ->
 
     setBackgroundSize(home, 1800/2702)
     setBackgroundSize(mission, 1080/1621)
@@ -95,6 +95,7 @@ $(document).ready ->
     addNavToController("mission", controller).offset(-nav_height)
     addNavToController("team", controller).duration("#{$("#team").height()}")
     addNavToController("contact", controller)
+    setProfilePicsSize()
 
 
 addNavToController = (name, controller) ->
@@ -112,3 +113,7 @@ setBackgroundSize = (div, img_ratio) ->
   div.css {
     "background-size": bg_size
   }
+
+setProfilePicsSize = () ->
+  $(".profile>img", "#team").each (i, e) =>
+    $(e).height($(e).width());

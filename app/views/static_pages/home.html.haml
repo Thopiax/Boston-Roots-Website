@@ -36,22 +36,29 @@
     #teambody.notebook
       .profile_table
         - @teamMembers.each_with_index do |member, index|
-          .long-shadow.profile.col-xs-12.col-sm-3{ name: member.name, pos: member.position, bio: member.bio}
+          .long-shadow.profile.col-xs-12.col-sm-3{ class: "pro_type0" }
             - if member.path.blank?
               =image_tag "default_profile.jpg"
             - else
               =image_tag "#{member.path}"
+            .hidden
+              %h2
+                = member.name
+              %h3
+                = member.position
+              %p
+                = member.bio
   %section#contact
     #contactheader.header
       %h1 Send us a message!
     #contactbody.notebook
-      - simple_form_for @contact do |f|
-        = f.input :name, require: true
-        = f.input :email, require: true
-        = f.input :message, :required => true, :as => :text
-        %div{style: "display:none;"}
-          = f.input :nickname, :hint => 'Leave this field blank!'
-        =  f.button :submit, 'Send message', :class=> "btn btn-primary"
+      -# - simple_form_for @contact do |f|
+      -#   = f.input :name, require: true
+      -#   = f.input :email, require: true
+      -#   = f.input :message, :required => true, :as => :text
+      -#   %div{style: "display:none;"}
+      -#     = f.input :nickname, :hint => 'Leave this field blank!'
+      -#   =  f.button :submit, 'Send message', :class=> "btn btn-primary"
   %section#footer
     .notebook
       %p © Copyright 2016 Boston Roots, All Rights Reserved

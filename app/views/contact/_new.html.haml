@@ -1,8 +1,0 @@
-.form
-  - simple_form_for @contact do |f|
-    = f.input :name, require: true
-    = f.input :email, require: true
-    = f.input :message, :required => true, :as => :text
-    %div{style: "display:none;"}
-      = f.input :nickname, :hint => 'Leave this field blank!'
-    =  f.button :submit, 'Send message', :class=> "btn btn-primary"

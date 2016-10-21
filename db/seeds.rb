@@ -19,6 +19,6 @@ Member.create( name: 'Leo Yu', position: 'Vice President', bio: 'Born in Chicago
 Member.create( name: 'Jonathan Ge', position: 'Chief Operations Officer', bio: 'Spent his childhood in Hangzhou, China, before moving to Toronto, Canada. Jonathan has a strong interest in entrepreneurship and politics. He plans to run for office one day and hopes to be the first Asian Prime Minister.',
                path: 'jon.jpg')
 Member.create( name: 'Rafael Toletti Ballestiero', position: 'Chief Technology Officer', bio: 'Rafael is currently studying math and computer science at Imperial College London who attended middle and high school in Cambridge, MA. His passion for soccer, travel and helping his community save him from getting too absorbed with his busy academic schedule.',
-               path: '')
+               path: 'rafa.jpg')
 
 puts "Seeded members"

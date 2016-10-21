@@ -14,6 +14,7 @@
 //= require velocity
 //= require turbolinks
 //= require scrollmagic
+//= require lazy_images
 //= require_tree .
 
 var controller = new ScrollMagic.Controller({
