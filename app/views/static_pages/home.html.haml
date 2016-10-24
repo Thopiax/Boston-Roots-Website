@@ -17,61 +17,60 @@
     .header
       %h1
         Timeline
-    %ul.timeline.notebook
-      %li
+    %ul.timeline
+      %li.timeline-date.short-shadow
+        %h4 January 2015
+      %li.timeline-component
         .timeline-badge
           %a
             %i.fa.fa-circle{:id => ""}
         .timeline-panel.card
           .timeline-heading
-            %h4 Idea formed
-          .timeline-body
-            %p Invitamus me testatur sed quod non dum animae tuae lacrimis ut libertatem deum rogus aegritudinis causet. Dicens hoc contra serpentibus isto.
-      %li
+            %h4 Idea Formed
+      %li.timeline-component.timeline-inverted
         .timeline-badge
           %a
-            %i.fa.fa-circle{:id => ""}
+            %i.fa.fa-circle.invert{:id => ""}
         .timeline-panel.card
           .timeline-heading
-            %h4 Team gathered
-          .timeline-body
-            %p Stranguillione in deinde cepit roseo commendavit patris super color est se sed. Virginis plus plorantes abscederem assignato ipsum ait regem Ardalio nos filiae Hellenicus mihi cum. Theophilo litore in lucem in modo invenit quasi nomen magni ergo est se est Apollonius, habet clementiae venit ad nomine sed dominum depressit filia navem.
-      %li
+            %h4 Team Gathered
+      %li.timeline-component
         .timeline-badge
           %a
             %i.fa.fa-circle{:id => ""}
         .timeline-panel.card
           .timeline-heading
             %h4 Non-profit status acquired
-          .timeline-body
-            %p Advenientibus aliorum eam ad per te sed. Facere debetur aut veneris accedens.
-      %li
+      %li.timeline-date
+        %h4 January 2016
+      %li.timeline-inverted.timeline-component
+        .timeline-badge
+          %a
+            %i.fa.fa-circle.invert{:id => ""}
+        .timeline-panel.card
+          .timeline-heading
+            %h4 Highschool student outreach
+
+      %li.timeline-component
         .timeline-badge
           %a
             %i.fa.fa-circle{:id => ""}
         .timeline-panel.card
           .timeline-heading
-            %h4 High-school student outreach
-          .timeline-body
-            %p Volvitur ingreditur id ait mea vero cum autem quod ait Cumque ego illum vero cum unde beata. Commendavi si non dum est in. Dionysiadem tuos ratio puella ut casus, tunc lacrimas effunditis magister cives Tharsis. Puellae addita verbaque' capellam sanctissima quid, apollinem existimas filiam rex cum autem quod tamen adnuente rediens eam est se in. Peracta licet ad nomine Maria non ait in modo compungi mulierem volutpat.
-      %li
+            %h4 Mentor Recruitement
+
+      %li.timeline-inverted.timeline-component
         .timeline-badge
           %a
-            %i.fa.fa-circle{:id => ""}
-        .timeline-panel.card
-          .timeline-heading
-            %h4 Mentor recruitment
-          .timeline-body
-            %p Adfertur guttae sapientiae ducitur est Apollonius ut a a his domino Lycoridem in lucem. Theophile atque bona dei cenam veniebant est cum. Iusto opes mihi Tyrum in modo compungi mulierem ubi augue eiusdem ordo quos vero diam omni catervis famulorum. Bene dictis ut diem finito servis unde.
-      %li
-        .timeline-badge
-          %a
-            %i.fa.fa-circle{:id => ""}
+            %i.fa.fa-circle.invert{:id => ""}
         .timeline-panel.card
           .timeline-heading
             %h4 Pilot Program Launch
-          .timeline-body
-            %p Crede respiciens loco dedit beneficio ad suis alteri si puella eius in. Acceptis codicello lenonem in deinde plectrum anni ipsa quod eam est Apollonius.
+
+      %li.clearfix.no-float
+      %li.timeline-date
+        %h4 January 2017
+
 
   %section#mission
     .filter#missionfilter.foreground
@@ -87,6 +86,7 @@
         .card
           %h2 Fostering Connections
           %p Boston Roots firmly believes that parent involvement contributes to a higher degree of student success. As a result, our program works with parents to give their children greater support through parent seminars. Topics include student progress, financial saving information, and support strategies to motivate students. Moreover, we intend to connect students with third party SAT/ACT tutors and financial experts for extra support when it is needed.
+
   %section#team
     #teamheader.header
       %h1 The Team
@@ -120,6 +120,7 @@
                   Close
     #teamfooter.notebook
       %p Click on the images for more.
+
   %section#contact
     #contactheader.header
       %h1 Send us a message!
