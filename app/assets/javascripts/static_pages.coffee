@@ -22,19 +22,9 @@ $(document).on "turbolinks:load" , ->
 
   # SCROLLING ANIMATION
 
-  $("li>a", nav).on "click", ->
-    target = $(@).attr('to');
-    $(target).velocity 'scroll',
-      duration: 1000,
-      offset: -40,
-      easing: 'ease-in-out'
-
-  nav_brand_l.on "click", ->
-    target = $(@).attr('to');
-    $(target).velocity 'scroll',
-      duration: 500,
-      offset: -40,
-      easing: 'ease-in-out'
+  scrollBecauseOf($(".btn-success", home))
+  scrollBecauseOf($("li>a", nav))
+  scrollBecauseOf(nav_brand_l)
 
   $(window).on "load", ->
 
@@ -76,6 +66,14 @@ $(document).on "turbolinks:load" , ->
     addNavToController("contact", controller)
 
 # FUNCTIONS
+scrollBecauseOf = (thing) ->
+  thing.on "click", ->
+    target = $(@).attr('to');
+    $(target).velocity 'scroll',
+      duration: 1000,
+      offset: -40,
+      easing: 'ease-in-out'
+
 addNavToController = (name, controller) ->
   new ScrollMagic.Scene(
         triggerElement: "##{name}").setClassToggle("#nav#{name}", "active").addTo(controller)

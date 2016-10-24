@@ -242,9 +242,9 @@ section .header {
   border-color: darken($thi_color, 20%);
   background-color: $thi_color;
 
-  &:active {
-    background-color: darken($thi_color, 30%);
-  }
+  // &:active, &:hover, &:visited, &.active {
+  //   color: $sec_color;
+  // }
 
 }
 
