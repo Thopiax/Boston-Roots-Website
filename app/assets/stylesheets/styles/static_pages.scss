@@ -147,6 +147,7 @@ $mission_background_root: "graduation_caps";
 
     img {
       width: 100%;
+      min-height: 20px;
     }
     &:hover {
       transform: scale(1.1);
