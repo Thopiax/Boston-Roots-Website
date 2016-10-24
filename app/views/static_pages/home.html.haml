@@ -6,7 +6,7 @@
           #jumboimage
             =image_tag "bostonroots_log_new.png"
         #jumbotext
-          %h1 Find your roots with Boston Roots!
+          %h1 We are Boston Roots, a Nonprofit College Access Initiative.
           %p
             Because Higher education is a
             %b right.
@@ -96,6 +96,8 @@
   %section#team
     #teamheader.header
       %h1 The Team
+      #teamfooter.notebook
+        %p Click on the images for more.
     #teambody.notebook
       .profile_table
         - @teamMembers.each_with_index do |member, index|
@@ -124,8 +126,6 @@
               .modal-footer
                 %button.btn.btn-default{ "data-dismiss" => "modal" }
                   Close
-    #teamfooter.notebook
-      %p Click on the images for more.
 
   %section#contact
     #contactheader.header

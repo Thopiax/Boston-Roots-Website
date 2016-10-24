@@ -58,7 +58,7 @@ $(document).ready ->
 
     # NAVBAR FADE OUT
 
-    if (win_top > nav_height && win_top_above)
+    if (win_top > nav_height && (win_top_above || just_started))
       nav.css("background-color", "rgba(236,236,236, 0.9)")
       nav_a.css("color", "")
       nav_brand_l.velocity "fadeIn",
