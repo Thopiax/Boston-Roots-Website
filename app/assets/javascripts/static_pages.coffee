@@ -38,16 +38,6 @@ $(document).ready ->
       offset: -40,
       easing: 'ease-in-out'
 
-  # Adaptive NAVBAR
-  addNavToController("home", controller).offset("-15%")
-  addNavToController("timeline", controller).offset(-nav_height)
-  addNavToController("mission", controller).offset(-nav_height)
-  addNavToController("team", controller).duration("#{$("#team").height()}")
-  addNavToController("contact", controller)
-
-  nav_drop.toggleClass("nav-pills navbar-right")
-  setProfilePicsSize()
-
   $(window).on "load", ->
 
     just_started = true
@@ -64,20 +54,20 @@ $(document).ready ->
       nav_brand_l.velocity "fadeIn",
         duration: 150
 
-      nav.addClass "short-shadow"
+      nav.toggleClass "short-shadow"
       win_top_above = !win_top_above
+      just_started = false
     else if (win_top < nav_height && (!win_top_above || just_started))
       nav.css("background", "transparent")
       nav_a.css("color", "white")
       nav_brand_l.velocity("fadeOut",
         duration: 150)
 
-      nav.removeClass "short-shadow"
+      nav.toggleClass "short-shadow"
       win_top_above = !win_top_above
+      just_started = false
 
-    just_started = false
-
-  $(window).on "resize", () ->
+  $(window).on "resize load", () ->
 
     setBackgroundSize(home, 1800/2702)
     setBackgroundSize(mission, 1080/1621)
@@ -86,7 +76,8 @@ $(document).ready ->
     addNavToController("mission", controller).offset(-nav_height)
     addNavToController("team", controller).duration("#{$("#team").height()}")
     addNavToController("contact", controller)
-    setProfilePicsSize()
+
+    setProfilePicsSize().delay(500)
 
 addNavToController = (name, controller) ->
   return new ScrollMagic.Scene(
