@@ -21,6 +21,12 @@ $(document).ready ->
   mission = $("#mission")
   setBackgroundSize(home, 1800/2702)
   setBackgroundSize(mission, 1080/1621)
+  addNavToController("home", controller)
+  addNavToController("timeline", controller)
+  addNavToController("mission", controller)
+  addNavToController("team", controller).duration("70%")
+  addNavToController("contact", controller).triggerHook("0.5")
+  setProfilePicsSize()
 
   # SCROLLING ANIMATION
 
@@ -41,7 +47,6 @@ $(document).ready ->
   $(window).on "load", ->
 
     just_started = true
-    loadProImages()
 
   $(window).on "load scroll", ->
 
@@ -72,34 +77,31 @@ $(document).ready ->
 
     setBackgroundSize(home, 1800/2702)
     setBackgroundSize(mission, 1080/1621)
-    addNavToController("home", controller).offset("-15%")
-    addNavToController("timeline", controller).offset(-nav_height)
-    addNavToController("mission", controller).offset(-nav_height)
-    addNavToController("team", controller).duration("#{$("#team").height()}")
-    addNavToController("contact", controller)
-
-    setProfilePicsSize().delay(500)
+    addNavToController("home", controller)
+    addNavToController("timeline", controller)
+    addNavToController("mission", controller)
+    addNavToController("team", controller).duration("70%")
+    addNavToController("contact", controller).triggerHook("0.5")
+    setProfilePicsSize()
 
 addNavToController = (name, controller) ->
-  return new ScrollMagic.Scene(
-              triggerElement: "##{name}",
-              offset:         "-100px").setClassToggle("#nav#{name}", "active").addTo(controller)
+  new ScrollMagic.Scene(
+        triggerElement: "##{name}",
+        duration: "100%").setClassToggle("#nav#{name}", "active").addTo(controller)
 
 setBackgroundSize = (div, img_ratio) ->
   bg_size = ""
   div_height = div.height()
   div_width = div.width()
-  cnt_ratio = div_height / div.width()
+  cnt_ratio = div_height / div_width
   if cnt_ratio > img_ratio
     bg_size = "#{div_height / img_ratio}px #{div_height}px"
   else
     bg_size = "#{div_width}px #{div_width * img_ratio}px"
-  div.velocity
-    backgoundSize: bg_size
-
+  div.css {
+    "background-size": bg_size
+  }
 
 setProfilePicsSize = () ->
   $(".profile", "#team").each (i, e) =>
-    img
-    this_img = $("img", e)
-    this_img.height(this_img.width());
+    $(e).height($(e).width());
