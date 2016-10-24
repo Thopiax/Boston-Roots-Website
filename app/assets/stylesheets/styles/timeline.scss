@@ -162,6 +162,11 @@
       width: calc(100% - 65px);
       width: -moz-calc(100% - 65px);
       width: -webkit-calc(100% - 65px);
+      & + li {
+        & + li {
+          margin-top: inherit;
+        }
+      }
     }
     & > li {
       margin-bottom: 0px;
