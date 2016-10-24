@@ -2,7 +2,7 @@
 # All this logic will automatically be available in application.js.
 # You can use CoffeeScript in this file: http://coffeescript.org/
 
-$(document).ready ->
+$(document).on "turbolinks:load" , ->
 
   # DECLARATION
 
@@ -10,8 +10,6 @@ $(document).ready ->
 
   nav         = $("nav", "#site_wrapper")
   nav_a       = $("a", "nav")
-  nav_drop    = $('#navdropdown', nav)
-  nav_brand   = $("#nav_brand", nav)
   nav_brand_l = $("#nav_brand > a", nav)
 
   nav_height  = nav.height()
@@ -21,18 +19,13 @@ $(document).ready ->
   mission = $("#mission")
   setBackgroundSize(home, 1800/2702)
   setBackgroundSize(mission, 1080/1621)
-  addNavToController("home", controller)
-  addNavToController("timeline", controller)
-  addNavToController("mission", controller)
-  addNavToController("team", controller).duration("70%")
-  addNavToController("contact", controller).triggerHook("0.5")
 
   # SCROLLING ANIMATION
 
   $("li>a", nav).on "click", ->
     target = $(@).attr('to');
     $(target).velocity 'scroll',
-      duration: 500,
+      duration: 1000,
       offset: -40,
       easing: 'ease-in-out'
 
@@ -42,11 +35,6 @@ $(document).ready ->
       duration: 500,
       offset: -40,
       easing: 'ease-in-out'
-
-  $(".profile", "#team").each (i, e) ->
-    console.log $("img", e)
-    $("img", e).on "load", ->
-      $(e).height($(e).width())
 
   $(window).on "load", ->
 
@@ -84,14 +72,13 @@ $(document).ready ->
     addNavToController("home", controller)
     addNavToController("timeline", controller)
     addNavToController("mission", controller)
-    addNavToController("team", controller).duration("70%")
-    addNavToController("contact", controller).triggerHook("0.5")
-    setProfilePicsSize()
+    addNavToController("team", controller)
+    addNavToController("contact", controller)
 
+# FUNCTIONS
 addNavToController = (name, controller) ->
   new ScrollMagic.Scene(
-        triggerElement: "##{name}",
-        duration: "100%").setClassToggle("#nav#{name}", "active").addTo(controller)
+        triggerElement: "##{name}").setClassToggle("#nav#{name}", "active").addTo(controller)
 
 setBackgroundSize = (div, img_ratio) ->
   bg_size = ""
@@ -105,8 +92,3 @@ setBackgroundSize = (div, img_ratio) ->
   div.css {
     "background-size": bg_size
   }
-
-setProfilePicsSize = () ->
-  $(".profile", "#team").each (i, e) =>
-    if ($(e).height() != $(e).width())
-      $(e).height($(e).width())

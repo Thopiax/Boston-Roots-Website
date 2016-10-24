@@ -136,14 +136,14 @@ $mission_background_root: "graduation_caps";
     overflow: hidden;
     background: transparent;
     transition: all .2s ease-in-out;
-    // border-radius: 50%;
     margin: 5% 0;
-    width: 100%;
-    height: auto;
+    width: 71.97vw;
+    height: 71.97vw;
 
     @media only screen and (min-width: $screen-sm-min) {
-      width: 30%;
-      margin: 1.5%;
+      width: 22.5vw;
+      height: 22.5vw;
+      margin: 0.7vw;
     }
 
     img {
@@ -227,7 +227,8 @@ $mission_background_root: "graduation_caps";
 #contact {
   height: auto;
   min-height: 50vh;
-  background-color: rgb(81, 99, 157);
+  // background-color: rgb(81, 99, 157);
+  background-color: $grey_color;
   color: $sec_color;
 
   h5 {

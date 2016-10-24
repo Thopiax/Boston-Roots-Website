@@ -19,8 +19,8 @@
 
 var controller = new ScrollMagic.Controller({
   globalSceneOptions: {
-    // duration: $(window).height(),
-    triggerHook: .1,
+    duration: "100%",
+    triggerHook: 0.4,
     reverse: true
   }
 });
