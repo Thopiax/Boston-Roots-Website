@@ -118,6 +118,7 @@ $mission_background_root: "graduation_caps";
 #team {
   background-color: $sec_color;
   height: auto;
+  min-height: 70vh;
   margin: 0;
   h1 {
     color: $text-color;
