@@ -12,8 +12,8 @@
  *
  *= require_self
  *= require bootstrap/dist/css/bootstrap.min
+ *= require font-awesome/css/font-awesome.min
  *= require main
-
  */
 
 /*
@@ -34,6 +34,7 @@ section {
   height: 100vh;
   overflow: hidden;
   position: relative;
+  padding: 4% 10%;
 }
 
 .major_wrapper {

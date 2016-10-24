@@ -39,23 +39,14 @@ $(document).ready ->
       easing: 'ease-in-out'
 
   # Adaptive NAVBAR
-
   addNavToController("home", controller).offset("-15%")
   addNavToController("timeline", controller).offset(-nav_height)
   addNavToController("mission", controller).offset(-nav_height)
   addNavToController("team", controller).duration("#{$("#team").height()}")
   addNavToController("contact", controller)
 
-  # Hyphenator
-
-
-  # if ($(window).width() < 768)
-  #   # NEED TO IMPLEMENT
-  #   # nav_brand_l.on "click", ->
-  #   #   slideDir = if nav_drop.is ':visible' then 'slideUp' else 'slideDown'
-  #   #   nav_drop.velocity slideDir
-  # else
   nav_drop.toggleClass("nav-pills navbar-right")
+  setProfilePicsSize()
 
   $(window).on "load", ->
 
@@ -86,7 +77,7 @@ $(document).ready ->
 
     just_started = false
 
-  $(window).on "resize load", () ->
+  $(window).on "resize", () ->
 
     setBackgroundSize(home, 1800/2702)
     setBackgroundSize(mission, 1080/1621)
@@ -96,7 +87,6 @@ $(document).ready ->
     addNavToController("team", controller).duration("#{$("#team").height()}")
     addNavToController("contact", controller)
     setProfilePicsSize()
-
 
 addNavToController = (name, controller) ->
   return new ScrollMagic.Scene(
@@ -115,5 +105,6 @@ setBackgroundSize = (div, img_ratio) ->
   }
 
 setProfilePicsSize = () ->
-  $(".profile>img", "#team").each (i, e) =>
-    $(e).height($(e).width());
+  $(".profile", "#team").each (i, e) =>
+    this_img = $("img", e)
+    this_img.height(this_img.width());

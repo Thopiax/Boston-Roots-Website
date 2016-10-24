@@ -15,6 +15,7 @@ $mission_background_root: "graduation_caps";
 #home {
   color: $sec_color;
   min-height: 100vh;
+  @include clearspc;
 
   .background {
     @include import_dynamic_image($home_background_root, true);
@@ -78,25 +79,12 @@ $mission_background_root: "graduation_caps";
 
 #timeline {
   background-color: $grey_color;
-  display: table;
-
-  .header {
-    display: table-cell;
-    vertical-align: middle;
-    text-align: center;
-    height: 100%;
-
-    h1 {
-      font-size:  5em;
-      font-color: $grey_color;
-    }
-  }
+  height: auto;
 }
 
 #mission {
   color: $sec_color;
   background-size: 100% 100%;
-
   min-height: 100vh;
   height: auto;
   @include clearspc;
@@ -124,20 +112,13 @@ $mission_background_root: "graduation_caps";
         flex: 1;
       }
     }
-
   }
-
 }
-
-
-
 
 #team {
   background-color: $sec_color;
   height: auto;
-  @include clearspc;
-  padding: 4% 10%;
-
+  margin: 0;
   h1 {
     color: $text-color;
     margin-bottom: 1em;
@@ -152,9 +133,10 @@ $mission_background_root: "graduation_caps";
   .profile {
     @include clearspc;
     overflow: hidden;
+    background: transparent;
     transition: all .2s ease-in-out;
-    margin: 5%;
-    width: 90%;
+    margin: 5% 0;
+    width: 100%;
     height: auto;
 
     @media only screen and (min-width: $screen-sm-min) {
@@ -164,16 +146,79 @@ $mission_background_root: "graduation_caps";
 
     img {
       width: 100%;
-      height: 100%;
     }
 
     &:hover {
       transform: scale(1.1);
+      .profile_name {
+        visibility: visible;
+        opacity: 1;
+        transition: opacity 0.2s linear;
+      }
+
+    }
+
+    .profile_name {
+      position: absolute;
+      transform: translateY(-100%);
+      visibility: hidden;
+      text-align: center;
+      opacity: 0;
+      transition: visibility 0s 0.3s, opacity 0.3s linear;
+      background: rgba($sec_color, 0.75);
+      width: 100%;
+      h2 {
+        font-size: 2em;
+        @media only screen and (min-width: $screen-sm-min) {
+          font-size: 1.5em;
+        }
+        margin: 0;
+        width: 100%;
+      }
+
     }
 
   }
 
+  .modal {
+    max-height: 100vh;
+    background-color: rgba($text-color, 0.8);
+    h2, p {
+      color: $sec_color;
+    }
 
+    h3 {
+      color: darken($sec_color, 10%);
+      margin-top: 0;
+      font-size: 1.55rem;
+    }
+
+    .modal-body {
+      .profile_text {
+        height: auto;
+        p {
+          padding: 1rem;
+        }
+      }
+
+      width: 90%;
+      height: auto;
+      margin: auto;
+    }
+
+    .modal-footer {
+      text-align: center;
+    }
+  }
+
+  #teamfooter {
+    padding-top: 0.5%;
+    text-align: center;
+    p {
+      font-size: 1.2rem;
+      margin: 0;
+    }
+  }
 
 }
 
@@ -217,6 +262,5 @@ $mission_background_root: "graduation_caps";
       vertical-align: middle;
       text-align: right;
     }
-
   }
 }

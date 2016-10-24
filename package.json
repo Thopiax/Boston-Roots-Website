@@ -15,7 +15,7 @@
     "jquery": ">=0.0",
     "scrollmagic": "2.0.5",
     "velocity": ">=0.0",
-    "hypher": ">= 0.0"
+    "font-awesome": ">= 0.0"
   },
   "engines": {
   },

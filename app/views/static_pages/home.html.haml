@@ -15,7 +15,64 @@
 
   %section#timeline
     .header
-      %h1 Our Timeline
+      %h1
+        Timeline
+    %ul.timeline.notebook
+      %li
+        .timeline-badge
+          %a
+            %i.fa.fa-circle{:id => ""}
+        .timeline-panel.card
+          .timeline-heading
+            %h4 Idea formed
+          .timeline-body
+            %p Invitamus me testatur sed quod non dum animae tuae lacrimis ut libertatem deum rogus aegritudinis causet. Dicens hoc contra serpentibus isto.
+      %li
+        .timeline-badge
+          %a
+            %i.fa.fa-circle{:id => ""}
+        .timeline-panel.card
+          .timeline-heading
+            %h4 Team gathered
+          .timeline-body
+            %p Stranguillione in deinde cepit roseo commendavit patris super color est se sed. Virginis plus plorantes abscederem assignato ipsum ait regem Ardalio nos filiae Hellenicus mihi cum. Theophilo litore in lucem in modo invenit quasi nomen magni ergo est se est Apollonius, habet clementiae venit ad nomine sed dominum depressit filia navem.
+      %li
+        .timeline-badge
+          %a
+            %i.fa.fa-circle{:id => ""}
+        .timeline-panel.card
+          .timeline-heading
+            %h4 Non-profit status acquired
+          .timeline-body
+            %p Advenientibus aliorum eam ad per te sed. Facere debetur aut veneris accedens.
+      %li
+        .timeline-badge
+          %a
+            %i.fa.fa-circle{:id => ""}
+        .timeline-panel.card
+          .timeline-heading
+            %h4 High-school student outreach
+          .timeline-body
+            %p Volvitur ingreditur id ait mea vero cum autem quod ait Cumque ego illum vero cum unde beata. Commendavi si non dum est in. Dionysiadem tuos ratio puella ut casus, tunc lacrimas effunditis magister cives Tharsis. Puellae addita verbaque' capellam sanctissima quid, apollinem existimas filiam rex cum autem quod tamen adnuente rediens eam est se in. Peracta licet ad nomine Maria non ait in modo compungi mulierem volutpat.
+      %li
+        .timeline-badge
+          %a
+            %i.fa.fa-circle{:id => ""}
+        .timeline-panel.card
+          .timeline-heading
+            %h4 Mentor recruitment
+          .timeline-body
+            %p Adfertur guttae sapientiae ducitur est Apollonius ut a a his domino Lycoridem in lucem. Theophile atque bona dei cenam veniebant est cum. Iusto opes mihi Tyrum in modo compungi mulierem ubi augue eiusdem ordo quos vero diam omni catervis famulorum. Bene dictis ut diem finito servis unde.
+      %li
+        .timeline-badge
+          %a
+            %i.fa.fa-circle{:id => ""}
+        .timeline-panel.card
+          .timeline-heading
+            %h4 Pilot Program Launch
+          .timeline-body
+            %p Crede respiciens loco dedit beneficio ad suis alteri si puella eius in. Acceptis codicello lenonem in deinde plectrum anni ipsa quod eam est Apollonius.
+
   %section#mission
     .filter#missionfilter.foreground
       #missionheader.header
@@ -36,29 +93,38 @@
     #teambody.notebook
       .profile_table
         - @teamMembers.each_with_index do |member, index|
-          .long-shadow.profile.col-xs-12.col-sm-3{ class: "pro_type0" }
+          .long-shadow.profile.col-xs-12.col-sm-3x{ "data-toggle" => "modal", "data-target" => "#modal#{index}"}
             - if member.path.blank?
               =image_tag "default_profile.jpg"
             - else
               =image_tag "#{member.path}"
-            .hidden
+            .profile_name
               %h2
                 = member.name
-              %h3
-                = member.position
-              %p
-                = member.bio
+          .modal.fade{id: "modal#{index}", role: "dialog"}
+            .modal-dialog
+              .modal-header
+                %button.close{ "data-dismiss" => "modal" }
+                  &times;
+                .modal-title
+                  %h2
+                    = member.name
+                  %h3
+                    = member.position
+              .modal-body
+                .profile_text
+                  %p
+                    = member.bio
+              .modal-footer
+                %button.btn.btn-default{ "data-dismiss" => "modal" }
+                  Close
+    #teamfooter.notebook
+      %p Click on the images for more.
   %section#contact
     #contactheader.header
       %h1 Send us a message!
     #contactbody.notebook
-      -# - simple_form_for @contact do |f|
-      -#   = f.input :name, require: true
-      -#   = f.input :email, require: true
-      -#   = f.input :message, :required => true, :as => :text
-      -#   %div{style: "display:none;"}
-      -#     = f.input :nickname, :hint => 'Leave this field blank!'
-      -#   =  f.button :submit, 'Send message', :class=> "btn btn-primary"
+
   %section#footer
     .notebook
       %p © Copyright 2016 Boston Roots, All Rights Reserved
