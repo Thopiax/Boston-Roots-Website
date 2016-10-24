@@ -21,7 +21,11 @@ $(document).ready ->
   mission = $("#mission")
   setBackgroundSize(home, 1800/2702)
   setBackgroundSize(mission, 1080/1621)
-  setProfilePicsSize()
+  addNavToController("home", controller)
+  addNavToController("timeline", controller)
+  addNavToController("mission", controller)
+  addNavToController("team", controller).duration("70%")
+  addNavToController("contact", controller).triggerHook("0.5")
 
   # SCROLLING ANIMATION
 
@@ -39,14 +43,14 @@ $(document).ready ->
       offset: -40,
       easing: 'ease-in-out'
 
+  $(".profile", "#team").each (i, e) ->
+    console.log $("img", e)
+    $("img", e).on "load", ->
+      $(e).height($(e).width())
+
   $(window).on "load", ->
 
     just_started = true
-    addNavToController("home", controller)
-    addNavToController("timeline", controller)
-    addNavToController("mission", controller)
-    addNavToController("team", controller).duration("80%")
-    addNavToController("contact", controller).triggerHook("0.5")
 
   $(window).on "load scroll", ->
 
@@ -80,12 +84,12 @@ $(document).ready ->
     addNavToController("home", controller)
     addNavToController("timeline", controller)
     addNavToController("mission", controller)
-    addNavToController("team", controller).duration("80%")
+    addNavToController("team", controller).duration("70%")
     addNavToController("contact", controller).triggerHook("0.5")
     setProfilePicsSize()
 
 addNavToController = (name, controller) ->
-  return new ScrollMagic.Scene(
+  new ScrollMagic.Scene(
         triggerElement: "##{name}",
         duration: "100%").setClassToggle("#nav#{name}", "active").addTo(controller)
 
@@ -104,4 +108,5 @@ setBackgroundSize = (div, img_ratio) ->
 
 setProfilePicsSize = () ->
   $(".profile", "#team").each (i, e) =>
-    $(e).height($(e).width());
+    if ($(e).height() != $(e).width())
+      $(e).height($(e).width())
