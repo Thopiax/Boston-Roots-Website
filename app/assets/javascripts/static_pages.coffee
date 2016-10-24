@@ -41,6 +41,7 @@ $(document).ready ->
   $(window).on "load", ->
 
     just_started = true
+    loadProImages()
 
   $(window).on "load scroll", ->
 
@@ -54,7 +55,7 @@ $(document).ready ->
       nav_brand_l.velocity "fadeIn",
         duration: 150
 
-      nav.toggleClass "short-shadow"
+      nav.addClass "short-shadow"
       win_top_above = !win_top_above
       just_started = false
     else if (win_top < nav_height && (!win_top_above || just_started))
@@ -63,7 +64,7 @@ $(document).ready ->
       nav_brand_l.velocity("fadeOut",
         duration: 150)
 
-      nav.toggleClass "short-shadow"
+      nav.removeClass "short-shadow"
       win_top_above = !win_top_above
       just_started = false
 
@@ -86,16 +87,19 @@ addNavToController = (name, controller) ->
 
 setBackgroundSize = (div, img_ratio) ->
   bg_size = ""
-  cnt_ratio = div.height() / div.width()
+  div_height = div.height()
+  div_width = div.width()
+  cnt_ratio = div_height / div.width()
   if cnt_ratio > img_ratio
-    bg_size = "#{div.height() / img_ratio}px #{div.height()}px"
+    bg_size = "#{div_height / img_ratio}px #{div_height}px"
   else
-    bg_size = "#{div.width()}px #{div.width() * img_ratio}px"
-  div.css {
-    "background-size": bg_size
-  }
+    bg_size = "#{div_width}px #{div_width * img_ratio}px"
+  div.velocity
+    backgoundSize: bg_size
+
 
 setProfilePicsSize = () ->
   $(".profile", "#team").each (i, e) =>
+    img
     this_img = $("img", e)
     this_img.height(this_img.width());

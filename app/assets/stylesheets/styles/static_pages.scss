@@ -145,10 +145,9 @@ $mission_background_root: "graduation_caps";
       margin: 1.5%;
     }
 
-    img {
+    canvas {
       width: 100%;
     }
-
     &:hover {
       transform: scale(1.1);
       .profile_name {
@@ -201,7 +200,6 @@ $mission_background_root: "graduation_caps";
           padding: 1rem;
         }
       }
-
       width: 90%;
       height: auto;
       margin: auto;
