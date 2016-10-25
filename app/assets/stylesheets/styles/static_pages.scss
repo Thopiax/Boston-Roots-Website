@@ -130,6 +130,7 @@ $mission_background_root: "graduation_caps";
   .profile_table {
     display: table;
     height: auto;
+    text-align: center;
   }
 
   .profile {
@@ -140,16 +141,27 @@ $mission_background_root: "graduation_caps";
     margin: 5% 0;
     width: 71.97vw;
     height: 71.97vw;
+    min-width: $min-width * 0.8;
+    min-height: $min-width * 0.8;
+
+    img {
+      width: 100%;
+      height: 100%;
+      display: block;
+    }
+
+    @media only screen and (max-height: 450px) {
+      width: 50vw;
+      height: 50vw;
+      margin: 5% 10vw;
+      display: block;
+      text-align: center;
+    }
 
     @media only screen and (min-width: $screen-sm-min) {
       width: 22.5vw;
       height: 22.5vw;
       margin: 0.7vw;
-    }
-
-    img {
-      width: 100%;
-      height: 100%;
     }
 
     &:hover {
