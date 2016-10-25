@@ -233,6 +233,7 @@ $mission_background_root: "graduation_caps";
 
   h5 {
     font-size: 2rem;
+    text-align: center;
   }
   p {
     margin: 3rem auto;
@@ -252,6 +253,7 @@ $mission_background_root: "graduation_caps";
   .notebook {
     display: table-cell;
     vertical-align: middle;
+
     p {
       color: $sec_color;
       text-align: center;
