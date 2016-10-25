@@ -14,6 +14,7 @@ $mission_background_root: "graduation_caps";
 
 #home {
   color: $sec_color;
+  height: auto;
   min-height: 100vh;
   @include clearspc;
 
