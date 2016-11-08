@@ -32,7 +32,7 @@ $mission_background_root: "graduation_caps";
   height: 100%;
   margin: 0;
   color:  #f2f1ef;
-  background-color: rgba($text_color, 0.5) ! important;
+  background-color: rgba($text_color, 0.3) ! important;
   padding-right: 7%;
   padding-left: 7%;
   display: table;
@@ -70,16 +70,21 @@ $mission_background_root: "graduation_caps";
 
   p {
     margin-bottom: 1em;
+    font-weight: light;
   }
 
   b {
     font-size: inherit;
+
   }
 
 }
 
 #timeline {
-  background-color: $grey_color;
+  background-color: $sec_color;
+  .header > h1 {
+    color: $text-color;
+  }
   height: auto;
 }
 
@@ -97,14 +102,18 @@ $mission_background_root: "graduation_caps";
     min-height: 100%;
     width: 100%;
     margin: 0;
-    background-color: rgba($grey_color, 0.5);
+    background-color: rgba($main_color, 0.2);
     display: block;
     position: relative;
 
     #missionbody {
       @media only screen and (min-width: $screen-sm-max) {
         display: flex;
+        text-align: center;
+        font-weight: 300;
       }
+      text-align: left;
+      // font-weight: 300;
     }
 
     .card {
@@ -179,6 +188,7 @@ $mission_background_root: "graduation_caps";
       transform: translateY(-100%);
       visibility: hidden;
       text-align: center;
+      padding: 2% 0;
       opacity: 0;
       transition: visibility 0s 0.3s, opacity 0.3s linear;
       background: rgba($sec_color, 0.75);
@@ -242,18 +252,21 @@ $mission_background_root: "graduation_caps";
   min-height: 50vh;
   // background-color: rgb(81, 99, 157);
   background-color: $grey_color;
-  color: $sec_color;
 
   h5 {
     font-size: 2rem;
     text-align: center;
+    color: $sec_color !important;
   }
   p {
     margin: 3rem auto;
     text-align: center;
+    color: $sec_color !important;
+    font-weight: 300;
   }
   a {
     text-decoration: underline;
+    font-weight: 400;
   }
 }
 
