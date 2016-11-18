@@ -47388,3 +47388,2245 @@ Processing by StaticPagesController#home as HTML
 Completed 200 OK in 232ms (Views: 230.0ms | ActiveRecord: 0.3ms)
 
 
+Started GET "/" for 127.0.0.1 at 2016-11-08 14:49:05 +0000
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.haml within layouts/application
+  [1m[36mMember Load (0.2ms)[0m  [1m[34mSELECT "members".* FROM "members"[0m
+  Rendered static_pages/home.html.haml within layouts/application (25.0ms)
+Completed 200 OK in 64ms (Views: 60.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-11-08 14:49:07 +0000
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.haml within layouts/application
+  [1m[36mMember Load (0.4ms)[0m  [1m[34mSELECT "members".* FROM "members"[0m
+  Rendered static_pages/home.html.haml within layouts/application (24.3ms)
+Completed 200 OK in 87ms (Views: 84.0ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-11-12 18:26:17 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.haml within layouts/application
+  [1m[36mMember Load (0.6ms)[0m  [1m[34mSELECT "members".* FROM "members"[0m
+  Rendered static_pages/home.html.haml within layouts/application (1427.6ms)
+Completed 200 OK in 1608ms (Views: 1587.7ms | ActiveRecord: 1.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-11-12 18:30:47 +0000
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.haml within layouts/application
+  [1m[36mMember Load (0.8ms)[0m  [1m[34mSELECT "members".* FROM "members"[0m
+  Rendered static_pages/home.html.haml within layouts/application (54.6ms)
+Completed 200 OK in 324ms (Views: 319.4ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-11-12 18:31:03 +0000
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.haml within layouts/application
+  [1m[36mMember Load (0.4ms)[0m  [1m[34mSELECT "members".* FROM "members"[0m
+  Rendered static_pages/home.html.haml within layouts/application (108.8ms)
+Completed 200 OK in 358ms (Views: 355.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-11-12 18:31:21 +0000
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.haml within layouts/application
+  [1m[36mMember Load (1.5ms)[0m  [1m[34mSELECT "members".* FROM "members"[0m
+  Rendered static_pages/home.html.haml within layouts/application (69.8ms)
+Completed 200 OK in 424ms (Views: 417.9ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-11-12 18:31:31 +0000
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.haml within layouts/application
+  [1m[36mMember Load (0.3ms)[0m  [1m[34mSELECT "members".* FROM "members"[0m
+  Rendered static_pages/home.html.haml within layouts/application (93.3ms)
+Completed 200 OK in 341ms (Views: 333.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-11-12 18:31:54 +0000
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.haml within layouts/application
+  [1m[36mMember Load (0.3ms)[0m  [1m[34mSELECT "members".* FROM "members"[0m
+  Rendered static_pages/home.html.haml within layouts/application (40.9ms)
+Completed 200 OK in 424ms (Views: 418.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-11-12 18:32:21 +0000
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.haml within layouts/application
+  [1m[36mMember Load (0.3ms)[0m  [1m[34mSELECT "members".* FROM "members"[0m
+  Rendered static_pages/home.html.haml within layouts/application (68.0ms)
+Completed 200 OK in 368ms (Views: 365.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-11-12 18:32:34 +0000
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.haml within layouts/application
+  [1m[36mMember Load (0.6ms)[0m  [1m[34mSELECT "members".* FROM "members"[0m
+  Rendered static_pages/home.html.haml within layouts/application (30.1ms)
+Completed 200 OK in 327ms (Views: 322.7ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-11-12 18:32:41 +0000
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.haml within layouts/application
+  [1m[36mMember Load (0.3ms)[0m  [1m[34mSELECT "members".* FROM "members"[0m
+  Rendered static_pages/home.html.haml within layouts/application (36.2ms)
+Completed 200 OK in 314ms (Views: 311.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-11-12 18:32:43 +0000
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.haml within layouts/application
+  [1m[36mMember Load (0.1ms)[0m  [1m[34mSELECT "members".* FROM "members"[0m
+  Rendered static_pages/home.html.haml within layouts/application (28.3ms)
+Completed 200 OK in 87ms (Views: 85.2ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-11-12 18:32:50 +0000
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.haml within layouts/application
+  [1m[36mMember Load (0.4ms)[0m  [1m[34mSELECT "members".* FROM "members"[0m
+  Rendered static_pages/home.html.haml within layouts/application (23.0ms)
+Completed 200 OK in 130ms (Views: 126.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-11-12 18:34:15 +0000
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.haml within layouts/application
+  [1m[36mMember Load (0.4ms)[0m  [1m[34mSELECT "members".* FROM "members"[0m
+  Rendered static_pages/home.html.haml within layouts/application (49.9ms)
+Completed 200 OK in 340ms (Views: 337.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-11-12 18:34:22 +0000
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.haml within layouts/application
+  [1m[36mMember Load (0.7ms)[0m  [1m[34mSELECT "members".* FROM "members"[0m
+  Rendered static_pages/home.html.haml within layouts/application (29.5ms)
+Completed 200 OK in 104ms (Views: 100.9ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-11-12 18:34:31 +0000
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.haml within layouts/application
+  [1m[36mMember Load (0.1ms)[0m  [1m[34mSELECT "members".* FROM "members"[0m
+  Rendered static_pages/home.html.haml within layouts/application (41.2ms)
+Completed 200 OK in 119ms (Views: 116.6ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-11-12 18:34:38 +0000
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.haml within layouts/application
+  [1m[36mMember Load (0.2ms)[0m  [1m[34mSELECT "members".* FROM "members"[0m
+  Rendered static_pages/home.html.haml within layouts/application (29.0ms)
+Completed 200 OK in 339ms (Views: 336.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-11-12 18:36:00 +0000
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.haml within layouts/application
+  [1m[36mMember Load (0.2ms)[0m  [1m[34mSELECT "members".* FROM "members"[0m
+  Rendered static_pages/home.html.haml within layouts/application (26.2ms)
+Completed 200 OK in 342ms (Views: 339.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-11-12 18:36:18 +0000
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.haml within layouts/application
+  [1m[36mMember Load (0.1ms)[0m  [1m[34mSELECT "members".* FROM "members"[0m
+  Rendered static_pages/home.html.haml within layouts/application (66.4ms)
+Completed 200 OK in 2861ms (Views: 2856.8ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-11-12 18:36:37 +0000
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.haml within layouts/application
+  [1m[36mMember Load (0.2ms)[0m  [1m[34mSELECT "members".* FROM "members"[0m
+  Rendered static_pages/home.html.haml within layouts/application (26.4ms)
+Completed 200 OK in 298ms (Views: 295.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-11-12 18:42:08 +0000
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.haml within layouts/application
+  [1m[36mMember Load (0.2ms)[0m  [1m[34mSELECT "members".* FROM "members"[0m
+  Rendered static_pages/home.html.haml within layouts/application (21.0ms)
+Completed 200 OK in 365ms (Views: 363.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-11-12 18:42:16 +0000
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.haml within layouts/application
+  [1m[36mMember Load (0.2ms)[0m  [1m[34mSELECT "members".* FROM "members"[0m
+  Rendered static_pages/home.html.haml within layouts/application (53.1ms)
+Completed 200 OK in 109ms (Views: 105.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-11-12 18:42:54 +0000
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.haml within layouts/application
+  [1m[36mMember Load (0.2ms)[0m  [1m[34mSELECT "members".* FROM "members"[0m
+  Rendered static_pages/home.html.haml within layouts/application (43.7ms)
+Completed 200 OK in 134ms (Views: 125.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-11-12 18:43:37 +0000
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.haml within layouts/application
+  [1m[36mMember Load (0.2ms)[0m  [1m[34mSELECT "members".* FROM "members"[0m
+  Rendered static_pages/home.html.haml within layouts/application (27.5ms)
+Completed 200 OK in 285ms (Views: 282.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-11-12 18:45:14 +0000
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.haml within layouts/application
+  [1m[36mMember Load (0.2ms)[0m  [1m[34mSELECT "members".* FROM "members"[0m
+  Rendered static_pages/home.html.haml within layouts/application (27.9ms)
+Completed 200 OK in 346ms (Views: 343.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-11-12 18:55:04 +0000
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.haml within layouts/application
+  [1m[36mMember Load (1.0ms)[0m  [1m[34mSELECT "members".* FROM "members"[0m
+  Rendered static_pages/home.html.haml within layouts/application (53.0ms)
+Completed 200 OK in 465ms (Views: 460.7ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/images/profile/viraj.jpg" for 127.0.0.1 at 2016-11-12 18:55:05 +0000
+  
+ActionController::RoutingError (No route matches [GET] "/images/profile/viraj.jpg"):
+  
+actionpack (5.0.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.3.1) lib/web_console/middleware.rb:131:in `call_app'
+web-console (3.3.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.3.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.3.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.0.1) lib/rails/rack/logger.rb:36:in `call_app'
+Started GET "/images/profile/leo.jpg" for 127.0.0.1 at 2016-11-12 18:55:05 +0000
+Started GET "/images/profile/alex.jpg" for 127.0.0.1 at 2016-11-12 18:55:05 +0000
+Started GET "/images/profile/rafa.jpg" for 127.0.0.1 at 2016-11-12 18:55:05 +0000
+railties (5.0.0.1) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:70:in `block in tagged'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:70:in `tagged'
+railties (5.0.0.1) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.0.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.0.1) lib/rails/engine.rb:522:in `call'
+puma (3.6.0) lib/puma/configuration.rb:225:in `call'
+puma (3.6.0) lib/puma/server.rb:578:in `handle_request'
+puma (3.6.0) lib/puma/server.rb:415:in `process_client'
+puma (3.6.0) lib/puma/server.rb:275:in `block in run'
+puma (3.6.0) lib/puma/thread_pool.rb:116:in `block in spawn_thread'
+  
+  
+  
+ActionController::RoutingError (No route matches [GET] "/images/profile/leo.jpg"):
+ActionController::RoutingError (No route matches [GET] "/images/profile/alex.jpg"):
+  
+ActionController::RoutingError (No route matches [GET] "/images/profile/rafa.jpg"):
+  
+actionpack (5.0.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.3.1) lib/web_console/middleware.rb:131:in `call_app'
+web-console (3.3.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.3.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.3.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.0.1) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.0.1) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:70:in `block in tagged'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:70:in `tagged'
+railties (5.0.0.1) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.0.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/static.rb:136:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+  
+web-console (3.3.1) lib/web_console/middleware.rb:131:in `call_app'
+web-console (3.3.1) lib/web_console/middleware.rb:28:in `block in call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+web-console (3.3.1) lib/web_console/middleware.rb:18:in `catch'
+railties (5.0.0.1) lib/rails/engine.rb:522:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.3.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.0.1) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.0.1) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:70:in `block in tagged'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:70:in `tagged'
+railties (5.0.0.1) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+puma (3.6.0) lib/puma/configuration.rb:225:in `call'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+web-console (3.3.1) lib/web_console/middleware.rb:131:in `call_app'
+puma (3.6.0) lib/puma/server.rb:578:in `handle_request'
+activesupport (5.0.0.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+web-console (3.3.1) lib/web_console/middleware.rb:28:in `block in call'
+puma (3.6.0) lib/puma/server.rb:415:in `process_client'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+web-console (3.3.1) lib/web_console/middleware.rb:18:in `catch'
+puma (3.6.0) lib/puma/server.rb:275:in `block in run'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/static.rb:136:in `call'
+web-console (3.3.1) lib/web_console/middleware.rb:18:in `call'
+puma (3.6.0) lib/puma/thread_pool.rb:116:in `block in spawn_thread'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.0.1) lib/rails/engine.rb:522:in `call'
+railties (5.0.0.1) lib/rails/rack/logger.rb:36:in `call_app'
+puma (3.6.0) lib/puma/configuration.rb:225:in `call'
+railties (5.0.0.1) lib/rails/rack/logger.rb:24:in `block in call'
+puma (3.6.0) lib/puma/server.rb:578:in `handle_request'
+puma (3.6.0) lib/puma/server.rb:415:in `process_client'
+puma (3.6.0) lib/puma/server.rb:275:in `block in run'
+puma (3.6.0) lib/puma/thread_pool.rb:116:in `block in spawn_thread'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:70:in `block in tagged'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:70:in `tagged'
+railties (5.0.0.1) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.0.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.0.1) lib/rails/engine.rb:522:in `call'
+puma (3.6.0) lib/puma/configuration.rb:225:in `call'
+puma (3.6.0) lib/puma/server.rb:578:in `handle_request'
+puma (3.6.0) lib/puma/server.rb:415:in `process_client'
+puma (3.6.0) lib/puma/server.rb:275:in `block in run'
+puma (3.6.0) lib/puma/thread_pool.rb:116:in `block in spawn_thread'
+  Rendering /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+Started GET "/images/profile/jon.jpg" for 127.0.0.1 at 2016-11-12 18:55:05 +0000
+  
+ActionController::RoutingError (No route matches [GET] "/images/profile/jon.jpg"):
+  Rendering /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendering /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendering /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  
+  Rendered /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.9ms)
+  Rendered /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.9ms)
+  Rendered /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+actionpack (5.0.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+  Rendered collection of /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb [1 times] (6.7ms)
+  Rendered collection of /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb [1 times] (1.3ms)
+web-console (3.3.1) lib/web_console/middleware.rb:131:in `call_app'
+  Rendered collection of /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb [1 times] (3.6ms)
+  Rendering /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+web-console (3.3.1) lib/web_console/middleware.rb:28:in `block in call'
+  Rendering /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+web-console (3.3.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.3.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.0.1) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.0.1) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:70:in `block in tagged'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:70:in `tagged'
+railties (5.0.0.1) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.0.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+  Rendered /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.8ms)
+  Rendered /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (72.0ms)
+  Rendered /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (52.2ms)
+  Rendered /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (29.8ms)
+actionpack (5.0.0.1) lib/action_dispatch/middleware/static.rb:136:in `call'
+  Rendered collection of /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb [1 times] (0.9ms)
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+  Rendering /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendering /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+railties (5.0.0.1) lib/rails/engine.rb:522:in `call'
+  Rendered /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.8ms)
+  Rendering /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+puma (3.6.0) lib/puma/configuration.rb:225:in `call'
+  Rendered /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (380.8ms)
+  Rendering /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (428.3ms)
+puma (3.6.0) lib/puma/server.rb:578:in `handle_request'
+  Rendered /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (400.9ms)
+  Rendered /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+puma (3.6.0) lib/puma/server.rb:415:in `process_client'
+  Rendered /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (176.8ms)
+puma (3.6.0) lib/puma/server.rb:275:in `block in run'
+puma (3.6.0) lib/puma/thread_pool.rb:116:in `block in spawn_thread'
+  Rendering /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (6.2ms)
+  Rendered collection of /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb [1 times] (3.4ms)
+  Rendered /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (3.5ms)
+  Rendering /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (473.7ms)
+Started GET "/images/background/boston_skyline1.jpg" for 127.0.0.1 at 2016-11-12 18:55:07 +0000
+  
+ActionController::RoutingError (No route matches [GET] "/images/background/boston_skyline1.jpg"):
+  
+actionpack (5.0.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.3.1) lib/web_console/middleware.rb:131:in `call_app'
+web-console (3.3.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.3.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.3.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.0.1) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.0.1) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:70:in `block in tagged'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:70:in `tagged'
+railties (5.0.0.1) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.0.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.0.1) lib/rails/engine.rb:522:in `call'
+puma (3.6.0) lib/puma/configuration.rb:225:in `call'
+puma (3.6.0) lib/puma/server.rb:578:in `handle_request'
+puma (3.6.0) lib/puma/server.rb:415:in `process_client'
+puma (3.6.0) lib/puma/server.rb:275:in `block in run'
+puma (3.6.0) lib/puma/thread_pool.rb:116:in `block in spawn_thread'
+  Rendering /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.1ms)
+  Rendered collection of /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb [1 times] (0.9ms)
+  Rendered /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (3.0ms)
+  Rendering /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (3.3ms)
+  Rendered /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (250.4ms)
+Started GET "/" for 127.0.0.1 at 2016-11-12 18:55:21 +0000
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.haml within layouts/application
+  [1m[36mMember Load (0.6ms)[0m  [1m[34mSELECT "members".* FROM "members"[0m
+  Rendered static_pages/home.html.haml within layouts/application (500.7ms)
+Completed 200 OK in 584ms (Views: 576.0ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/images/background/boston_skyline1.jpg" for 127.0.0.1 at 2016-11-12 18:55:22 +0000
+  
+ActionController::RoutingError (No route matches [GET] "/images/background/boston_skyline1.jpg"):
+  
+actionpack (5.0.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.3.1) lib/web_console/middleware.rb:131:in `call_app'
+web-console (3.3.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.3.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.3.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.0.1) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.0.1) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:70:in `block in tagged'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:70:in `tagged'
+railties (5.0.0.1) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.0.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.0.1) lib/rails/engine.rb:522:in `call'
+puma (3.6.0) lib/puma/configuration.rb:225:in `call'
+puma (3.6.0) lib/puma/server.rb:578:in `handle_request'
+puma (3.6.0) lib/puma/server.rb:415:in `process_client'
+puma (3.6.0) lib/puma/server.rb:275:in `block in run'
+puma (3.6.0) lib/puma/thread_pool.rb:116:in `block in spawn_thread'
+  Rendering /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.8ms)
+  Rendered collection of /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb [1 times] (1.4ms)
+  Rendered /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.2ms)
+  Rendering /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (96.8ms)
+Started GET "/images/background/boston_skyline2.jpg" for 127.0.0.1 at 2016-11-12 18:56:06 +0000
+  
+ActionController::RoutingError (No route matches [GET] "/images/background/boston_skyline2.jpg"):
+  
+actionpack (5.0.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.3.1) lib/web_console/middleware.rb:131:in `call_app'
+web-console (3.3.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.3.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.3.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.0.1) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.0.1) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:70:in `block in tagged'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:70:in `tagged'
+railties (5.0.0.1) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.0.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.0.1) lib/rails/engine.rb:522:in `call'
+puma (3.6.0) lib/puma/configuration.rb:225:in `call'
+puma (3.6.0) lib/puma/server.rb:578:in `handle_request'
+puma (3.6.0) lib/puma/server.rb:415:in `process_client'
+puma (3.6.0) lib/puma/server.rb:275:in `block in run'
+puma (3.6.0) lib/puma/thread_pool.rb:116:in `block in spawn_thread'
+  Rendering /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (7.1ms)
+  Rendered collection of /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb [1 times] (1.4ms)
+  Rendered /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (2.0ms)
+  Rendering /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (256.0ms)
+Started GET "/images/background/boston_skyline3.jpg" for 127.0.0.1 at 2016-11-12 18:56:17 +0000
+  
+ActionController::RoutingError (No route matches [GET] "/images/background/boston_skyline3.jpg"):
+  
+actionpack (5.0.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.3.1) lib/web_console/middleware.rb:131:in `call_app'
+web-console (3.3.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.3.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.3.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.0.1) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.0.1) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:70:in `block in tagged'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:70:in `tagged'
+railties (5.0.0.1) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.0.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.0.1) lib/rails/engine.rb:522:in `call'
+puma (3.6.0) lib/puma/configuration.rb:225:in `call'
+puma (3.6.0) lib/puma/server.rb:578:in `handle_request'
+puma (3.6.0) lib/puma/server.rb:415:in `process_client'
+puma (3.6.0) lib/puma/server.rb:275:in `block in run'
+puma (3.6.0) lib/puma/thread_pool.rb:116:in `block in spawn_thread'
+  Rendering /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.9ms)
+  Rendered collection of /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb [1 times] (8.9ms)
+  Rendered /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.5ms)
+  Rendering /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (12.4ms)
+  Rendered /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (176.6ms)
+Started GET "/" for 127.0.0.1 at 2016-11-12 18:57:20 +0000
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.haml within layouts/application
+  [1m[36mMember Load (0.2ms)[0m  [1m[34mSELECT "members".* FROM "members"[0m
+  Rendered static_pages/home.html.haml within layouts/application (64.5ms)
+Completed 200 OK in 310ms (Views: 305.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/images/background/boston_skyline3.jpg" for 127.0.0.1 at 2016-11-12 18:57:21 +0000
+  
+ActionController::RoutingError (No route matches [GET] "/images/background/boston_skyline3.jpg"):
+  
+actionpack (5.0.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.3.1) lib/web_console/middleware.rb:131:in `call_app'
+web-console (3.3.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.3.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.3.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.0.1) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.0.1) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:70:in `block in tagged'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:70:in `tagged'
+railties (5.0.0.1) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.0.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.0.1) lib/rails/engine.rb:522:in `call'
+puma (3.6.0) lib/puma/configuration.rb:225:in `call'
+puma (3.6.0) lib/puma/server.rb:578:in `handle_request'
+puma (3.6.0) lib/puma/server.rb:415:in `process_client'
+puma (3.6.0) lib/puma/server.rb:275:in `block in run'
+puma (3.6.0) lib/puma/thread_pool.rb:116:in `block in spawn_thread'
+  Rendering /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.5ms)
+  Rendered collection of /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb [1 times] (0.8ms)
+  Rendered /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.1ms)
+  Rendering /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (92.6ms)
+Started GET "/" for 127.0.0.1 at 2016-11-12 18:57:26 +0000
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.haml within layouts/application
+  [1m[36mMember Load (0.2ms)[0m  [1m[34mSELECT "members".* FROM "members"[0m
+  Rendered static_pages/home.html.haml within layouts/application (72.8ms)
+Completed 200 OK in 308ms (Views: 304.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/images/background/boston_skyline3.jpg" for 127.0.0.1 at 2016-11-12 18:57:27 +0000
+  
+ActionController::RoutingError (No route matches [GET] "/images/background/boston_skyline3.jpg"):
+  
+actionpack (5.0.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.3.1) lib/web_console/middleware.rb:131:in `call_app'
+web-console (3.3.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.3.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.3.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.0.1) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.0.1) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:70:in `block in tagged'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:70:in `tagged'
+railties (5.0.0.1) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.0.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.0.1) lib/rails/engine.rb:522:in `call'
+puma (3.6.0) lib/puma/configuration.rb:225:in `call'
+puma (3.6.0) lib/puma/server.rb:578:in `handle_request'
+puma (3.6.0) lib/puma/server.rb:415:in `process_client'
+puma (3.6.0) lib/puma/server.rb:275:in `block in run'
+puma (3.6.0) lib/puma/thread_pool.rb:116:in `block in spawn_thread'
+  Rendering /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.4ms)
+  Rendered collection of /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb [1 times] (1.4ms)
+  Rendered /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.8ms)
+  Rendering /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (105.0ms)
+Started GET "/images/background/boston_skyline2.jpg" for 127.0.0.1 at 2016-11-12 18:57:46 +0000
+  
+ActionController::RoutingError (No route matches [GET] "/images/background/boston_skyline2.jpg"):
+  
+actionpack (5.0.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.3.1) lib/web_console/middleware.rb:131:in `call_app'
+web-console (3.3.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.3.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.3.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.0.1) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.0.1) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:70:in `block in tagged'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:70:in `tagged'
+railties (5.0.0.1) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.0.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.0.1) lib/rails/engine.rb:522:in `call'
+puma (3.6.0) lib/puma/configuration.rb:225:in `call'
+puma (3.6.0) lib/puma/server.rb:578:in `handle_request'
+puma (3.6.0) lib/puma/server.rb:415:in `process_client'
+puma (3.6.0) lib/puma/server.rb:275:in `block in run'
+puma (3.6.0) lib/puma/thread_pool.rb:116:in `block in spawn_thread'
+  Rendering /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendered collection of /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb [1 times] (7.1ms)
+  Rendered /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (2.8ms)
+  Rendering /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.8ms)
+  Rendered /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (174.9ms)
+Started GET "/images/background/boston_skyline1.jpg" for 127.0.0.1 at 2016-11-12 18:57:50 +0000
+  
+ActionController::RoutingError (No route matches [GET] "/images/background/boston_skyline1.jpg"):
+  
+actionpack (5.0.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.3.1) lib/web_console/middleware.rb:131:in `call_app'
+web-console (3.3.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.3.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.3.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.0.1) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.0.1) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:70:in `block in tagged'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:70:in `tagged'
+railties (5.0.0.1) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.0.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.0.1) lib/rails/engine.rb:522:in `call'
+puma (3.6.0) lib/puma/configuration.rb:225:in `call'
+puma (3.6.0) lib/puma/server.rb:578:in `handle_request'
+puma (3.6.0) lib/puma/server.rb:415:in `process_client'
+puma (3.6.0) lib/puma/server.rb:275:in `block in run'
+puma (3.6.0) lib/puma/thread_pool.rb:116:in `block in spawn_thread'
+  Rendering /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.6ms)
+  Rendered collection of /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb [1 times] (10.3ms)
+  Rendered /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.3ms)
+  Rendering /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (190.2ms)
+Started GET "/" for 127.0.0.1 at 2016-11-12 18:58:02 +0000
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.haml within layouts/application
+  [1m[36mMember Load (0.3ms)[0m  [1m[34mSELECT "members".* FROM "members"[0m
+  Rendered static_pages/home.html.haml within layouts/application (21.2ms)
+Completed 200 OK in 247ms (Views: 243.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/images/background/boston_skyline2.jpg" for 127.0.0.1 at 2016-11-12 18:58:02 +0000
+  
+ActionController::RoutingError (No route matches [GET] "/images/background/boston_skyline2.jpg"):
+  
+actionpack (5.0.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.3.1) lib/web_console/middleware.rb:131:in `call_app'
+web-console (3.3.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.3.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.3.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.0.1) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.0.1) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:70:in `block in tagged'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:70:in `tagged'
+railties (5.0.0.1) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.0.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.0.1) lib/rails/engine.rb:522:in `call'
+puma (3.6.0) lib/puma/configuration.rb:225:in `call'
+puma (3.6.0) lib/puma/server.rb:578:in `handle_request'
+puma (3.6.0) lib/puma/server.rb:415:in `process_client'
+puma (3.6.0) lib/puma/server.rb:275:in `block in run'
+puma (3.6.0) lib/puma/thread_pool.rb:116:in `block in spawn_thread'
+  Rendering /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.4ms)
+  Rendered collection of /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb [1 times] (0.9ms)
+  Rendered /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.8ms)
+  Rendering /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.9ms)
+  Rendered /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (98.5ms)
+Started GET "/" for 127.0.0.1 at 2016-11-12 18:58:32 +0000
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.haml within layouts/application
+  [1m[36mMember Load (0.6ms)[0m  [1m[34mSELECT "members".* FROM "members"[0m
+  Rendered static_pages/home.html.haml within layouts/application (40.4ms)
+Completed 200 OK in 242ms (Views: 238.3ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/images/background/boston_skyline2.jpg" for 127.0.0.1 at 2016-11-12 18:58:33 +0000
+  
+ActionController::RoutingError (No route matches [GET] "/images/background/boston_skyline2.jpg"):
+  
+actionpack (5.0.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.3.1) lib/web_console/middleware.rb:131:in `call_app'
+web-console (3.3.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.3.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.3.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.0.1) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.0.1) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:70:in `block in tagged'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:70:in `tagged'
+railties (5.0.0.1) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.0.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.0.1) lib/rails/engine.rb:522:in `call'
+puma (3.6.0) lib/puma/configuration.rb:225:in `call'
+puma (3.6.0) lib/puma/server.rb:578:in `handle_request'
+puma (3.6.0) lib/puma/server.rb:415:in `process_client'
+puma (3.6.0) lib/puma/server.rb:275:in `block in run'
+puma (3.6.0) lib/puma/thread_pool.rb:116:in `block in spawn_thread'
+  Rendering /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.5ms)
+  Rendered collection of /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb [1 times] (0.8ms)
+  Rendered /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.1ms)
+  Rendering /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (79.6ms)
+Started GET "/" for 127.0.0.1 at 2016-11-12 18:58:53 +0000
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.haml within layouts/application
+  [1m[36mMember Load (0.8ms)[0m  [1m[34mSELECT "members".* FROM "members"[0m
+  Rendered static_pages/home.html.haml within layouts/application (94.0ms)
+Completed 200 OK in 383ms (Views: 377.8ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/images/background/boston_skyline2.jpg" for 127.0.0.1 at 2016-11-12 18:58:54 +0000
+  
+ActionController::RoutingError (No route matches [GET] "/images/background/boston_skyline2.jpg"):
+  
+actionpack (5.0.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.3.1) lib/web_console/middleware.rb:131:in `call_app'
+web-console (3.3.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.3.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.3.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.0.1) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.0.1) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:70:in `block in tagged'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:70:in `tagged'
+railties (5.0.0.1) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.0.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.0.1) lib/rails/engine.rb:522:in `call'
+puma (3.6.0) lib/puma/configuration.rb:225:in `call'
+puma (3.6.0) lib/puma/server.rb:578:in `handle_request'
+puma (3.6.0) lib/puma/server.rb:415:in `process_client'
+puma (3.6.0) lib/puma/server.rb:275:in `block in run'
+puma (3.6.0) lib/puma/thread_pool.rb:116:in `block in spawn_thread'
+  Rendering /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.4ms)
+  Rendered collection of /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb [1 times] (1.0ms)
+  Rendered /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.3ms)
+  Rendering /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (77.9ms)
+  [1m[36mActiveRecord::SchemaMigration Load (0.9ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mMember Exists (0.3ms)[0m  [1m[34mSELECT  1 AS one FROM "members" WHERE "members"."name" = ? AND "members"."position" = ? LIMIT ?[0m  [["name", "Viraj Ayar"], ["position", "Co-Founder and President"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mMember Exists (0.2ms)[0m  [1m[34mSELECT  1 AS one FROM "members" WHERE "members"."name" = ? AND "members"."position" = ? LIMIT ?[0m  [["name", "Alex Nehrbass"], ["position", "Co-Founder and President"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mMember Exists (0.3ms)[0m  [1m[34mSELECT  1 AS one FROM "members" WHERE "members"."name" = ? AND "members"."position" = ? LIMIT ?[0m  [["name", "Leo Yu"], ["position", "Vice President"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mMember Exists (0.3ms)[0m  [1m[34mSELECT  1 AS one FROM "members" WHERE "members"."name" = ? AND "members"."position" = ? LIMIT ?[0m  [["name", "Rafael Toletti Ballestiero"], ["position", "Chief Technology Officer"], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[31mrollback transaction[0m
+Started GET "/" for 127.0.0.1 at 2016-11-12 19:00:00 +0000
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.haml within layouts/application
+  [1m[36mMember Load (0.2ms)[0m  [1m[34mSELECT "members".* FROM "members"[0m
+  Rendered static_pages/home.html.haml within layouts/application (26.0ms)
+Completed 200 OK in 254ms (Views: 251.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/images/background/boston_skyline2.jpg" for 127.0.0.1 at 2016-11-12 19:00:01 +0000
+  
+ActionController::RoutingError (No route matches [GET] "/images/background/boston_skyline2.jpg"):
+  
+actionpack (5.0.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.3.1) lib/web_console/middleware.rb:131:in `call_app'
+web-console (3.3.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.3.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.3.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.0.1) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.0.1) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:70:in `block in tagged'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:70:in `tagged'
+railties (5.0.0.1) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.0.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.0.1) lib/rails/engine.rb:522:in `call'
+puma (3.6.0) lib/puma/configuration.rb:225:in `call'
+puma (3.6.0) lib/puma/server.rb:578:in `handle_request'
+puma (3.6.0) lib/puma/server.rb:415:in `process_client'
+puma (3.6.0) lib/puma/server.rb:275:in `block in run'
+puma (3.6.0) lib/puma/thread_pool.rb:116:in `block in spawn_thread'
+  Rendering /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered collection of /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb [1 times] (1.0ms)
+  Rendered /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.2ms)
+  Rendering /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (5.1ms)
+  Rendered /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (93.7ms)
+Started GET "/" for ::1 at 2016-11-12 19:00:24 +0000
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.haml within layouts/application
+  [1m[36mMember Load (0.2ms)[0m  [1m[34mSELECT "members".* FROM "members"[0m
+  Rendered static_pages/home.html.haml within layouts/application (28.4ms)
+Completed 200 OK in 81ms (Views: 77.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/images/background/boston_skyline2.jpg" for ::1 at 2016-11-12 19:00:26 +0000
+  
+ActionController::RoutingError (No route matches [GET] "/images/background/boston_skyline2.jpg"):
+  
+actionpack (5.0.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.3.1) lib/web_console/middleware.rb:131:in `call_app'
+web-console (3.3.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.3.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.3.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.0.1) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.0.1) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:70:in `block in tagged'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:70:in `tagged'
+railties (5.0.0.1) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.0.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.0.1) lib/rails/engine.rb:522:in `call'
+puma (3.6.0) lib/puma/configuration.rb:225:in `call'
+puma (3.6.0) lib/puma/server.rb:578:in `handle_request'
+puma (3.6.0) lib/puma/server.rb:415:in `process_client'
+puma (3.6.0) lib/puma/server.rb:275:in `block in run'
+puma (3.6.0) lib/puma/thread_pool.rb:116:in `block in spawn_thread'
+  Rendering /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered collection of /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb [1 times] (1.0ms)
+  Rendered /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.2ms)
+  Rendering /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.6ms)
+  Rendered /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (97.8ms)
+Started GET "/images/background/boston_skyline3.jpg" for ::1 at 2016-11-12 19:00:26 +0000
+  
+ActionController::RoutingError (No route matches [GET] "/images/background/boston_skyline3.jpg"):
+  
+actionpack (5.0.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.3.1) lib/web_console/middleware.rb:131:in `call_app'
+web-console (3.3.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.3.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.3.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.0.1) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.0.1) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:70:in `block in tagged'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:70:in `tagged'
+railties (5.0.0.1) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.0.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.0.1) lib/rails/engine.rb:522:in `call'
+puma (3.6.0) lib/puma/configuration.rb:225:in `call'
+puma (3.6.0) lib/puma/server.rb:578:in `handle_request'
+puma (3.6.0) lib/puma/server.rb:415:in `process_client'
+puma (3.6.0) lib/puma/server.rb:275:in `block in run'
+puma (3.6.0) lib/puma/thread_pool.rb:116:in `block in spawn_thread'
+  Rendering /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendered collection of /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb [1 times] (0.9ms)
+  Rendered /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.0ms)
+  Rendering /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (84.3ms)
+Started GET "/" for ::1 at 2016-11-12 19:00:55 +0000
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.haml within layouts/application
+  [1m[36mMember Load (0.1ms)[0m  [1m[34mSELECT "members".* FROM "members"[0m
+  Rendered static_pages/home.html.haml within layouts/application (15.0ms)
+Completed 200 OK in 194ms (Views: 192.1ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/images/background/boston_skyline3.jpg" for ::1 at 2016-11-12 19:00:57 +0000
+  
+ActionController::RoutingError (No route matches [GET] "/images/background/boston_skyline3.jpg"):
+  
+actionpack (5.0.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.3.1) lib/web_console/middleware.rb:131:in `call_app'
+web-console (3.3.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.3.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.3.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.0.1) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.0.1) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:70:in `block in tagged'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:70:in `tagged'
+railties (5.0.0.1) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.0.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.0.1) lib/rails/engine.rb:522:in `call'
+puma (3.6.0) lib/puma/configuration.rb:225:in `call'
+puma (3.6.0) lib/puma/server.rb:578:in `handle_request'
+puma (3.6.0) lib/puma/server.rb:415:in `process_client'
+puma (3.6.0) lib/puma/server.rb:275:in `block in run'
+puma (3.6.0) lib/puma/thread_pool.rb:116:in `block in spawn_thread'
+  Rendering /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.7ms)
+  Rendered collection of /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb [1 times] (1.7ms)
+  Rendered /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.0ms)
+  Rendering /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.1ms)
+  Rendered /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (205.9ms)
+Started GET "/" for ::1 at 2016-11-12 19:01:15 +0000
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.haml within layouts/application
+  [1m[36mMember Load (0.1ms)[0m  [1m[34mSELECT "members".* FROM "members"[0m
+  Rendered static_pages/home.html.haml within layouts/application (15.0ms)
+Completed 200 OK in 183ms (Views: 181.3ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/images/background/boston_skyline3.jpg" for ::1 at 2016-11-12 19:01:16 +0000
+  
+ActionController::RoutingError (No route matches [GET] "/images/background/boston_skyline3.jpg"):
+  
+actionpack (5.0.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.3.1) lib/web_console/middleware.rb:131:in `call_app'
+web-console (3.3.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.3.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.3.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.0.1) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.0.1) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:70:in `block in tagged'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:70:in `tagged'
+railties (5.0.0.1) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.0.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.0.1) lib/rails/engine.rb:522:in `call'
+puma (3.6.0) lib/puma/configuration.rb:225:in `call'
+puma (3.6.0) lib/puma/server.rb:578:in `handle_request'
+puma (3.6.0) lib/puma/server.rb:415:in `process_client'
+puma (3.6.0) lib/puma/server.rb:275:in `block in run'
+puma (3.6.0) lib/puma/thread_pool.rb:116:in `block in spawn_thread'
+  Rendering /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendered collection of /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb [1 times] (1.6ms)
+  Rendered /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (3.2ms)
+  Rendering /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (175.7ms)
+Started GET "/" for ::1 at 2016-11-12 19:01:17 +0000
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.haml within layouts/application
+  [1m[36mMember Load (0.2ms)[0m  [1m[34mSELECT "members".* FROM "members"[0m
+  Rendered static_pages/home.html.haml within layouts/application (20.9ms)
+Completed 200 OK in 50ms (Views: 46.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/images/background/boston_skyline3.jpg" for ::1 at 2016-11-12 19:01:18 +0000
+  
+ActionController::RoutingError (No route matches [GET] "/images/background/boston_skyline3.jpg"):
+  
+actionpack (5.0.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.3.1) lib/web_console/middleware.rb:131:in `call_app'
+web-console (3.3.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.3.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.3.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.0.1) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.0.1) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:70:in `block in tagged'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:70:in `tagged'
+railties (5.0.0.1) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.0.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.0.1) lib/rails/engine.rb:522:in `call'
+puma (3.6.0) lib/puma/configuration.rb:225:in `call'
+puma (3.6.0) lib/puma/server.rb:578:in `handle_request'
+puma (3.6.0) lib/puma/server.rb:415:in `process_client'
+puma (3.6.0) lib/puma/server.rb:275:in `block in run'
+puma (3.6.0) lib/puma/thread_pool.rb:116:in `block in spawn_thread'
+  Rendering /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.6ms)
+  Rendered collection of /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb [1 times] (2.4ms)
+  Rendered /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (2.6ms)
+  Rendering /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (150.9ms)
+Started GET "/" for ::1 at 2016-11-12 19:02:47 +0000
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.haml within layouts/application
+  [1m[36mMember Load (0.1ms)[0m  [1m[34mSELECT "members".* FROM "members"[0m
+  Rendered static_pages/home.html.haml within layouts/application (20.1ms)
+Completed 200 OK in 198ms (Views: 196.5ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/images/background/boston_skyline3.jpg" for ::1 at 2016-11-12 19:02:48 +0000
+  
+ActionController::RoutingError (No route matches [GET] "/images/background/boston_skyline3.jpg"):
+  
+actionpack (5.0.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.3.1) lib/web_console/middleware.rb:131:in `call_app'
+web-console (3.3.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.3.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.3.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.0.1) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.0.1) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:70:in `block in tagged'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:70:in `tagged'
+railties (5.0.0.1) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.0.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.0.1) lib/rails/engine.rb:522:in `call'
+puma (3.6.0) lib/puma/configuration.rb:225:in `call'
+puma (3.6.0) lib/puma/server.rb:578:in `handle_request'
+puma (3.6.0) lib/puma/server.rb:415:in `process_client'
+puma (3.6.0) lib/puma/server.rb:275:in `block in run'
+puma (3.6.0) lib/puma/thread_pool.rb:116:in `block in spawn_thread'
+  Rendering /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.0ms)
+  Rendered collection of /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb [1 times] (4.1ms)
+  Rendered /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.8ms)
+  Rendering /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.9ms)
+  Rendered /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (144.7ms)
+Started GET "/" for ::1 at 2016-11-12 19:04:47 +0000
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.haml within layouts/application
+  [1m[36mMember Load (0.1ms)[0m  [1m[34mSELECT "members".* FROM "members"[0m
+  Rendered static_pages/home.html.haml within layouts/application (21.4ms)
+Completed 200 OK in 221ms (Views: 218.6ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/images/background/boston_skyline3.jpg" for ::1 at 2016-11-12 19:04:48 +0000
+  
+ActionController::RoutingError (No route matches [GET] "/images/background/boston_skyline3.jpg"):
+  
+actionpack (5.0.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.3.1) lib/web_console/middleware.rb:131:in `call_app'
+web-console (3.3.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.3.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.3.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.0.1) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.0.1) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:70:in `block in tagged'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:70:in `tagged'
+railties (5.0.0.1) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.0.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.0.1) lib/rails/engine.rb:522:in `call'
+puma (3.6.0) lib/puma/configuration.rb:225:in `call'
+puma (3.6.0) lib/puma/server.rb:578:in `handle_request'
+puma (3.6.0) lib/puma/server.rb:415:in `process_client'
+puma (3.6.0) lib/puma/server.rb:275:in `block in run'
+puma (3.6.0) lib/puma/thread_pool.rb:116:in `block in spawn_thread'
+  Rendering /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendered collection of /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb [1 times] (2.2ms)
+  Rendered /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.6ms)
+  Rendering /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.6ms)
+  Rendered /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (127.5ms)
+Started GET "/" for ::1 at 2016-11-12 19:05:34 +0000
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.haml within layouts/application
+  [1m[36mMember Load (0.1ms)[0m  [1m[34mSELECT "members".* FROM "members"[0m
+  Rendered static_pages/home.html.haml within layouts/application (17.1ms)
+Completed 200 OK in 198ms (Views: 196.3ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/images/background/boston_skyline3.jpg" for ::1 at 2016-11-12 19:05:35 +0000
+  
+ActionController::RoutingError (No route matches [GET] "/images/background/boston_skyline3.jpg"):
+  
+actionpack (5.0.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.3.1) lib/web_console/middleware.rb:131:in `call_app'
+web-console (3.3.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.3.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.3.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.0.1) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.0.1) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:70:in `block in tagged'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:70:in `tagged'
+railties (5.0.0.1) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.0.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.0.1) lib/rails/engine.rb:522:in `call'
+puma (3.6.0) lib/puma/configuration.rb:225:in `call'
+puma (3.6.0) lib/puma/server.rb:578:in `handle_request'
+puma (3.6.0) lib/puma/server.rb:415:in `process_client'
+puma (3.6.0) lib/puma/server.rb:275:in `block in run'
+puma (3.6.0) lib/puma/thread_pool.rb:116:in `block in spawn_thread'
+  Rendering /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.4ms)
+  Rendered collection of /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb [1 times] (0.8ms)
+  Rendered /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (3.8ms)
+  Rendering /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (149.1ms)
+Started GET "/" for ::1 at 2016-11-12 19:06:08 +0000
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.haml within layouts/application
+  [1m[36mMember Load (0.1ms)[0m  [1m[34mSELECT "members".* FROM "members"[0m
+  Rendered static_pages/home.html.haml within layouts/application (16.0ms)
+Completed 200 OK in 215ms (Views: 212.8ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/images/background/boston_skyline3.jpg" for ::1 at 2016-11-12 19:06:09 +0000
+  
+ActionController::RoutingError (No route matches [GET] "/images/background/boston_skyline3.jpg"):
+  
+actionpack (5.0.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.3.1) lib/web_console/middleware.rb:131:in `call_app'
+web-console (3.3.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.3.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.3.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.0.1) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.0.1) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:70:in `block in tagged'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:70:in `tagged'
+railties (5.0.0.1) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.0.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.0.1) lib/rails/engine.rb:522:in `call'
+puma (3.6.0) lib/puma/configuration.rb:225:in `call'
+puma (3.6.0) lib/puma/server.rb:578:in `handle_request'
+puma (3.6.0) lib/puma/server.rb:415:in `process_client'
+puma (3.6.0) lib/puma/server.rb:275:in `block in run'
+puma (3.6.0) lib/puma/thread_pool.rb:116:in `block in spawn_thread'
+  Rendering /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.3ms)
+  Rendered collection of /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb [1 times] (1.5ms)
+  Rendered /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (2.5ms)
+  Rendering /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (3.6ms)
+  Rendered /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (161.9ms)
+Started GET "/images/background/boston_skyline1.jpg" for ::1 at 2016-11-12 19:06:45 +0000
+  
+ActionController::RoutingError (No route matches [GET] "/images/background/boston_skyline1.jpg"):
+  
+actionpack (5.0.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.3.1) lib/web_console/middleware.rb:131:in `call_app'
+web-console (3.3.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.3.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.3.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.0.1) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.0.1) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:70:in `block in tagged'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:70:in `tagged'
+railties (5.0.0.1) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.0.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.0.1) lib/rails/engine.rb:522:in `call'
+puma (3.6.0) lib/puma/configuration.rb:225:in `call'
+puma (3.6.0) lib/puma/server.rb:578:in `handle_request'
+puma (3.6.0) lib/puma/server.rb:415:in `process_client'
+puma (3.6.0) lib/puma/server.rb:275:in `block in run'
+puma (3.6.0) lib/puma/thread_pool.rb:116:in `block in spawn_thread'
+Started GET "/images/background/boston_skyline2.jpg" for ::1 at 2016-11-12 19:06:45 +0000
+  
+  Rendering /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+ActionController::RoutingError (No route matches [GET] "/images/background/boston_skyline2.jpg"):
+  
+actionpack (5.0.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.3.1) lib/web_console/middleware.rb:131:in `call_app'
+web-console (3.3.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.3.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.3.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.0.1) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.0.1) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:70:in `block in tagged'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:70:in `tagged'
+railties (5.0.0.1) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.0.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.0.1) lib/rails/engine.rb:522:in `call'
+puma (3.6.0) lib/puma/configuration.rb:225:in `call'
+puma (3.6.0) lib/puma/server.rb:578:in `handle_request'
+puma (3.6.0) lib/puma/server.rb:415:in `process_client'
+puma (3.6.0) lib/puma/server.rb:275:in `block in run'
+puma (3.6.0) lib/puma/thread_pool.rb:116:in `block in spawn_thread'
+  Rendering /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.3ms)
+  Rendered collection of /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb [1 times] (1.0ms)
+  Rendered /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.5ms)
+  Rendering /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (214.4ms)
+  Rendering /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.4ms)
+  Rendered collection of /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb [1 times] (1.5ms)
+  Rendered /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (2.2ms)
+  Rendering /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (218.4ms)
+Started GET "/" for ::1 at 2016-11-12 19:07:31 +0000
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.haml within layouts/application
+  [1m[36mMember Load (0.2ms)[0m  [1m[34mSELECT "members".* FROM "members"[0m
+  Rendered static_pages/home.html.haml within layouts/application (17.4ms)
+Completed 200 OK in 202ms (Views: 200.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/images/background/boston_skyline3.jpg" for ::1 at 2016-11-12 19:07:32 +0000
+  
+ActionController::RoutingError (No route matches [GET] "/images/background/boston_skyline3.jpg"):
+  
+actionpack (5.0.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.3.1) lib/web_console/middleware.rb:131:in `call_app'
+web-console (3.3.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.3.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.3.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.0.1) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.0.1) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:70:in `block in tagged'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:70:in `tagged'
+railties (5.0.0.1) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.0.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.0.1) lib/rails/engine.rb:522:in `call'
+puma (3.6.0) lib/puma/configuration.rb:225:in `call'
+puma (3.6.0) lib/puma/server.rb:578:in `handle_request'
+puma (3.6.0) lib/puma/server.rb:415:in `process_client'
+puma (3.6.0) lib/puma/server.rb:275:in `block in run'
+puma (3.6.0) lib/puma/thread_pool.rb:116:in `block in spawn_thread'
+  Rendering /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.2ms)
+  Rendered collection of /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb [1 times] (8.2ms)
+  Rendered /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.8ms)
+  Rendering /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.5ms)
+  Rendered /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (141.0ms)
+Started GET "/" for ::1 at 2016-11-12 19:08:31 +0000
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.haml within layouts/application
+  [1m[36mMember Load (0.1ms)[0m  [1m[34mSELECT "members".* FROM "members"[0m
+  Rendered static_pages/home.html.haml within layouts/application (17.1ms)
+Completed 200 OK in 468ms (Views: 465.8ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/images/background/boston_skyline3.jpg" for ::1 at 2016-11-12 19:08:33 +0000
+  
+ActionController::RoutingError (No route matches [GET] "/images/background/boston_skyline3.jpg"):
+  
+actionpack (5.0.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.3.1) lib/web_console/middleware.rb:131:in `call_app'
+web-console (3.3.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.3.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.3.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.0.1) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.0.1) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:70:in `block in tagged'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:70:in `tagged'
+railties (5.0.0.1) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.0.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.0.1) lib/rails/engine.rb:522:in `call'
+puma (3.6.0) lib/puma/configuration.rb:225:in `call'
+puma (3.6.0) lib/puma/server.rb:578:in `handle_request'
+puma (3.6.0) lib/puma/server.rb:415:in `process_client'
+puma (3.6.0) lib/puma/server.rb:275:in `block in run'
+puma (3.6.0) lib/puma/thread_pool.rb:116:in `block in spawn_thread'
+  Rendering /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (5.1ms)
+  Rendered collection of /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb [1 times] (20.9ms)
+  Rendered /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.9ms)
+  Rendering /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (6.0ms)
+  Rendered /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (216.2ms)
+Started GET "/images/background/boston_skyline2.jpg" for ::1 at 2016-11-12 19:08:39 +0000
+  
+ActionController::RoutingError (No route matches [GET] "/images/background/boston_skyline2.jpg"):
+  
+actionpack (5.0.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.3.1) lib/web_console/middleware.rb:131:in `call_app'
+web-console (3.3.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.3.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.3.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.0.1) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.0.1) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:70:in `block in tagged'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:70:in `tagged'
+railties (5.0.0.1) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.0.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.0.1) lib/rails/engine.rb:522:in `call'
+puma (3.6.0) lib/puma/configuration.rb:225:in `call'
+puma (3.6.0) lib/puma/server.rb:578:in `handle_request'
+puma (3.6.0) lib/puma/server.rb:415:in `process_client'
+puma (3.6.0) lib/puma/server.rb:275:in `block in run'
+puma (3.6.0) lib/puma/thread_pool.rb:116:in `block in spawn_thread'
+  Rendering /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.2ms)
+  Rendered collection of /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb [1 times] (1.5ms)
+  Rendered /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (4.9ms)
+  Rendering /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.5ms)
+  Rendered /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (172.3ms)
+Started GET "/" for ::1 at 2016-11-12 19:09:17 +0000
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.haml within layouts/application
+  [1m[36mMember Load (0.2ms)[0m  [1m[34mSELECT "members".* FROM "members"[0m
+  Rendered static_pages/home.html.haml within layouts/application (58.1ms)
+Completed 200 OK in 288ms (Views: 284.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/images/background/boston_skyline3.jpg" for ::1 at 2016-11-12 19:09:19 +0000
+  
+ActionController::RoutingError (No route matches [GET] "/images/background/boston_skyline3.jpg"):
+  
+actionpack (5.0.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.3.1) lib/web_console/middleware.rb:131:in `call_app'
+web-console (3.3.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.3.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.3.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.0.1) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.0.1) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:70:in `block in tagged'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:70:in `tagged'
+railties (5.0.0.1) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.0.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.0.1) lib/rails/engine.rb:522:in `call'
+puma (3.6.0) lib/puma/configuration.rb:225:in `call'
+puma (3.6.0) lib/puma/server.rb:578:in `handle_request'
+puma (3.6.0) lib/puma/server.rb:415:in `process_client'
+puma (3.6.0) lib/puma/server.rb:275:in `block in run'
+puma (3.6.0) lib/puma/thread_pool.rb:116:in `block in spawn_thread'
+  Rendering /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.8ms)
+  Rendered collection of /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb [1 times] (2.0ms)
+  Rendered /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (2.3ms)
+  Rendering /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.9ms)
+  Rendered /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (139.9ms)
+Started GET "/" for ::1 at 2016-11-12 19:10:11 +0000
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.haml within layouts/application
+  [1m[36mMember Load (0.1ms)[0m  [1m[34mSELECT "members".* FROM "members"[0m
+  Rendered static_pages/home.html.haml within layouts/application (15.9ms)
+Completed 200 OK in 192ms (Views: 189.7ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/images/background/boston_skyline3.jpg" for ::1 at 2016-11-12 19:10:12 +0000
+  
+ActionController::RoutingError (No route matches [GET] "/images/background/boston_skyline3.jpg"):
+  
+actionpack (5.0.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.3.1) lib/web_console/middleware.rb:131:in `call_app'
+web-console (3.3.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.3.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.3.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.0.1) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.0.1) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:70:in `block in tagged'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:70:in `tagged'
+railties (5.0.0.1) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.0.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.0.1) lib/rails/engine.rb:522:in `call'
+puma (3.6.0) lib/puma/configuration.rb:225:in `call'
+puma (3.6.0) lib/puma/server.rb:578:in `handle_request'
+puma (3.6.0) lib/puma/server.rb:415:in `process_client'
+puma (3.6.0) lib/puma/server.rb:275:in `block in run'
+puma (3.6.0) lib/puma/thread_pool.rb:116:in `block in spawn_thread'
+  Rendering /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.8ms)
+  Rendered collection of /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb [1 times] (1.4ms)
+  Rendered /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (2.5ms)
+  Rendering /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.5ms)
+  Rendered /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (113.4ms)
+Started GET "/" for ::1 at 2016-11-12 19:10:25 +0000
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.haml within layouts/application
+  [1m[36mMember Load (0.1ms)[0m  [1m[34mSELECT "members".* FROM "members"[0m
+  Rendered static_pages/home.html.haml within layouts/application (15.8ms)
+Completed 200 OK in 194ms (Views: 192.1ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/images/background/boston_skyline3.jpg" for ::1 at 2016-11-12 19:10:26 +0000
+  
+ActionController::RoutingError (No route matches [GET] "/images/background/boston_skyline3.jpg"):
+  
+actionpack (5.0.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.3.1) lib/web_console/middleware.rb:131:in `call_app'
+web-console (3.3.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.3.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.3.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.0.1) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.0.1) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:70:in `block in tagged'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:70:in `tagged'
+railties (5.0.0.1) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.0.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.0.1) lib/rails/engine.rb:522:in `call'
+puma (3.6.0) lib/puma/configuration.rb:225:in `call'
+puma (3.6.0) lib/puma/server.rb:578:in `handle_request'
+puma (3.6.0) lib/puma/server.rb:415:in `process_client'
+puma (3.6.0) lib/puma/server.rb:275:in `block in run'
+puma (3.6.0) lib/puma/thread_pool.rb:116:in `block in spawn_thread'
+  Rendering /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendered collection of /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb [1 times] (4.1ms)
+  Rendered /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.9ms)
+  Rendering /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (147.9ms)
+Started GET "/" for ::1 at 2016-11-12 19:10:48 +0000
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.haml within layouts/application
+  [1m[36mMember Load (0.2ms)[0m  [1m[34mSELECT "members".* FROM "members"[0m
+  Rendered static_pages/home.html.haml within layouts/application (17.0ms)
+Completed 200 OK in 200ms (Views: 198.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/images/background/boston_skyline3.jpg" for ::1 at 2016-11-12 19:10:49 +0000
+  
+ActionController::RoutingError (No route matches [GET] "/images/background/boston_skyline3.jpg"):
+  
+actionpack (5.0.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.3.1) lib/web_console/middleware.rb:131:in `call_app'
+web-console (3.3.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.3.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.3.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.0.1) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.0.1) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:70:in `block in tagged'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:70:in `tagged'
+railties (5.0.0.1) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.0.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.0.1) lib/rails/engine.rb:522:in `call'
+puma (3.6.0) lib/puma/configuration.rb:225:in `call'
+puma (3.6.0) lib/puma/server.rb:578:in `handle_request'
+puma (3.6.0) lib/puma/server.rb:415:in `process_client'
+puma (3.6.0) lib/puma/server.rb:275:in `block in run'
+puma (3.6.0) lib/puma/thread_pool.rb:116:in `block in spawn_thread'
+  Rendering /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered collection of /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb [1 times] (2.5ms)
+  Rendered /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (2.0ms)
+  Rendering /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (115.9ms)
+Started GET "/" for ::1 at 2016-11-12 19:11:41 +0000
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.haml within layouts/application
+  [1m[36mMember Load (0.1ms)[0m  [1m[34mSELECT "members".* FROM "members"[0m
+  Rendered static_pages/home.html.haml within layouts/application (15.5ms)
+Completed 200 OK in 190ms (Views: 188.5ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/images/background/boston_skyline3.jpg" for ::1 at 2016-11-12 19:11:42 +0000
+  
+ActionController::RoutingError (No route matches [GET] "/images/background/boston_skyline3.jpg"):
+  
+actionpack (5.0.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.3.1) lib/web_console/middleware.rb:131:in `call_app'
+web-console (3.3.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.3.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.3.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.0.1) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.0.1) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:70:in `block in tagged'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:70:in `tagged'
+railties (5.0.0.1) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.0.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.0.1) lib/rails/engine.rb:522:in `call'
+puma (3.6.0) lib/puma/configuration.rb:225:in `call'
+puma (3.6.0) lib/puma/server.rb:578:in `handle_request'
+puma (3.6.0) lib/puma/server.rb:415:in `process_client'
+puma (3.6.0) lib/puma/server.rb:275:in `block in run'
+puma (3.6.0) lib/puma/thread_pool.rb:116:in `block in spawn_thread'
+  Rendering /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.7ms)
+  Rendered collection of /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb [1 times] (1.3ms)
+  Rendered /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (2.0ms)
+  Rendering /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (123.4ms)
+Started GET "/" for ::1 at 2016-11-12 19:11:53 +0000
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.haml within layouts/application
+  [1m[36mMember Load (0.3ms)[0m  [1m[34mSELECT "members".* FROM "members"[0m
+  Rendered static_pages/home.html.haml within layouts/application (25.4ms)
+Completed 200 OK in 80ms (Views: 77.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/images/background/boston_skyline2.jpg" for ::1 at 2016-11-12 19:11:53 +0000
+  
+ActionController::RoutingError (No route matches [GET] "/images/background/boston_skyline2.jpg"):
+  
+actionpack (5.0.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.3.1) lib/web_console/middleware.rb:131:in `call_app'
+web-console (3.3.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.3.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.3.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.0.1) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.0.1) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:70:in `block in tagged'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:70:in `tagged'
+railties (5.0.0.1) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.0.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.0.1) lib/rails/engine.rb:522:in `call'
+puma (3.6.0) lib/puma/configuration.rb:225:in `call'
+puma (3.6.0) lib/puma/server.rb:578:in `handle_request'
+puma (3.6.0) lib/puma/server.rb:415:in `process_client'
+puma (3.6.0) lib/puma/server.rb:275:in `block in run'
+puma (3.6.0) lib/puma/thread_pool.rb:116:in `block in spawn_thread'
+  Rendering /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered collection of /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb [1 times] (1.2ms)
+  Rendered /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (2.0ms)
+  Rendering /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.6ms)
+  Rendered /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (86.5ms)
+Started GET "/images/background/boston_skyline1.jpg" for ::1 at 2016-11-12 19:17:08 +0000
+  
+ActionController::RoutingError (No route matches [GET] "/images/background/boston_skyline1.jpg"):
+  
+actionpack (5.0.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.3.1) lib/web_console/middleware.rb:131:in `call_app'
+web-console (3.3.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.3.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.3.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.0.1) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.0.1) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:70:in `block in tagged'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:70:in `tagged'
+railties (5.0.0.1) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.0.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.0.1) lib/rails/engine.rb:522:in `call'
+puma (3.6.0) lib/puma/configuration.rb:225:in `call'
+puma (3.6.0) lib/puma/server.rb:578:in `handle_request'
+puma (3.6.0) lib/puma/server.rb:415:in `process_client'
+puma (3.6.0) lib/puma/server.rb:275:in `block in run'
+puma (3.6.0) lib/puma/thread_pool.rb:116:in `block in spawn_thread'
+  Rendering /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.1ms)
+  Rendered collection of /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb [1 times] (5.9ms)
+  Rendered /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (10.5ms)
+  Rendering /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (7.8ms)
+  Rendered /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (143.8ms)
+Started GET "/" for ::1 at 2016-11-12 19:24:49 +0000
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.haml within layouts/application
+  [1m[36mMember Load (0.5ms)[0m  [1m[34mSELECT "members".* FROM "members"[0m
+  Rendered static_pages/home.html.haml within layouts/application (34.6ms)
+Completed 200 OK in 325ms (Views: 320.7ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/" for ::1 at 2016-11-12 19:25:05 +0000
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.haml within layouts/application
+  [1m[36mMember Load (0.3ms)[0m  [1m[34mSELECT "members".* FROM "members"[0m
+  Rendered static_pages/home.html.haml within layouts/application (30.2ms)
+Completed 200 OK in 217ms (Views: 215.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for ::1 at 2016-11-12 19:25:07 +0000
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.haml within layouts/application
+  [1m[36mMember Load (0.2ms)[0m  [1m[34mSELECT "members".* FROM "members"[0m
+  Rendered static_pages/home.html.haml within layouts/application (26.0ms)
+Completed 200 OK in 79ms (Views: 75.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for ::1 at 2016-11-12 19:25:12 +0000
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.haml within layouts/application
+  [1m[36mMember Load (0.1ms)[0m  [1m[34mSELECT "members".* FROM "members"[0m
+  Rendered static_pages/home.html.haml within layouts/application (14.5ms)
+Completed 200 OK in 42ms (Views: 40.4ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for ::1 at 2016-11-12 19:25:16 +0000
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.haml within layouts/application
+  [1m[36mMember Load (0.1ms)[0m  [1m[34mSELECT "members".* FROM "members"[0m
+  Rendered static_pages/home.html.haml within layouts/application (16.8ms)
+Completed 200 OK in 47ms (Views: 45.1ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/images/background/boston_skyline3.jpg" for ::1 at 2016-11-12 19:25:33 +0000
+  
+ActionController::RoutingError (No route matches [GET] "/images/background/boston_skyline3.jpg"):
+  
+actionpack (5.0.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.3.1) lib/web_console/middleware.rb:131:in `call_app'
+web-console (3.3.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.3.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.3.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.0.1) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.0.1) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:70:in `block in tagged'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:70:in `tagged'
+railties (5.0.0.1) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.0.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.0.1) lib/rails/engine.rb:522:in `call'
+puma (3.6.0) lib/puma/configuration.rb:225:in `call'
+puma (3.6.0) lib/puma/server.rb:578:in `handle_request'
+puma (3.6.0) lib/puma/server.rb:415:in `process_client'
+puma (3.6.0) lib/puma/server.rb:275:in `block in run'
+puma (3.6.0) lib/puma/thread_pool.rb:116:in `block in spawn_thread'
+  Rendering /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.4ms)
+  Rendered collection of /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb [1 times] (3.6ms)
+  Rendered /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (4.2ms)
+  Rendering /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (3.0ms)
+  Rendered /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (138.7ms)
+Started GET "/" for ::1 at 2016-11-12 19:26:19 +0000
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.haml within layouts/application
+  [1m[36mMember Load (0.2ms)[0m  [1m[34mSELECT "members".* FROM "members"[0m
+  Rendered static_pages/home.html.haml within layouts/application (17.4ms)
+Completed 200 OK in 209ms (Views: 206.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for ::1 at 2016-11-12 19:26:21 +0000
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.haml within layouts/application
+  [1m[36mMember Load (0.1ms)[0m  [1m[34mSELECT "members".* FROM "members"[0m
+  Rendered static_pages/home.html.haml within layouts/application (16.7ms)
+Completed 200 OK in 46ms (Views: 43.5ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for ::1 at 2016-11-12 19:26:22 +0000
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.haml within layouts/application
+  [1m[36mMember Load (0.2ms)[0m  [1m[34mSELECT "members".* FROM "members"[0m
+  Rendered static_pages/home.html.haml within layouts/application (18.3ms)
+Completed 200 OK in 54ms (Views: 51.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for ::1 at 2016-11-12 19:26:22 +0000
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.haml within layouts/application
+  [1m[36mMember Load (0.2ms)[0m  [1m[34mSELECT "members".* FROM "members"[0m
+  Rendered static_pages/home.html.haml within layouts/application (15.3ms)
+Completed 200 OK in 52ms (Views: 49.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for ::1 at 2016-11-12 19:26:51 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.haml within layouts/application
+  [1m[36mMember Load (0.2ms)[0m  [1m[34mSELECT "members".* FROM "members"[0m
+  Rendered static_pages/home.html.haml within layouts/application (588.3ms)
+Completed 200 OK in 699ms (Views: 684.0ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/" for ::1 at 2016-11-12 19:27:08 +0000
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.haml within layouts/application
+  [1m[36mMember Load (0.1ms)[0m  [1m[34mSELECT "members".* FROM "members"[0m
+  Rendered static_pages/home.html.haml within layouts/application (28.8ms)
+Completed 200 OK in 210ms (Views: 207.8ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for ::1 at 2016-11-12 19:28:08 +0000
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.haml within layouts/application
+  [1m[36mMember Load (0.1ms)[0m  [1m[34mSELECT "members".* FROM "members"[0m
+  Rendered static_pages/home.html.haml within layouts/application (16.8ms)
+Completed 200 OK in 188ms (Views: 185.6ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for ::1 at 2016-11-12 19:28:55 +0000
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.haml within layouts/application
+  [1m[36mMember Load (0.1ms)[0m  [1m[34mSELECT "members".* FROM "members"[0m
+  Rendered static_pages/home.html.haml within layouts/application (13.0ms)
+Completed 200 OK in 191ms (Views: 189.2ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for ::1 at 2016-11-12 19:29:07 +0000
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.haml within layouts/application
+  [1m[36mMember Load (0.1ms)[0m  [1m[34mSELECT "members".* FROM "members"[0m
+  Rendered static_pages/home.html.haml within layouts/application (13.4ms)
+Completed 200 OK in 184ms (Views: 182.4ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for ::1 at 2016-11-12 19:29:10 +0000
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.haml within layouts/application
+  [1m[36mMember Load (0.2ms)[0m  [1m[34mSELECT "members".* FROM "members"[0m
+  Rendered static_pages/home.html.haml within layouts/application (16.7ms)
+Completed 200 OK in 54ms (Views: 51.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for ::1 at 2016-11-12 19:29:16 +0000
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.haml within layouts/application
+  [1m[36mMember Load (0.2ms)[0m  [1m[34mSELECT "members".* FROM "members"[0m
+  Rendered static_pages/home.html.haml within layouts/application (14.6ms)
+Completed 200 OK in 193ms (Views: 191.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for ::1 at 2016-11-12 19:43:41 +0000
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.haml within layouts/application
+  [1m[36mMember Load (1.6ms)[0m  [1m[34mSELECT "members".* FROM "members"[0m
+  Rendered static_pages/home.html.haml within layouts/application (65.7ms)
+Completed 200 OK in 379ms (Views: 363.8ms | ActiveRecord: 1.6ms)
+
+
+Started GET "/" for ::1 at 2016-11-12 19:44:21 +0000
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.haml within layouts/application
+  [1m[36mMember Load (0.2ms)[0m  [1m[34mSELECT "members".* FROM "members"[0m
+  Rendered static_pages/home.html.haml within layouts/application (15.9ms)
+Completed 200 OK in 218ms (Views: 215.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for ::1 at 2016-11-12 19:45:07 +0000
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.haml within layouts/application
+  [1m[36mMember Load (0.3ms)[0m  [1m[34mSELECT "members".* FROM "members"[0m
+  Rendered static_pages/home.html.haml within layouts/application (21.8ms)
+Completed 200 OK in 57ms (Views: 54.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for ::1 at 2016-11-14 23:17:17 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.haml within layouts/application
+  [1m[36mMember Load (0.8ms)[0m  [1m[34mSELECT "members".* FROM "members"[0m
+  Rendered static_pages/home.html.haml within layouts/application (4365.7ms)
+Completed 200 OK in 5112ms (Views: 5019.6ms | ActiveRecord: 10.6ms)
+
+
+Started GET "/" for ::1 at 2016-11-14 23:17:43 +0000
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.haml within layouts/application
+  [1m[36mMember Load (0.9ms)[0m  [1m[34mSELECT "members".* FROM "members"[0m
+  Rendered static_pages/home.html.haml within layouts/application (108.6ms)
+Completed 200 OK in 261ms (Views: 255.3ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/" for ::1 at 2016-11-14 23:19:30 +0000
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.haml within layouts/application
+  [1m[36mMember Load (0.8ms)[0m  [1m[34mSELECT "members".* FROM "members"[0m
+  Rendered static_pages/home.html.haml within layouts/application (299.1ms)
+Completed 200 OK in 1055ms (Views: 1042.4ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/" for ::1 at 2016-11-14 23:19:41 +0000
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.haml within layouts/application
+  [1m[36mMember Load (1.9ms)[0m  [1m[34mSELECT "members".* FROM "members"[0m
+  Rendered static_pages/home.html.haml within layouts/application (53.2ms)
+Completed 200 OK in 181ms (Views: 176.3ms | ActiveRecord: 1.9ms)
+
+
+Started GET "/" for ::1 at 2016-11-14 23:20:07 +0000
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.haml within layouts/application
+  [1m[36mMember Load (0.2ms)[0m  [1m[34mSELECT "members".* FROM "members"[0m
+  Rendered static_pages/home.html.haml within layouts/application (65.1ms)
+Completed 200 OK in 386ms (Views: 381.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for ::1 at 2016-11-14 23:20:19 +0000
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.haml within layouts/application
+  [1m[36mMember Load (0.3ms)[0m  [1m[34mSELECT "members".* FROM "members"[0m
+  Rendered static_pages/home.html.haml within layouts/application (74.2ms)
+Completed 200 OK in 567ms (Views: 558.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for ::1 at 2016-11-14 23:20:49 +0000
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.haml within layouts/application
+  [1m[36mMember Load (0.4ms)[0m  [1m[34mSELECT "members".* FROM "members"[0m
+  Rendered static_pages/home.html.haml within layouts/application (131.3ms)
+Completed 200 OK in 435ms (Views: 429.5ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for ::1 at 2016-11-14 23:23:49 +0000
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.haml within layouts/application
+  [1m[36mMember Load (2.0ms)[0m  [1m[34mSELECT "members".* FROM "members"[0m
+  Rendered static_pages/home.html.haml within layouts/application (125.4ms)
+Completed 200 OK in 353ms (Views: 343.7ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/" for ::1 at 2016-11-14 23:39:50 +0000
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.haml within layouts/application
+  [1m[36mMember Load (0.2ms)[0m  [1m[34mSELECT "members".* FROM "members"[0m
+  Rendered static_pages/home.html.haml within layouts/application (50.4ms)
+Completed 200 OK in 112ms (Views: 107.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for ::1 at 2016-11-14 23:40:58 +0000
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.haml within layouts/application
+  [1m[36mMember Load (0.3ms)[0m  [1m[34mSELECT "members".* FROM "members"[0m
+  Rendered static_pages/home.html.haml within layouts/application (16.6ms)
+Completed 200 OK in 289ms (Views: 285.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for ::1 at 2016-11-14 23:41:22 +0000
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.haml within layouts/application
+  [1m[36mMember Load (4.7ms)[0m  [1m[34mSELECT "members".* FROM "members"[0m
+  Rendered static_pages/home.html.haml within layouts/application (189.7ms)
+Completed 200 OK in 664ms (Views: 655.7ms | ActiveRecord: 4.7ms)
+
+
+Started GET "/" for ::1 at 2016-11-14 23:41:37 +0000
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.haml within layouts/application
+  [1m[36mMember Load (0.2ms)[0m  [1m[34mSELECT "members".* FROM "members"[0m
+  Rendered static_pages/home.html.haml within layouts/application (22.3ms)
+Completed 200 OK in 327ms (Views: 324.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for ::1 at 2016-11-14 23:42:23 +0000
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.haml within layouts/application
+  [1m[36mMember Load (0.2ms)[0m  [1m[34mSELECT "members".* FROM "members"[0m
+  Rendered static_pages/home.html.haml within layouts/application (101.1ms)
+Completed 200 OK in 625ms (Views: 615.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for ::1 at 2016-11-14 23:42:31 +0000
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.haml within layouts/application
+  [1m[36mMember Load (0.2ms)[0m  [1m[34mSELECT "members".* FROM "members"[0m
+  Rendered static_pages/home.html.haml within layouts/application (157.2ms)
+Completed 200 OK in 862ms (Views: 855.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for ::1 at 2016-11-14 23:43:31 +0000
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.haml within layouts/application
+  [1m[36mMember Load (0.2ms)[0m  [1m[34mSELECT "members".* FROM "members"[0m
+  Rendered static_pages/home.html.haml within layouts/application (58.8ms)
+Completed 200 OK in 391ms (Views: 387.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for ::1 at 2016-11-14 23:43:38 +0000
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.haml within layouts/application
+  [1m[36mMember Load (0.3ms)[0m  [1m[34mSELECT "members".* FROM "members"[0m
+  Rendered static_pages/home.html.haml within layouts/application (116.5ms)
+Completed 200 OK in 513ms (Views: 493.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for ::1 at 2016-11-14 23:43:46 +0000
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.haml within layouts/application
+  [1m[36mMember Load (1.0ms)[0m  [1m[34mSELECT "members".* FROM "members"[0m
+  Rendered static_pages/home.html.haml within layouts/application (115.6ms)
+Completed 200 OK in 675ms (Views: 668.9ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/" for ::1 at 2016-11-14 23:45:34 +0000
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.haml within layouts/application
+  [1m[36mMember Load (0.4ms)[0m  [1m[34mSELECT "members".* FROM "members"[0m
+  Rendered static_pages/home.html.haml within layouts/application (64.3ms)
+Completed 200 OK in 390ms (Views: 386.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for ::1 at 2016-11-14 23:45:46 +0000
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.haml within layouts/application
+  [1m[36mMember Load (0.9ms)[0m  [1m[34mSELECT "members".* FROM "members"[0m
+  Rendered static_pages/home.html.haml within layouts/application (99.0ms)
+Completed 200 OK in 400ms (Views: 395.5ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/" for ::1 at 2016-11-14 23:45:58 +0000
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.haml within layouts/application
+  [1m[36mMember Load (0.3ms)[0m  [1m[34mSELECT "members".* FROM "members"[0m
+  Rendered static_pages/home.html.haml within layouts/application (84.4ms)
+Completed 200 OK in 504ms (Views: 499.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for ::1 at 2016-11-14 23:46:15 +0000
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.haml within layouts/application
+  [1m[36mMember Load (0.5ms)[0m  [1m[34mSELECT "members".* FROM "members"[0m
+  Rendered static_pages/home.html.haml within layouts/application (84.1ms)
+Completed 200 OK in 399ms (Views: 393.2ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/" for ::1 at 2016-11-14 23:46:20 +0000
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.haml within layouts/application
+  [1m[36mMember Load (0.3ms)[0m  [1m[34mSELECT "members".* FROM "members"[0m
+  Rendered static_pages/home.html.haml within layouts/application (89.7ms)
+Completed 200 OK in 598ms (Views: 589.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for ::1 at 2016-11-14 23:51:32 +0000
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.haml within layouts/application
+  [1m[36mMember Load (0.2ms)[0m  [1m[34mSELECT "members".* FROM "members"[0m
+  Rendered static_pages/home.html.haml within layouts/application (21.1ms)
+Completed 200 OK in 94ms (Views: 84.8ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for ::1 at 2016-11-14 23:55:58 +0000
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.haml within layouts/application
+  [1m[36mMember Load (0.4ms)[0m  [1m[34mSELECT "members".* FROM "members"[0m
+  Rendered static_pages/home.html.haml within layouts/application (48.4ms)
+Completed 200 OK in 325ms (Views: 316.8ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for ::1 at 2016-11-15 00:00:36 +0000
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.haml within layouts/application
+  [1m[36mMember Load (2.0ms)[0m  [1m[34mSELECT "members".* FROM "members"[0m
+  Rendered static_pages/home.html.haml within layouts/application (208.9ms)
+Completed 200 OK in 347ms (Views: 339.4ms | ActiveRecord: 2.0ms)
+
+

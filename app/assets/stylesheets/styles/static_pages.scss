@@ -8,8 +8,8 @@
   Home
 */
 
-$home_background_root: "college_template_photo";
-$mission_background_root: "graduation_caps";
+$home_background_root: "boston_skyline";
+$mission_background_root: "college_hallway";
 
 
 #home {
@@ -19,7 +19,7 @@ $mission_background_root: "graduation_caps";
   @include clearspc;
 
   .background {
-    @include import_dynamic_image($home_background_root, true);
+    @include import_dynamic_image($home_background_root);
     background-size: 100% 100%;
   }
 
@@ -32,7 +32,8 @@ $mission_background_root: "graduation_caps";
   height: 100%;
   margin: 0;
   color:  #f2f1ef;
-  background-color: rgba($text_color, 0.3) ! important;
+  background: transparent;
+  background-color: rgba($text_color, 0.1) ! important;
   padding-right: 7%;
   padding-left: 7%;
   display: table;
@@ -94,7 +95,9 @@ $mission_background_root: "graduation_caps";
   min-height: 100vh;
   height: auto;
   @include clearspc;
-  @include import_dynamic_image($mission_background_root);
+  // @include import_dynamic_image($mission_background_root);
+  background: rgba($thi_color, 1) !important;
+  // background-color: wite;
 
   .filter {
     padding: 4% 10%;
@@ -102,7 +105,7 @@ $mission_background_root: "graduation_caps";
     min-height: 100%;
     width: 100%;
     margin: 0;
-    background-color: rgba($main_color, 0.2);
+    // background-color: rgba($main_color, 0.2);
     display: block;
     position: relative;
 
