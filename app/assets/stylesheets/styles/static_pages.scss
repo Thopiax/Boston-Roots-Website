@@ -13,7 +13,7 @@ $mission_background_root: "college_hallway";
 
 
 #home {
-  color: $sec_color;
+  color: $white_color;
   height: auto;
   min-height: 100vh;
   @include clearspc;
@@ -82,7 +82,7 @@ $mission_background_root: "college_hallway";
 }
 
 #timeline {
-  background-color: $sec_color;
+  background-color: $white_color;
   .header > h1 {
     color: $text-color;
   }
@@ -90,13 +90,13 @@ $mission_background_root: "college_hallway";
 }
 
 #mission {
-  color: $sec_color;
+  color: $white_color;
   background-size: 100% 100%;
   min-height: 100vh;
   height: auto;
   @include clearspc;
   // @include import_dynamic_image($mission_background_root);
-  background: rgba($thi_color, 1) !important;
+  background: rgba($yellow_color, 1) !important;
   // background-color: wite;
 
   .filter {
@@ -105,7 +105,7 @@ $mission_background_root: "college_hallway";
     min-height: 100%;
     width: 100%;
     margin: 0;
-    // background-color: rgba($main_color, 0.2);
+    // background-color: rgba($green_color, 0.2);
     display: block;
     position: relative;
 
@@ -129,7 +129,7 @@ $mission_background_root: "college_hallway";
 }
 
 #team {
-  background-color: $sec_color;
+  background-color: $white_color;
   height: auto;
   min-height: 70vh;
   margin: 0;
@@ -153,8 +153,8 @@ $mission_background_root: "college_hallway";
     margin: 5% 0;
     width: 71.97vw;
     height: 71.97vw;
-    min-width: $min-width * 0.8;
-    min-height: $min-width * 0.8;
+    min-width: $min-width * 0.6;
+    min-height: $min-width * 0.6;
 
     img {
       width: 100%;
@@ -173,6 +173,8 @@ $mission_background_root: "college_hallway";
     @media only screen and (min-width: $screen-sm-min) {
       width: 22.5vw;
       height: 22.5vw;
+      min-width: 0;
+      min-height: 0;
       margin: 0.7vw;
     }
 
@@ -194,7 +196,7 @@ $mission_background_root: "college_hallway";
       padding: 2% 0;
       opacity: 0;
       transition: visibility 0s 0.3s, opacity 0.3s linear;
-      background: rgba($sec_color, 0.75);
+      background: rgba($white_color, 0.75);
       width: 100%;
       h2 {
         font-size: 2em;
@@ -213,11 +215,11 @@ $mission_background_root: "college_hallway";
     max-height: 100vh;
     background-color: rgba($text-color, 0.8);
     h2, p {
-      color: $sec_color;
+      color: $white_color;
     }
 
     h3 {
-      color: darken($sec_color, 10%);
+      color: darken($white_color, 10%);
       margin-top: 0;
       font-size: 1.55rem;
     }
@@ -259,12 +261,12 @@ $mission_background_root: "college_hallway";
   h5 {
     font-size: 2rem;
     text-align: center;
-    color: $sec_color !important;
+    color: $white_color !important;
   }
   p {
     margin: 3rem auto;
     text-align: center;
-    color: $sec_color !important;
+    color: $white_color !important;
     font-weight: 300;
   }
   a {
@@ -284,7 +286,7 @@ $mission_background_root: "college_hallway";
     vertical-align: middle;
 
     p {
-      color: $sec_color;
+      color: $white_color;
       text-align: center;
     }
 
