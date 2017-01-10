@@ -20,15 +20,19 @@
             = image_tag("favicon.png")
         %ul#navdropdown.nav.navbar-nav.nav-pills.navbar-right
           %li#navhome
-            %a{to: "#home"}Home
-          %li#navtimeline
-            %a{to: "#timeline"}Timeline
+            = link_to "Home", '/'
           %li#navmission
-            %a{to: "#mission"}Mission
+            = link_to "Mission", '/mission'
+          %li#navtimeline
+            = link_to "Timeline", '/timeline'
           %li#navteam
-            %a{to: "#team"}Team
+            = link_to "Team", '/team'
           %li#navcontact
-            %a{to: "#contact"}Join Us
+            = link_to "Join us", '/contact'
 
 
       = yield
+
+    %section#footer
+      .notebook
+        %p © Copyright 2016 Boston Roots, All Rights Reserved

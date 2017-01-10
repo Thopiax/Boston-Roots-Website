@@ -1,6 +1,3 @@
-# Place all the behaviors and hooks related to the matching controller here.
-# All this logic will automatically be available in application.js.
-# You can use CoffeeScript in this file: http://coffeescript.org/
 
 $(document).on "turbolinks:load" , ->
 
@@ -60,7 +57,7 @@ $(document).on "turbolinks:load" , ->
     setBackgroundSize(home, 1800/2702)
     setBackgroundSize(mission, 1080/1621)
     addNavToController("home", controller)
-    addNavToController("timeline", controller)
+    # addNavToController("timeline", controller)
     addNavToController("mission", controller)
     addNavToController("team", controller)
     addNavToController("contact", controller)
