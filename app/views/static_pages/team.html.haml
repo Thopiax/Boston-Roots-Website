@@ -1,4 +1,4 @@
-%section#team
+%section#team.first_section
   #teamheader.header
     %h1 Team
     #teamfooter.notebook
@@ -9,9 +9,9 @@
         - @teamMembers.each_with_index do |member, index|
           .long-shadow.profile.col-xs-12.col-sm-3{ "data-toggle" => "modal", "data-target" => "#modal#{index}"}
             - if member.path.blank?
-              =image_tag "profiles/default_profile.jpg"
+              = image_tag "profiles/default_profile.jpg"
             - else
-              =image_tag "profiles/#{member.path}"
+              = image_tag "profiles/#{member.path}"
             .profile_name
               %h2
                 = member.name

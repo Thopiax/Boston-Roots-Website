@@ -1,0 +1,36 @@
+%section#contact.first_section
+  #contactheader.header
+    %h1 Get Involved
+  #contactbody.notebook
+    .subheader
+      %p 
+        Want to learn more or get involved?
+      %p
+        Feel free to contact our Presidents directly to ask questions or offer suggestions.
+    = simple_form_for @contact, defaults: {label: false} do |f|
+
+      - if @contact.errors.any?
+        .error_message
+          = evil_icon 'ei-exclamation', size: :m
+          %h4 
+            Oops...
+          %ul.errors
+            - @contact.errors.full_messages.each do |msg|
+              %li= msg
+
+      - if flash[:notice]
+        = evil_icon 'ei-check', size: :l
+        .notice
+          = flash[:notice] 
+
+      - if flash[:error]
+        = evil_icon 'ei-exclamation', size: :l
+        .notice
+          = flash[:error] 
+
+      = f.input :name,  :required => false, placeholder: 'Name', :autofocus => true
+      = f.input :email, :required => false, placeholder: 'Email'
+      = f.input :message, :as => :text, :required => false, placeholder: 'Message'
+      .hidden
+        = f.input :nickname, :hint => 'Leave this field blank!'
+      = f.button :submit, 'Send', class: 'btn btn-join', id: "contactSubmit"

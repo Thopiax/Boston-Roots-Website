@@ -15,14 +15,13 @@ $mission_background_root: "college_hallway";
 #home {
   color: $white_color;
   height: auto;
-  min-height: 100vh;
+  // min-height: 100vh;
+  min-height: 600px;
   @include clearspc;
-
   .background {
     @include import_dynamic_image($home_background_root);
     background-size: 100% 100%;
   }
-
 }
 
 .jumbotron {
@@ -55,8 +54,8 @@ $mission_background_root: "college_hallway";
     object-fit: contain;
     max-width: 500px;
     max-height: 45vh;
+    min-height: 150px;
   }
-
 }
 
 #jumbotext {
@@ -76,7 +75,11 @@ $mission_background_root: "college_hallway";
   b {
     font-size: inherit;
   }
+}
 
+#jumboarrow {
+  color: $white_color;
+  display: none;
 }
 
 #facts {
@@ -96,13 +99,14 @@ $mission_background_root: "college_hallway";
   min-height: 100vh;
   height: auto;
   @include clearspc;
-  
+
   h1 {
     color: $text-color;
   }
 
   .background {
     @include import_dynamic_image($mission_background_root);
+    background: fixed;
     background-size: 100% 100%;
   }
 
@@ -133,31 +137,94 @@ $mission_background_root: "college_hallway";
       }
     }
   }
+
+  #bigjoin {
+    width: 100%;
+    margin: 1em 0; 
+    font-size: 130%;
+  }
+
 }
 
 #contact {
   height: auto;
-  min-height: 50vh;
-  // background-color: rgb(81, 99, 157);
-  background-color: $color-secondary-2-2;
+  min-height: 70vh;
+  background: $white_color;
+
+  .header {
+    margin-bottom: 0.3em;
+  }
+
+  h1 {
+    color: $color-secondary-1-0;
+    // margin-bottom: 0.5em;
+  }
 
   h5 {
     font-size: 2rem;
     text-align: center;
-    color: $white_color !important;
   }
+
+  .subheader {
+    margin-bottom: 1em;
+  }
+
   p {
-    margin: 3rem auto;
     text-align: center;
-    color: $white_color !important;
     font-weight: 300;
+    font-size: 80%;
+    margin-bottom: 0;
   }
+
   a {
     text-decoration: underline;
     font-weight: 400;
   }
-}
 
+  form {
+    text-align: center;
+  }
+
+  input, textarea {
+    width: 50%;
+    margin-bottom: 0.75em;
+    padding: 1rem;
+  }
+
+  .error_message {
+    margin-left: 25%;
+    margin-bottom: 1em;
+    width: 50%;
+    border-radius: 4px;
+    text-align: left;
+    color: $grey_color;
+    background: rgba($error_color, 0.5);
+    border: 2px solid $error_color;
+    h4 {
+      font-size: 2rem;
+      display: inline-block;
+      transform: translateY(-80%);
+    }
+    ul {
+      list-style-type: circle;
+    }
+  }
+
+  .notice {
+    font-size: 130%;
+    margin-bottom: 1.5em;
+  }
+
+  .field_with_errors  {
+    & > input, & > textarea {
+      border: 2px solid $error_color;
+    }
+  }
+
+  .error {
+    display: none;
+  }
+}
 
 @media only screen and (min-width: $screen-sm-min) {
   .jumbotron {
@@ -175,6 +242,14 @@ $mission_background_root: "college_hallway";
       display: table-cell;
       vertical-align: middle;
       text-align: right;
+    }
+
+    #jumboarrow {
+      display: block;
+      position: absolute;
+      top: 85%;
+      left: 50%;
+      transform: translate(-50%, -50%);
     }
   }
 }

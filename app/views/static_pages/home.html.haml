@@ -10,9 +10,8 @@
           %p
             Because Higher education is a
             %b right.
-          %button.btn.btn-info{to: "#contact"}
-            Get Involved
-          = evil_icon 'ei-arrow-down', size: :l
+          #jumboarrow
+            = evil_icon 'ei-arrow-down', size: :l, class: "home-icon"
 
     %section#facts
       .notebook
@@ -34,18 +33,7 @@
           .card
             %h2 Fostering Connections
             %p Boston Roots firmly believes that parent involvement contributes to a higher degree of student success. As a result, our program works with parents to give their children greater support through parent seminars. Topics include student progress, financial saving information, and support strategies to motivate students. Moreover, we intend to connect students with third party SAT/ACT tutors and financial experts for extra support when it is needed.
+        .notebook
+          = link_to "JOIN US", contacts_path, :class => "button btn btn-info ", :id => "bigjoin"
 
-  / %section#contact
-  /   #contactheader.header
-  /     %h1 Contact Us!
-  /   #contactbody.notebook
-  /     %h5 Want to learn more or get involved? Feel free to contact our Presidents directly to ask questions or offer suggestions.
-  /     %p
-  /       Contact
-  /       = link_to "Alex", "mailto:alexander.nehrbass@mail.mcgill.ca"
-  /       or
-  /       = link_to "Viraj!", "mailto:ayarviraj@gmail.com"
-  /     %h5 Noticed something wrong with the website?
-  /     %p
-  /       Contact
-  /       = link_to "Rafael.", "mailto:rafa.ballestiero@gmail.com"
+

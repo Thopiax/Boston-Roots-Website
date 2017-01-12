@@ -25,6 +25,9 @@ gem 'jbuilder', '~> 2.5'
 # gem 'bcrypt', '~> 3.1.7'
 gem 'haml'
 gem 'haml-rails'
+# contact form
+gem 'simple_form'
+gem 'mail_form'
 # cool icons
 gem 'evil_icons'
 

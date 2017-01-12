@@ -18,6 +18,7 @@ $color-primary-0: rgb(142,182, 99);
 
 $white_color:  rgb(238,242,236);
 $grey_color: rgb(8, 28, 46);
+$error_color: #b94a48;
 $text-color: rgb(57, 57, 57);
 
 @import url('https://fonts.googleapis.com/css?family=Fira+Sans:300, 400');
@@ -35,8 +36,12 @@ $text_font: $title_font;
   padding: 0;
 }
 
-.card, .short-shadow {
+@mixin shshadow {
   box-shadow: 1px 1px 2px $text-color;
+}
+
+.card, .short-shadow {
+  @include shshadow;
 }
 
 .long-shadow {
@@ -103,41 +108,67 @@ h1 {
 nav {
   padding: 0em 1em;
   background: $white_color;
-  box-shadow: none;
+  margin-bottom: 0; 
+  text-align: center;
   z-index: 2;
 
   @media only screen and (min-width: $screen-md-min) {
     padding: 0.75em 1.25em;
   }
 
-  a {
-    color: $color-primary-0;
-    background-color: transparent;
+  #navlinks {
+    display: inline-block;
+    .nav-option {
+      margin: 0 1em;
+      a {
+        color: $text-color;
+        background-color: transparent;
 
-    &:hover, &:active {
-      color: $white_color;
-      background-color: $color-primary-0 !important;
+        &:hover, &:active {
+          text-decoration: none;
+          background: $white_color;
+
+          &:after {
+            content: "";
+            position: absolute;
+            width: 50%;
+            height: 1px;
+            bottom: 20%;
+            left: 25%;
+            border-bottom: 2px solid $text-color;
+          }
+        }
+      }
     }
-
+    #right-subnav {
+      padding-right: 20px;
+    }
   }
 
   .navbar-brand {
-    margin: 0.75em 0;
+    // margin: 0.75em 0;
     padding: 0.1em 0;
     text-align: center;
 
     @media only screen and (min-width: $screen-md-min) {
-      text-align: left;
       margin: 0;
       display: inline-block;
     }
 
+    li {
+      top: -15;
+    }
+
     a {
-      display: none;
+      -webkit-transition-duration: 1s; /* Safari */
+      transition-duration: 1s;
     }
 
     a:hover {
       background-color: transparent !important;
+      transform: scale(1.15);
+      -webkit-transition-duration: 1s; /* Safari */
+      transition-duration: 1s;
     }
 
     img {
@@ -147,28 +178,28 @@ nav {
 
   }
 
-  .nav {
-    display: none;
+  // .nav {
+  //   display: none;
 
-    @media only screen and (min-width: $screen-md-min) {
-      display: inline-block;
-      width: auto;
-    }
+  //   @media only screen and (min-width: $screen-md-min) {
+  //     display: inline-block;
+  //     width: auto;
+  //   }
 
-    .active a, a {
-      font-size: 1.75rem;
-    }
+  //   .active a, a {
+  //     font-size: 1.75rem;
+  //   }
 
-    .active a {
-      background-color: $color-primary-0;
-    }
+  //   .active a {
+  //     background-color: $color-primary-0;
+  //   }
 
-    li {
-      text-align: center;
-      border-top: 1px rgba($color-primary-0, 0.5);
-      border-bottom: 1px rgba($color-primary-0, 0.5);
-    }
-  }
+  //   li {
+  //     text-align: center;
+  //     border-top: 1px rgba($color-primary-0, 0.5);
+  //     border-bottom: 1px rgba($color-primary-0, 0.5);
+  //   }
+  // }
 }
 
 .nav-home {
@@ -223,6 +254,9 @@ section .header {
 .btn {
   padding: 1em 2em;
   border-radius: 4px;
+}
+
+.btn-join {
   border-color: $color-secondary-1-4;
   background-color: $color-secondary-1-0;
 
@@ -237,9 +271,13 @@ section .header {
   }
 }
 
+.first_section {
+  padding-top: 5em;
+}
+
 #footer {
   background-color: #556270;
-  height: 50%;
+  height: 30vh;
   width: 100%;
   display: table;
 

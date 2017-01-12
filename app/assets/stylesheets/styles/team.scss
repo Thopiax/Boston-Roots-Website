@@ -3,6 +3,7 @@
   height: auto;
   min-height: 70vh;
   margin: 0;
+
   h1 {
     color: $text-color;
     margin-bottom: 0;
@@ -16,7 +17,6 @@
   }
 
   .profile {
-
     @include clearspc;
     overflow: hidden;
     background: transparent;

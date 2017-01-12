@@ -3,26 +3,60 @@ $(document).on "turbolinks:load", ->
 
   home = $("#home")
   mission = $("#mission")
+  contact = $("#{}contact")
+  dwnarr = $("#jumboarrow")
+  dwnarr_icon = $("#jumboarrow .icon")
+
+  nav = $("nav")
+  nav_height = nav.height
 
   # CHECK IF THIS IS HOME PAGE
-  if home.length > 0
-
+  if home.length 
+    nav.addClass "hidden"
     # navbar adaptation
-    new ScrollMagic.Scene( 
+    new ScrollMagic.Scene(
                           offset: -100,
-                          duration: 200 
-                          ).setClassToggle("nav", "nav-home")
-                           .addTo(controller)
+                          duration: "100%"
+                          )
+                          .setClassToggle("nav", "hidden")
+                          .addTo(controller)
 
-    new ScrollMagic.Scene(triggerElement: "##{name}",
-                         triggerHook: "onEnter"
-                         ).setVelocity("##{name} > .background", 
-                           translateY: "80%", 
-                           duration: 400).addTo(controller)
+    # home arrow functionality
 
+    dwnarr_icon.velocity("fadeIn", duration: 3000)
+    dwnarr_icon.velocity( {translateY: '10px'}, { duration: 750, loop: true }).velocity('reverse')
+
+    dwnarr.click ->
+      $("#facts").velocity "scroll", { offset: -78, duration: 900, easing: "easeInBack" }
+
+    $("#nav_brand").click ->
+      home.velocity "scroll", {duraiton: 1000, easing: "easeInBack"}
+    
     $(window).on "resize", () ->
       setBackgroundSize(home, 1800/2702)
       setBackgroundSize(mission, 1080/1621)
+
+  else if contact.length
+    
+    $("#contactSubmit").click ->
+      $("#contactSubmit").velocity({
+        borderRadius: "25px",
+        width: "45px",
+        paddingLeft: "0",
+        paddingRight: "0",
+        backgroundColor: "#8CC152",
+        color: "#fff",
+        borderColor: "#8CC152",
+        boxShadowX: "0",
+        boxShadowY: "0"
+      }, {
+          duration: 350,
+          easing: "easeInQuad"
+      });
+
+  
+
+
 
 addNavToController = (name, controller) ->
   return new ScrollMagic.Scene(triggerElement: "##{name}",
