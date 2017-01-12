@@ -4,7 +4,7 @@
       .jumbotron.foreground
         #jumboimagecontainer
           #jumboimage
-            =image_tag "bostonroots_log_new.png"
+            =image_tag "bostonroots_logo_orange.png"
         #jumbotext
           %h1 We are Boston Roots, a Nonprofit College Access Initiative.
           %p
@@ -12,6 +12,7 @@
             %b right.
           %button.btn.btn-info{to: "#contact"}
             Get Involved
+          = evil_icon 'ei-arrow-down', size: :l
 
     %section#facts
       .notebook
@@ -19,31 +20,32 @@
         .fact Fact 2
         .fact Fact 3
   %section#mission
-    .filter#missionfilter.foreground
-      #missionheader.header
-        %h1 Mission
-      #missionbody.notebook
-        .card
-          %h2 Mission Statement
-          %p Boston Roots is a nonprofit organization that seeks to shrink the opportunity gap in our country by empowering students to succeed throughout high school and the college admissions process.
-        .card
-          %h2 Student Guidance
-          %p Lack of access to college counseling services, financial information, and SAT/ACT prep courses can be major setbacks to students applying to college. Boston Roots provides guidance and college prep services at no cost to high school students and their families. Every high schooler in our program is put in touch with a trained university student mentor who regularly meets and interacts with them throughout their high school years.
-        .card
-          %h2 Fostering Connections
-          %p Boston Roots firmly believes that parent involvement contributes to a higher degree of student success. As a result, our program works with parents to give their children greater support through parent seminars. Topics include student progress, financial saving information, and support strategies to motivate students. Moreover, we intend to connect students with third party SAT/ACT tutors and financial experts for extra support when it is needed.
+    .background
+      .filter#missionfilter.foreground
+        #missionheader.header
+          %h1 Mission
+        #missionbody.notebook
+          .card
+            %h2 Mission Statement
+            %p Boston Roots is a nonprofit organization that seeks to shrink the opportunity gap in our country by empowering students to succeed throughout high school and the college admissions process.
+          .card
+            %h2 Student Guidance
+            %p Lack of access to college counseling services, financial information, and SAT/ACT prep courses can be major setbacks to students applying to college. Boston Roots provides guidance and college prep services at no cost to high school students and their families. Every high schooler in our program is put in touch with a trained university student mentor who regularly meets and interacts with them throughout their high school years.
+          .card
+            %h2 Fostering Connections
+            %p Boston Roots firmly believes that parent involvement contributes to a higher degree of student success. As a result, our program works with parents to give their children greater support through parent seminars. Topics include student progress, financial saving information, and support strategies to motivate students. Moreover, we intend to connect students with third party SAT/ACT tutors and financial experts for extra support when it is needed.
 
-  %section#contact
-    #contactheader.header
-      %h1 Contact Us!
-    #contactbody.notebook
-      %h5 Want to learn more or get involved? Feel free to contact our Presidents directly to ask questions or offer suggestions.
-      %p
-        Contact
-        = link_to "Alex", "mailto:alexander.nehrbass@mail.mcgill.ca"
-        or
-        = link_to "Viraj!", "mailto:ayarviraj@gmail.com"
-      %h5 Noticed something wrong with the website?
-      %p
-        Contact
-        = link_to "Rafael.", "mailto:rafa.ballestiero@gmail.com"
+  / %section#contact
+  /   #contactheader.header
+  /     %h1 Contact Us!
+  /   #contactbody.notebook
+  /     %h5 Want to learn more or get involved? Feel free to contact our Presidents directly to ask questions or offer suggestions.
+  /     %p
+  /       Contact
+  /       = link_to "Alex", "mailto:alexander.nehrbass@mail.mcgill.ca"
+  /       or
+  /       = link_to "Viraj!", "mailto:ayarviraj@gmail.com"
+  /     %h5 Noticed something wrong with the website?
+  /     %p
+  /       Contact
+  /       = link_to "Rafael.", "mailto:rafa.ballestiero@gmail.com"

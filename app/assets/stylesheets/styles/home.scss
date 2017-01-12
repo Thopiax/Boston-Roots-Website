@@ -71,12 +71,10 @@ $mission_background_root: "college_hallway";
 
   p {
     margin-bottom: 1em;
-    font-weight: light;
   }
 
   b {
     font-size: inherit;
-
   }
 
 }
@@ -89,27 +87,24 @@ $mission_background_root: "college_hallway";
     display: flex;
     text-align: center;
   }
-
   .fact {
     width: 33%;
   }
-
 }
 
-
-
 #mission {
-  h1 {
-    color: $text-color;
-  }
   min-height: 100vh;
   height: auto;
   @include clearspc;
-  @include import_dynamic_image($mission_background_root);
-  background-size: 100% 100%;
-  // background: fixed;
-  // background: rgba($color-secondary-1-0, 1) !important;
-  // background-color: wite;
+  
+  h1 {
+    color: $text-color;
+  }
+
+  .background {
+    @include import_dynamic_image($mission_background_root);
+    background-size: 100% 100%;
+  }
 
   .filter {
     padding: 4% 10%;
@@ -125,7 +120,7 @@ $mission_background_root: "college_hallway";
       @media only screen and (min-width: $screen-sm-max) {
         display: flex;
         text-align: center;
-        font-weight: 300;
+        // font-weight: 300;
       }
       text-align: left;
       // font-weight: 300;

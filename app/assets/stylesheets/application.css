@@ -13,6 +13,7 @@
  *= require_self
  *= require bootstrap/dist/css/bootstrap.min
  *= require main
+ *= require evil-icons
  */
 
 /*

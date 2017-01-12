@@ -100,15 +100,9 @@ h1 {
   color: $white_color;
 }
 
-// NAVBAR
-
-// .navbar-toggle {
-//   @include clearspc;
-// }
-
 nav {
   padding: 0em 1em;
-  background: transparent;
+  background: $white_color;
   box-shadow: none;
   z-index: 2;
 
@@ -120,14 +114,9 @@ nav {
     color: $color-primary-0;
     background-color: transparent;
 
-    &:hover {
-      color: $color-secondary-2-0;
-      background-color: rgba($color-primary-0, 0.4) !important;
-    }
-
-    &:active {
-      color: $color-secondary-2-0;
-      background-color: rgba($color-primary-0, 0.4) !important;
+    &:hover, &:active {
+      color: $white_color;
+      background-color: $color-primary-0 !important;
     }
 
   }
@@ -180,9 +169,14 @@ nav {
       border-bottom: 1px rgba($color-primary-0, 0.5);
     }
   }
+}
 
-
-
+.nav-home {
+  background: transparent;
+  box-shadow: none;
+  a {
+    color: $white_color;
+  }
 }
 
 .card.right {

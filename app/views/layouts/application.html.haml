@@ -14,15 +14,13 @@
 
   %body{"data-spy" => "scroll", "data-target" => ".navbar", "data-offset" => "50"}
     #site_wrapper
-      %nav.navbar.navbar-fixed-top
+      %nav.navbar.navbar-fixed-top.short-shadow
         .navbar-brand#nav_brand.col-xs-12.col-md-4
           %a{to: "#home"}
             = image_tag("favicon.png")
         %ul#navdropdown.nav.navbar-nav.nav-pills.navbar-right
           %li#navhome
             = link_to "Home", '/'
-          %li#navmission
-            = link_to "Mission", '/mission'
           %li#navtimeline
             = link_to "Timeline", '/timeline'
           %li#navteam
