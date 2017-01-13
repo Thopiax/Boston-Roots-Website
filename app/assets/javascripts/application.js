@@ -14,6 +14,8 @@
 //= require velocity
 //= require turbolinks
 //= require scrollmagic
+//= require headroom.js/dist/jQuery.headroom.min
+//= require headroom.js/dist/headroom.min
 //= require bootstrap/js/modal
 //= require_tree .
 
@@ -22,3 +24,4 @@ var controller = new ScrollMagic.Controller({
     reverse: true
   }
 });
+

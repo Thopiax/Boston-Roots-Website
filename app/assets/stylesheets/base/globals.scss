@@ -1,7 +1,8 @@
 // FILE FOR GLOBAL VARIABLES
 
-$screen-xs-max: 568px;
-$screen-sm-min: ($screen-xs-max - 1);
+$screen-xs-min: 320px;
+$screen-xs-max: 767px;
+$screen-sm-min: 768px;
 $screen-md-min: 992px;
 $screen-sm-max: ($screen-md-min - 1);
 $screen-lg-min: 1200px;
@@ -11,13 +12,14 @@ $screen-md-max: ($screen-lg-min - 1);
 @import "./colors.scss";
 
 $color_alpha: 0.7;
-$min-width: 310px;
+$min-width: 320px;
 $bg_format: "jpeg";
 
 $color-primary-0: rgb(142,182, 99);
 
 $white_color:  rgb(238,242,236);
 $grey_color: rgb(8, 28, 46);
+$blue_color: rgb(51, 105,116);
 $error_color: #b94a48;
 $text-color: rgb(57, 57, 57);
 
@@ -54,13 +56,24 @@ $text_font: $title_font;
 
 section {
   min-width: $min-width;
+  z-index: 5;
+}
+
+.foreground {
+  background: transparent;
+}
+
+.background {
+  background-size: 100% 100%;
+  height: 100%;
+  width: 100%;
 }
 
 @mixin import_dynamic_image($root) {
 
-  background-image: image-url("background/" + $root + "_m." + $bg_format);
+  background-image: image-url("background/" + $root + "M." + $bg_format);
 
-  @media only screen and (min-width: $screen-xs-max) and (max-width: $screen-sm-max) {
+  @media only screen and (min-width: $screen-sm-min) and (max-width: $screen-sm-max) {
     background-image: image-url("background/" + $root + "1." + $bg_format);
   }
 
@@ -106,20 +119,26 @@ h1 {
 }
 
 nav {
-  padding: 0em 1em;
+  padding: 0 2rem;
   background: $white_color;
   margin-bottom: 0; 
   text-align: center;
-  z-index: 2;
-
-  @media only screen and (min-width: $screen-md-min) {
-    padding: 0.75em 1.25em;
-  }
+  z-index: 10;
+  min-width: $min-width;
 
   #navlinks {
     display: inline-block;
+    margin: 0.5rem 0;
+    @media only screen and (min-width: $screen-sm-min) {
+      margin: 2rem 0;
+    }
+
     .nav-option {
+      display: none;
       margin: 0 1em;
+      @media only screen and (min-width: $screen-sm-min) {
+        display: block;
+      }
       a {
         color: $text-color;
         background-color: transparent;
@@ -140,13 +159,13 @@ nav {
         }
       }
     }
+    // to compensate for words being longer on the other side
     #right-subnav {
       padding-right: 20px;
     }
   }
 
   .navbar-brand {
-    // margin: 0.75em 0;
     padding: 0.1em 0;
     text-align: center;
 
@@ -178,28 +197,6 @@ nav {
 
   }
 
-  // .nav {
-  //   display: none;
-
-  //   @media only screen and (min-width: $screen-md-min) {
-  //     display: inline-block;
-  //     width: auto;
-  //   }
-
-  //   .active a, a {
-  //     font-size: 1.75rem;
-  //   }
-
-  //   .active a {
-  //     background-color: $color-primary-0;
-  //   }
-
-  //   li {
-  //     text-align: center;
-  //     border-top: 1px rgba($color-primary-0, 0.5);
-  //     border-bottom: 1px rgba($color-primary-0, 0.5);
-  //   }
-  // }
 }
 
 .nav-home {
@@ -207,6 +204,12 @@ nav {
   box-shadow: none;
   a {
     color: $white_color;
+  }
+}
+
+@media only screen and (max-width: $screen-xs-max) {
+  .headroom--unpinned {
+    display: none;
   }
 }
 
@@ -257,15 +260,16 @@ section .header {
 }
 
 .btn-join {
-  border-color: $color-secondary-1-4;
   background-color: $color-secondary-1-0;
+  border-color: $color-secondary-1-4;
+  color: white !important;
 
   &:hover {
     background: $color-secondary-1-3;
     border-color: $color-secondary-1-4;
   }
 
-  &:visited, &:active {
+  &:active {
     background: $color-secondary-1-4;
     border-color: $color-secondary-1-4;
   }
@@ -280,6 +284,7 @@ section .header {
   height: 30vh;
   width: 100%;
   display: table;
+  z-index: 5;
 
   .notebook {
     display: table-cell;

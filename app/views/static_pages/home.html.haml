@@ -6,18 +6,22 @@
           #jumboimage
             =image_tag "bostonroots_logo_orange.png"
         #jumbotext
-          %h1 We are Boston Roots, a Nonprofit College Access Initiative.
+          %h1 
+            We are 
+            %span{style: "font-weight: bold"} Boston Roots,
+            a Nonprofit College Access Initiative.
           %p
             Because Higher education is a
             %b right.
           #jumboarrow
             = evil_icon 'ei-arrow-down', size: :l, class: "home-icon"
 
-    %section#facts
-      .notebook
-        .fact Fact 1
-        .fact Fact 2
-        .fact Fact 3
+  %section#facts
+    .notebook
+      .fact Fact 1
+      .fact Fact 2
+      .fact Fact 3
+  #premission
   %section#mission
     .background
       .filter#missionfilter.foreground
@@ -34,6 +38,5 @@
             %h2 Fostering Connections
             %p Boston Roots firmly believes that parent involvement contributes to a higher degree of student success. As a result, our program works with parents to give their children greater support through parent seminars. Topics include student progress, financial saving information, and support strategies to motivate students. Moreover, we intend to connect students with third party SAT/ACT tutors and financial experts for extra support when it is needed.
         .notebook
-          = link_to "JOIN US", contacts_path, :class => "button btn btn-info ", :id => "bigjoin"
-
+          = link_to "JOIN US", contacts_path, :class => "button btn btn-join", :id => "bigjoin"
 

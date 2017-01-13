@@ -7,28 +7,36 @@
     .profile_table_container
       .profile_table
         - @teamMembers.each_with_index do |member, index|
-          .long-shadow.profile.col-xs-12.col-sm-3{ "data-toggle" => "modal", "data-target" => "#modal#{index}"}
-            - if member.path.blank?
-              = image_tag "profiles/default_profile.jpg"
-            - else
-              = image_tag "profiles/#{member.path}"
-            .profile_name
-              %h2
-                = member.name
-          .modal.fade{id: "modal#{index}", role: "dialog"}
-            .modal-dialog
-              .modal-header
-                %button.close{ "data-dismiss" => "modal" }
-                  &times;
-                .modal-title
-                  %h2
-                    = member.name
-                  %h3
-                    = member.position
-              .modal-body
-                .profile_text
-                  %p
-                    = member.bio
-              .modal-footer
-                %button.btn.btn-default{ "data-dismiss" => "modal" }
-                  Close
+          .long-shadow.profile{class: "side#{index % 2}"}
+            .profile_image
+              - if member.path.blank?
+                = image_tag "profiles/default_profile.jpg"
+              - else
+                = image_tag "profiles/#{member.path}"
+            .profile_card.card
+              .profile_name
+                %h2
+                  = member.name 
+              .profile_pos
+                %h5
+                  = member.position
+              .profile_bio
+                %p
+                  = member.bio
+          / .modal.fade{id: "modal#{index}", role: "dialog"}
+          /   .modal-dialog
+          /     .modal-header
+          /       %button.close{ "data-dismiss" => "modal" }
+          /         &times;
+          /       .modal-title
+          /         %h2
+          /           = member.name
+          /         %h3
+          /           = member.position
+          /     .modal-body
+          /       .profile_text
+          /         %p
+          /           = member.bio
+          /     .modal-footer
+          /       %button.btn.btn-default{ "data-dismiss" => "modal" }
+          /         Close

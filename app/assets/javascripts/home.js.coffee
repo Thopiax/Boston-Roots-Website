@@ -9,6 +9,7 @@ $(document).on "turbolinks:load", ->
 
   nav = $("nav")
   nav_height = nav.height
+  $(".navbar-fixed-top").headroom()
 
   # CHECK IF THIS IS HOME PAGE
   if home.length 
@@ -30,7 +31,10 @@ $(document).on "turbolinks:load", ->
       $("#facts").velocity "scroll", { offset: -78, duration: 900, easing: "easeInBack" }
 
     $("#nav_brand").click ->
-      home.velocity "scroll", {duraiton: 1000, easing: "easeInBack"}
+      if $(window).width < 768
+        5
+      else
+        home.velocity "scroll", {duraiton: 1000, easing: "easeInBack"}
     
     $(window).on "resize", () ->
       setBackgroundSize(home, 1800/2702)
@@ -55,9 +59,6 @@ $(document).on "turbolinks:load", ->
       });
 
   
-
-
-
 addNavToController = (name, controller) ->
   return new ScrollMagic.Scene(triggerElement: "##{name}",
                                triggerHook: "onEnter")

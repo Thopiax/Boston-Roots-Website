@@ -23,7 +23,7 @@
         .notice
           = flash[:notice] 
 
-      - if flash[:error]
+      - if flash[:error] && !(@contact.errors.any?)
         = evil_icon 'ei-exclamation', size: :l
         .notice
           = flash[:error] 

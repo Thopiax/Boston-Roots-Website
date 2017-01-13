@@ -15,7 +15,6 @@ $mission_background_root: "college_hallway";
 #home {
   color: $white_color;
   height: auto;
-  // min-height: 100vh;
   min-height: 600px;
   @include clearspc;
   .background {
@@ -26,8 +25,6 @@ $mission_background_root: "college_hallway";
 
 .jumbotron {
   width: 100vw;
-  position: relative;
-  z-index: 1;
   height: 100%;
   margin: 0;
   color:  #f2f1ef;
@@ -62,6 +59,7 @@ $mission_background_root: "college_hallway";
   display: table-row;
   vertical-align: middle;
   text-align: center;
+  max-width: 600px;
 
   h1 {
     font-size: 2em;
@@ -70,6 +68,7 @@ $mission_background_root: "college_hallway";
 
   p {
     margin-bottom: 1em;
+    font-weight: normal;
   }
 
   b {
@@ -80,11 +79,13 @@ $mission_background_root: "college_hallway";
 #jumboarrow {
   color: $white_color;
   display: none;
+  z-index: 7;
 }
 
 #facts {
-  min-height: 30vh;
-  height: 40vh;
+  z-index: 5;
+  min-height: 10vh;
+  height: 30vh;
   background: $color-secondary-1-0;
   .notebook {
     display: flex;
@@ -95,19 +96,27 @@ $mission_background_root: "college_hallway";
   }
 }
 
+#premission {
+  position: absolute;
+  height: 5;
+  width: 100%;
+  // transform: translateY(-5rem); 
+  top: 121vh;
+  visibility: hidden;
+}
+
 #mission {
   min-height: 100vh;
   height: auto;
   @include clearspc;
 
   h1 {
-    color: $text-color;
+    color: $blue_color;
   }
 
   .background {
     @include import_dynamic_image($mission_background_root);
-    background: fixed;
-    background-size: 100% 100%;
+    height: auto;
   }
 
   .filter {
@@ -116,18 +125,21 @@ $mission_background_root: "college_hallway";
     min-height: 100%;
     width: 100%;
     margin: 0;
-    // background-color: rgba($color-primary-0, 0.2);
-    display: block;
+    background: transparent;
     position: relative;
+    z-index: 5;
 
     #missionbody {
       @media only screen and (min-width: $screen-sm-max) {
         display: flex;
         text-align: center;
-        // font-weight: 300;
       }
       text-align: left;
-      // font-weight: 300;
+
+      h2 {
+        color: $blue_color;
+      }
+
     }
 
     .card {
@@ -185,20 +197,32 @@ $mission_background_root: "college_hallway";
     text-align: center;
   }
 
+  input, textarea, .error_message {
+    width: 80%;
+    margin-left: 10%;
+    @media only screen and (min-width: $screen-sm-max) {
+      width: 50%;
+      margin-left: 25%;
+    }
+  }
+
   input, textarea {
-    width: 50%;
+    margin: 0;
     margin-bottom: 0.75em;
     padding: 1rem;
+    border: none;
+  }
+
+  textarea {
+    height: 150px;
   }
 
   .error_message {
-    margin-left: 25%;
     margin-bottom: 1em;
-    width: 50%;
     border-radius: 4px;
     text-align: left;
     color: $grey_color;
-    background: rgba($error_color, 0.5);
+    background: rgba($error_color, 0.3);
     border: 2px solid $error_color;
     h4 {
       font-size: 2rem;

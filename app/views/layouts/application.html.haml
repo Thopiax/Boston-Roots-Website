@@ -19,21 +19,20 @@
         #navlinks
           %ul#left-subnav.nav.navbar-nav.nav-pills
             %li.nav-option#navhome
-              = link_to "Mission", '/#mission'
+              = link_to "Mission", '/#premission'
             %li.nav-option#navtimeline
-              = link_to "Timeline", '/timeline'
+              = link_to "Timeline", timeline_path
           %ul.navbar-brand#nav_brand.nav.navbar-nav.nav-pills
             %li
               = link_to image_tag("favicon.png"), "/"
           %ul#right-subnav.nav.navbar-nav.nav-pills
             %li.nav-option#navteam
-              = link_to "Team", '/team'
+              = link_to "Team", team_path
             %li.nav-option#navcontact
-              = link_to "Join us", '/contacts'
-
+              = link_to "Join us", contacts_path
 
       = yield
 
     %section#footer
       .notebook
-        %p © Copyright 2016 Boston Roots, All Rights Reserved
+        %p © Copyright 2017 Boston Roots, All Rights Reserved
