@@ -1,14 +1,14 @@
-
 $(document).on "turbolinks:load", ->
 
   home = $("#home")
   mission = $("#mission")
-  contact = $("#{}contact")
+  contact = $("#contact")
+  team = $("#team")
   dwnarr = $("#jumboarrow")
   dwnarr_icon = $("#jumboarrow .icon")
 
   nav = $("nav")
-  nav_height = nav.height
+  nav_brand = $(nav, "#nav_brand")
   $(".navbar-fixed-top").headroom()
 
   # CHECK IF THIS IS HOME PAGE
@@ -23,7 +23,6 @@ $(document).on "turbolinks:load", ->
                           .addTo(controller)
 
     # home arrow functionality
-
     dwnarr_icon.velocity("fadeIn", duration: 3000)
     dwnarr_icon.velocity( {translateY: '10px'}, { duration: 750, loop: true }).velocity('reverse')
 
@@ -31,9 +30,7 @@ $(document).on "turbolinks:load", ->
       $("#facts").velocity "scroll", { offset: -78, duration: 900, easing: "easeInBack" }
 
     $("#nav_brand").click ->
-      if $(window).width < 768
-        5
-      else
+      if $(window).width >= 768
         home.velocity "scroll", {duraiton: 1000, easing: "easeInBack"}
     
     $(window).on "resize", () ->
@@ -41,7 +38,7 @@ $(document).on "turbolinks:load", ->
       setBackgroundSize(mission, 1080/1621)
 
   else if contact.length
-    
+  
     $("#contactSubmit").click ->
       $("#contactSubmit").velocity({
         borderRadius: "25px",
@@ -57,6 +54,7 @@ $(document).on "turbolinks:load", ->
           duration: 350,
           easing: "easeInQuad"
       });
+
 
   
 addNavToController = (name, controller) ->
@@ -78,3 +76,7 @@ setBackgroundSize = (div, img_ratio) ->
   div.css {
     "background-size": bg_size
   }
+
+# moreAndLess = (elem) ->
+#   if elem.hasClass "more":
+#     

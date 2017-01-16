@@ -17,21 +17,27 @@
     #site_wrapper
       %nav.navbar.navbar-fixed-top.short-shadow
         #navlinks
-          %ul#left-subnav.nav.navbar-nav.nav-pills
-            %li.nav-option#navhome
-              = link_to "Mission", '/#premission'
-            %li.nav-option#navtimeline
-              = link_to "Timeline", timeline_path
-          %ul.navbar-brand#nav_brand.nav.navbar-nav.nav-pills
-            %li
-              = link_to image_tag("favicon.png"), "/"
-          %ul#right-subnav.nav.navbar-nav.nav-pills
-            %li.nav-option#navteam
-              = link_to "Team", team_path
-            %li.nav-option#navcontact
-              = link_to "Join us", contacts_path
-
-      = yield
+          .navtable
+            %ul#left-subnav.nav.navbar-nav.nav-pills
+              %li.nav-option.nav-on-only{onclick: "return toggleMobileNav();"}
+                = evil_icon 'ei-close', size: :m 
+              %li.nav-option.nav-on-only
+                = link_to "Home", root_path
+              %li.nav-option
+                = link_to "Mission", mission_path
+              %li.nav-option
+                = link_to "Timeline", timeline_path
+            %ul.navbar-brand#nav_brand.nav.navbar-nav.nav-pills
+              %li
+                = link_to image_tag("favicon.png"), root_path, {onclick: "return toggleMobileNav();"}
+            %ul#right-subnav.nav.navbar-nav.nav-pills
+              %li.nav-option
+                = link_to "Team", team_path
+              %li.nav-option
+                = link_to "Join us", contacts_path
+              
+      .major_wrapper
+        = yield
 
     %section#footer
       .notebook

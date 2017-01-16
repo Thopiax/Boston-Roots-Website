@@ -1,12 +1,12 @@
-%section#contact.first_section
+%section#contact
   #contactheader.header
     %h1 Get Involved
   #contactbody.notebook
     .subheader
       %p 
-        Want to learn more or get involved?
+        Interested in being part of the Boston Roots team?
       %p
-        Feel free to contact our Presidents directly to ask questions or offer suggestions.
+        Join as a mentor or start a chapter at your university! Tell us who you are and why you’re interested and we will reach out to you shortly. 
     = simple_form_for @contact, defaults: {label: false} do |f|
 
       - if @contact.errors.any?

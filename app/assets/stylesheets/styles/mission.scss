@@ -1,0 +1,86 @@
+#mission {
+    height: auto;
+    background: $white_color; 
+    padding-bottom: 2em;
+
+    #mission_intro {
+        @media only screen and (max-width: 400px) {
+            display: none;
+        }
+    }
+
+    .subheader {
+        margin: 2em 0;
+    }
+
+    .sep {
+        width: 50%;
+        margin-left: 25%;
+        height: 1px;
+        background: $grey_color;
+        margin: 3em 25%;
+    }
+
+    #para1 {
+        margin: 2em 5%;
+        height: auto;
+        width: 90%;
+    }
+
+    .tab_schools {
+        display: table;
+        .col {
+            display: block;
+            width: 90%;
+            margin: 5%;
+            height: 100%;
+            @media only screen and (min-width: $screen-sm-min) {
+                display: table-cell;
+                width: 40%;
+                margin: 5%;
+            }
+            .col_header {
+                padding: 0.5em;
+                font-size: 140%;
+                text-align: center;
+                border-bottom: 2px solid $text-color;
+            }
+            .col_body {
+                padding: 1.5em;
+            }
+        }
+    }
+
+    .conclusion {
+        display: block;
+        text-align: center;
+        width: 80%;
+        margin: 1.5em 10%;
+        font-weight: bold;
+        font-size: 110%;
+        padding: 1em;
+        border: 0.5px solid $grey_color;
+    }
+
+    @media only screen and (min-width: $screen-sm-min) {
+        #private_schools {
+            border-right: 1px $grey_color solid;
+        }
+    }
+
+    #para3 {
+        height: auto;
+        position: relative;
+        @media only screen and (min-width: $screen-sm-min) {
+            .conclusion {
+                font-weight: normal;
+            }
+        }
+    }
+
+    a {
+        text-decoration: underline;
+    }
+
+    
+}

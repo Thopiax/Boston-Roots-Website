@@ -1,53 +1,104 @@
+
 #team {
   background-color: $white_color;
   height: auto;
   min-height: 70vh;
-  margin: 0;
-
-  h1 {
-    color: $text-color;
-    margin-bottom: 0;
-    text-align: center;
-  }
 
   .profile_table {
     height: auto;
     text-align: center;
   }
 
+  .profile_row {
+    width: 100%;
+    @media only screen and (min-width: $screen-sm-min) {
+      display: flex;
+      padding: 1rem;
+    }
+  }
+
+  @media only screen and (min-width: $screen-sm-min) {
+    .side0 {
+      float: left;
+    } 
+    .side1 {
+      float: right;
+    }
+  }
+
   .profile {
     @include clearspc;
-    margin: 5% 0;
-    width: 45%;
+    min-width: 250px;
+    width: 100%;
+    display: inline-block;
+
+    .profile_header, .profile_card {
+      @media only screen and (min-width: $screen-sm-min) {
+        height: 150px;
+      }
+    }
 
     .profile_image {
+      display: inline-block;
       float: left;
       img {
         width: 100%;
+        @media only screen and (min-width: $screen-sm-min) {
+          width: 150px;
+        }
         height: 100%;
-        display: block;
       }
     }
-    
+
+    @media only screen and (min-width: $screen-sm-min) {
+      width: 40%;
+      margin: 5%;
+    }
+
     .profile_card {
-      padding: 0;
-      margin: 0;
+      @include clearspc;
+      display: inline-block;
+      width: -moz-calc(100% - 150px);
+      /* WebKit */
+      width: -webkit-calc(100% - 150px);
+      /* Opera */
+      width: -o-calc(100% - 150px);
+      /* Standard */
+      width: calc(100% - 150px);
+
+      .profile_pos, .profile_name {
+        text-align: left;
+        width: 100%;
+      }
 
       .profile_name {
         padding: 2rem;
-        text-align: left;
-        background-color: $color-secondary-2-0;
+        background-color: $blue-color;
+        height: 100px;
+        display: table;
         h2 {
-          font-size: 2em;
-          @media only screen and (min-width: $screen-sm-min) {
+          display: table-cell;
+          vertical-align: middle;
+          font-size: 1.2em;
+          color: white;
+          @media only screen and (min-width: $screen-lg-min) {
             font-size: 1.5em;
           }
-          margin: 0;
+          margin: auto;
           width: 100%;
         }
-
       }
 
+      .profile_pos {
+        text-align: left;
+        padding-left: 3rem;
+        display: table;
+        height: 50px;
+        h5 {
+          display: table-cell;
+          vertical-align: middle;
+        }
+      }
     }
 
   }

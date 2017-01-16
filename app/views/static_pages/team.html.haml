@@ -1,42 +1,31 @@
 %section#team.first_section
   #teamheader.header
-    %h1 Team
-    #teamfooter.notebook
-      %p Click on the images for more.
+    .header_text
+      %h1 Team
+      %p 
+        We are Boston Roots,
+        a Nonprofit College Access Initiative.
+        Get to know us!
   #teambody.notebook
     .profile_table_container
       .profile_table
-        - @teamMembers.each_with_index do |member, index|
-          .long-shadow.profile{class: "side#{index % 2}"}
-            .profile_image
-              - if member.path.blank?
-                = image_tag "profiles/default_profile.jpg"
-              - else
-                = image_tag "profiles/#{member.path}"
-            .profile_card.card
-              .profile_name
-                %h2
-                  = member.name 
-              .profile_pos
-                %h5
-                  = member.position
-              .profile_bio
-                %p
-                  = member.bio
-          / .modal.fade{id: "modal#{index}", role: "dialog"}
-          /   .modal-dialog
-          /     .modal-header
-          /       %button.close{ "data-dismiss" => "modal" }
-          /         &times;
-          /       .modal-title
-          /         %h2
-          /           = member.name
-          /         %h3
-          /           = member.position
-          /     .modal-body
-          /       .profile_text
-          /         %p
-          /           = member.bio
-          /     .modal-footer
-          /       %button.btn.btn-default{ "data-dismiss" => "modal" }
-          /         Close
+        - @teamMembers.each_slice(2) do |slice|
+          .profile_row
+            - slice.each_with_index do |member, index|
+              .profile.long-shadow{class: "side#{index}"}
+                .profile_header
+                  .profile_image
+                    - if member.path.blank?
+                      = image_tag "profiles/default_profile.jpg"
+                    - else
+                      = image_tag "profiles/#{member.path}"
+                  .profile_card
+                    .profile_name
+                      %h2
+                        = member.name 
+                    .profile_pos
+                      %h5
+                        = member.position
+                .profile_bio
+                  %p
+                    = member.bio

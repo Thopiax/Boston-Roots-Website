@@ -1,5 +1,11 @@
 #timeline {
   background-color: $white_color;
+  .header {
+    background-color: $blue_color;
+    p {
+      color: $color-secondary-1-0;
+    }
+  }
   .header > h1 {
     color: $text-color;
   }
@@ -11,7 +17,6 @@
   padding: 10px 0;
   position: relative;
   font-weight: 300;
-
   &:before {
     top: 0;
     bottom: 0;
@@ -19,6 +24,7 @@
     content:" ";
     width: 2px;
     background: $text_color;
+    height: 200%;
     left: 50%;
     margin-left: -1.5px;
   }
@@ -112,6 +118,7 @@
 
     h4 {
       color: $white_color;
+      font-size: 200%;
     }
 
     & + li {

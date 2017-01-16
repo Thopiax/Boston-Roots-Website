@@ -59,6 +59,10 @@ section {
   z-index: 5;
 }
 
+.major_wrapper {
+  min-width: $min-width;
+}
+
 .foreground {
   background: transparent;
 }
@@ -129,8 +133,13 @@ nav {
   #navlinks {
     display: inline-block;
     margin: 0.5rem 0;
+
     @media only screen and (min-width: $screen-sm-min) {
       margin: 2rem 0;
+    }
+
+    h2 {
+      margin-bottom: 1em;
     }
 
     .nav-option {
@@ -138,6 +147,9 @@ nav {
       margin: 0 1em;
       @media only screen and (min-width: $screen-sm-min) {
         display: block;
+        &.nav-on-only {
+          display: none;
+        }
       }
       a {
         color: $text-color;
@@ -199,6 +211,41 @@ nav {
 
 }
 
+@media only screen and (max-width: $screen-xs-max) {
+  .navOn {
+    .nav-on-only {
+      display: inline-block;
+    }
+    #navlinks {
+      display: table;
+      height: 100vh;
+      .navtable {
+        display: table-cell;
+        vertical-align: middle;
+      }
+      .nav-option {
+        width: 100%;
+        display: list-item;
+        margin: 0;
+        font-size: 250%;
+        a {
+          line-height: 200%;
+        }
+      }
+      #nav_brand {
+        display: none;
+      }
+      #left-subnav {
+        margin-bottom: 0;
+      }
+      #right-subnav {
+        padding-right: 0;
+        margin-top: 0;
+      }
+    }
+  }
+}
+
 .nav-home {
   background: transparent;
   box-shadow: none;
@@ -236,10 +283,32 @@ nav {
   min-width: $min-width;
 }
 
-section .header {
+.first_section .header {
   margin-bottom: 5rem;
   text-align: center;
-  font-size: 1.5em;
+  height: 70vh;
+  display: table;
+  margin: 0 -10vw;
+  background: $blue_color;
+  padding: 0;
+  width: 100vw;
+
+  .header_text {
+    display: table-cell;
+    vertical-align: middle;
+  }
+
+  h1 {
+    font-size: 3em;
+    color: $white_color;
+  }
+
+  p {
+    color: $color-secondary-1-0;
+    width: 60%;
+    margin-left: 20%;
+    margin-top: 3em;
+  }
 }
 
 
@@ -247,11 +316,13 @@ section .header {
 .notebook {
   min-width: $min-width * 0.8;
   max-width: $screen-sm-max;
-  width: 90%;
+  width: 100%;
+  margin: 0;
   @media only screen and (min-width: $screen-lg-min) {
     max-width: $screen-md-max;
+    width: 90%;
+    margin: auto;
   }
-  margin: auto;
 }
 
 .btn {
@@ -273,10 +344,6 @@ section .header {
     background: $color-secondary-1-4;
     border-color: $color-secondary-1-4;
   }
-}
-
-.first_section {
-  padding-top: 5em;
 }
 
 #footer {
