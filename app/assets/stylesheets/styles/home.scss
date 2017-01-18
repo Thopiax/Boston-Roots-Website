@@ -20,6 +20,7 @@ $mission_background_root: "college_hallway";
   .background {
     @include import_dynamic_image($home_background_root);
     background-size: 100% 100%;
+    min-height: 600px;
   }
 }
 
@@ -84,7 +85,7 @@ $mission_background_root: "college_hallway";
 
 #facts {
   z-index: 5;
-  min-height: 10vh;
+  min-height: 150px;
   height: 30vh;
   background: $color-secondary-1-0;
   padding: 0 auto;
@@ -94,6 +95,7 @@ $mission_background_root: "college_hallway";
     text-align: center;
     margin: 0;
     height: 100%;
+    width: 100%;
     .fact {
       width: 90%;
       margin: 0 5%;
