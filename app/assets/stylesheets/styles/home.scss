@@ -87,13 +87,58 @@ $mission_background_root: "college_hallway";
   min-height: 10vh;
   height: 30vh;
   background: $color-secondary-1-0;
+  padding: 0 auto;
+  color: white;
   .notebook {
     display: flex;
     text-align: center;
+    margin: 0;
+    height: 100%;
+    .fact {
+      width: 90%;
+      margin: 5%;
+      display: table;
+      p {
+        font-size: 1.5em;
+        font-weight: 300;
+        display: table-cell;
+        vertical-align: middle;
+      }
+    }
+    h2 {
+      color: inherit;
+    }
   }
-  .fact {
-    width: 33%;
-  }
+
+  
+  // #clock {
+  //   float: right;
+  //   svg {
+  //     height: 50%;
+  //     width: 50%;
+  //     #Icons-Device{
+  //       fill: white;
+  //     }
+  //   }
+    
+  // }
+  // p {
+  //   padding-top: 0.5em;
+  // }
+  // #people {
+  //   width: 50%;
+  // }
+  // #person {
+  //   display: inline;
+  //   svg {
+  //     height: 3%;
+      
+  //     width: auto;
+  //     #Icons-Device{
+  //       fill: white;
+  //     }
+  //   }
+  // }
 }
 
 #premission {

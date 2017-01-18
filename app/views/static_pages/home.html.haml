@@ -9,17 +9,29 @@
           We are 
           %span{style: "font-weight: bold"} Boston Roots,
           a Nonprofit College Access Initiative.
-        %p
-          Because Higher education is a
-          %b right.
         #jumboarrow
           = evil_icon 'ei-arrow-down', size: :l, class: "home-icon"
 
 %section#facts
   .notebook
-    .fact Fact 1
-    .fact Fact 2
-    .fact Fact 3
+    .fact
+      %p
+        Because higher education is a
+        %b right.
+    / .fact
+    /   %h2
+    /     38 mins
+    /   #clock
+    /     = embedded_svg "clock_icon.svg"
+    /   %p 
+    /     Minutes the average student receives from their public school guidance department cross 4 years.
+    / .fact 
+    /   %h2
+    /     472 to 1
+    /   #people
+    /   - 0.upto(200) do |_|
+    /     #person
+    /       = embedded_svg "person.svg"
 #premission
 %section#mission_lite
   .background
