@@ -10,22 +10,24 @@
     .profile_table_container
       .profile_table
         - @teamMembers.each_slice(2) do |slice|
-          .profile_row
-            - slice.each_with_index do |member, index|
-              .profile.long-shadow{class: "side#{index}"}
-                .profile_header
-                  .profile_image
-                    - if member.path.blank?
-                      = image_tag "profiles/default_profile.jpg"
-                    - else
-                      = image_tag "profiles/#{member.path}"
-                  .profile_card
-                    .profile_name
-                      %h2
-                        = member.name 
-                    .profile_pos
-                      %h5
-                        = member.position
-                .profile_bio
-                  %p
-                    = member.bio
+          - slice.each_with_index do |member, index|
+            .profile{class: "side#{index}"}
+              .profile_header.long-shadow
+                .profile_image
+                  - if member.path.blank?
+                    = image_tag "profiles/default_profile.jpg"
+                  - else
+                    = image_tag "profiles/#{member.path}"
+                .profile_card
+                  .profile_name
+                    = evil_icon 'ei-chevron-down', size: :m, class: "left_chevron"
+                    %h2
+                      = member.name 
+                    = evil_icon 'ei-chevron-down', size: :m, class: "right_chevron"
+                  .profile_pos
+                    %h5
+                      = member.position
+              %input{type: "radio", name: "teambio"}
+              .profile_bio.long-shadow
+                %p
+                  = member.bio

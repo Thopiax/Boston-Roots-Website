@@ -55,8 +55,14 @@ $(document).on "turbolinks:load", ->
           easing: "easeInQuad"
       });
 
+  else if team.length
 
-  
+    $(".profile").click ->
+      $('input').attr('checked', false)
+      $('.profile').removeClass "stick"
+      $(@).find('input').attr('checked', true)
+      $(@).addClass "stick"
+
 addNavToController = (name, controller) ->
   return new ScrollMagic.Scene(triggerElement: "##{name}",
                                triggerHook: "onEnter")
@@ -76,7 +82,3 @@ setBackgroundSize = (div, img_ratio) ->
   div.css {
     "background-size": bg_size
   }
-
-# moreAndLess = (elem) ->
-#   if elem.hasClass "more":
-#     

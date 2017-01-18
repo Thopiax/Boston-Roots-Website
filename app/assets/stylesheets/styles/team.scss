@@ -7,34 +7,37 @@
   .profile_table {
     height: auto;
     text-align: center;
-  }
-
-  .profile_row {
-    width: 100%;
-    @media only screen and (min-width: $screen-sm-min) {
-      display: flex;
-      padding: 1rem;
-    }
-  }
-
-  @media only screen and (min-width: $screen-sm-min) {
-    .side0 {
-      float: left;
-    } 
-    .side1 {
-      float: right;
-    }
+    margin: 3em 0;
   }
 
   .profile {
     @include clearspc;
     min-width: 250px;
     width: 100%;
+    margin: 3% 0;
     display: inline-block;
+    @media only screen and (min-width: $screen-sm-min) {
+      width: 90%;
+      margin: 1% 5%;
+    }
 
     .profile_header, .profile_card {
+      height: 150px;
       @media only screen and (min-width: $screen-sm-min) {
         height: 150px;
+      }
+    }
+
+    .profile_header {
+      @media only screen and (min-width: $screen-sm-min) {
+        margin-left: 150px;
+        display: block;
+        -webkit-transition-duration: 0.8s; /* Safari */
+        transition-duration: 0.8s;
+        &:hover {
+          margin-left: 0;
+          margin-right: 0;
+        }
       }
     }
 
@@ -42,17 +45,9 @@
       display: inline-block;
       float: left;
       img {
-        width: 100%;
-        @media only screen and (min-width: $screen-sm-min) {
-          width: 150px;
-        }
+        width: 150px;
         height: 100%;
       }
-    }
-
-    @media only screen and (min-width: $screen-sm-min) {
-      width: 40%;
-      margin: 5%;
     }
 
     .profile_card {
@@ -66,34 +61,33 @@
       /* Standard */
       width: calc(100% - 150px);
 
-      .profile_pos, .profile_name {
-        text-align: left;
-        width: 100%;
-      }
-
       .profile_name {
         padding: 2rem;
         background-color: $blue-color;
         height: 100px;
         display: table;
+        width: 100.25%;
         h2 {
           display: table-cell;
           vertical-align: middle;
           font-size: 1.2em;
           color: white;
+          margin: auto;
+          width: 100%;
           @media only screen and (min-width: $screen-lg-min) {
             font-size: 1.5em;
           }
-          margin: auto;
-          width: 100%;
+        }
+        .icon {
+          color: $white-color;
         }
       }
 
       .profile_pos {
-        text-align: left;
-        padding-left: 3rem;
+        padding: 0 3rem;
         display: table;
         height: 50px;
+        width: 100%;
         h5 {
           display: table-cell;
           vertical-align: middle;
@@ -101,14 +95,69 @@
       }
     }
 
-  }
-
-  #teamfooter {
-    padding-top: 0.5%;
-    text-align: center;
-    p {
-      font-size: 1.2rem;
-      margin: 0;
+    .profile_bio {
+      padding: 1em;
+      text-align: left;
+      margin-top: 1em;
+      margin-bottom: 1em;
     }
   }
+
+  .profile_header {
+    cursor: pointer;
+    display: block;
+  }
+
+  .profile_header + input {
+    display: none; /* hide the checkboxes */
+  }
+  .profile_header + input + .profile_bio {
+    display:none;
+  }
+  .profile_header + input:checked + .profile_bio {
+    display:block;
+  }
+
+  .side0 {
+    .profile_pos, .profile_name {
+      text-align: left;
+    }
+    .left_chevron {
+      display: none;
+    }
+  }
+
+  .side1 {
+    .profile_image {
+      float: right;
+    }
+    .profile_pos, .profile_name {
+      text-align: right;
+    }
+    .right_chevron {
+      display: none;
+    }
+    .profile_header {
+      @media only screen and (min-width: $screen-sm-min) {
+        margin-left: 0;
+        margin-right: 150; 
+      }
+    }
+  }
+
+  .stick {
+    .profile_header {
+      margin-left: 0;
+      margin-right: 0;
+    }
+  }
+
+  // #teamfooter {
+  //   padding-top: 0.5%;
+  //   text-align: center;
+  //   p {
+  //     font-size: 1.2rem;
+  //     margin: 0;
+  //   }
+  // }
 }

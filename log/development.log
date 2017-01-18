@@ -65187,3 +65187,442 @@ Processing by StaticPagesController#team as HTML
 Completed 200 OK in 74ms (Views: 69.7ms | ActiveRecord: 0.3ms)
 
 
+Started GET "/" for ::1 at 2017-01-18 17:58:09 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.haml within layouts/application
+  Rendered static_pages/home.html.haml within layouts/application (2925.5ms)
+Completed 200 OK in 3027ms (Views: 3016.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/team" for ::1 at 2017-01-18 17:58:19 +0000
+Processing by StaticPagesController#team as HTML
+  Rendering static_pages/team.html.haml within layouts/application
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT COUNT(*) FROM "members"[0m
+  [1m[36mMember Load (0.3ms)[0m  [1m[34mSELECT "members".* FROM "members"[0m
+  Rendered static_pages/team.html.haml within layouts/application (28.1ms)
+Completed 200 OK in 154ms (Views: 124.8ms | ActiveRecord: 2.7ms)
+
+
+Started GET "/team" for ::1 at 2017-01-18 18:01:28 +0000
+Processing by StaticPagesController#team as HTML
+  Rendering static_pages/team.html.haml within layouts/application
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT COUNT(*) FROM "members"[0m
+  [1m[36mMember Load (0.4ms)[0m  [1m[34mSELECT "members".* FROM "members"[0m
+  Rendered static_pages/team.html.haml within layouts/application (23.0ms)
+Completed 200 OK in 960ms (Views: 955.6ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/" for ::1 at 2017-01-18 18:01:48 +0000
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.haml within layouts/application
+  Rendered static_pages/home.html.haml within layouts/application (6.7ms)
+Completed 200 OK in 48ms (Views: 46.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/team" for ::1 at 2017-01-18 18:01:54 +0000
+Processing by StaticPagesController#team as HTML
+  Rendering static_pages/team.html.haml within layouts/application
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT COUNT(*) FROM "members"[0m
+  [1m[36mMember Load (0.2ms)[0m  [1m[34mSELECT "members".* FROM "members"[0m
+  Rendered static_pages/team.html.haml within layouts/application (44.9ms)
+Completed 200 OK in 103ms (Views: 98.2ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/team" for ::1 at 2017-01-18 18:03:01 +0000
+Processing by StaticPagesController#team as HTML
+  Rendering static_pages/team.html.haml within layouts/application
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM "members"[0m
+  [1m[36mMember Load (0.3ms)[0m  [1m[34mSELECT "members".* FROM "members"[0m
+  Rendered static_pages/team.html.haml within layouts/application (20.6ms)
+Completed 200 OK in 643ms (Views: 638.0ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/team" for ::1 at 2017-01-18 18:03:48 +0000
+Processing by StaticPagesController#team as HTML
+  Rendering static_pages/team.html.haml within layouts/application
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "members"[0m
+  [1m[36mMember Load (0.1ms)[0m  [1m[34mSELECT "members".* FROM "members"[0m
+  Rendered static_pages/team.html.haml within layouts/application (7.7ms)
+Completed 200 OK in 237ms (Views: 234.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/team" for ::1 at 2017-01-18 18:04:01 +0000
+Processing by StaticPagesController#team as HTML
+  Rendering static_pages/team.html.haml within layouts/application
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "members"[0m
+  [1m[36mMember Load (0.1ms)[0m  [1m[34mSELECT "members".* FROM "members"[0m
+  Rendered static_pages/team.html.haml within layouts/application (8.8ms)
+Completed 200 OK in 299ms (Views: 295.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/team" for ::1 at 2017-01-18 18:05:44 +0000
+Processing by StaticPagesController#team as HTML
+  Rendering static_pages/team.html.haml within layouts/application
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "members"[0m
+  [1m[36mMember Load (0.1ms)[0m  [1m[34mSELECT "members".* FROM "members"[0m
+  Rendered static_pages/team.html.haml within layouts/application (10.2ms)
+Completed 200 OK in 368ms (Views: 365.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/team" for ::1 at 2017-01-18 18:06:17 +0000
+Processing by StaticPagesController#team as HTML
+  Rendering static_pages/team.html.haml within layouts/application
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "members"[0m
+  [1m[36mMember Load (0.2ms)[0m  [1m[34mSELECT "members".* FROM "members"[0m
+  Rendered static_pages/team.html.haml within layouts/application (21.1ms)
+Completed 200 OK in 136ms (Views: 130.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/team" for ::1 at 2017-01-18 18:06:28 +0000
+Processing by StaticPagesController#team as HTML
+  Rendering static_pages/team.html.haml within layouts/application
+  Rendered static_pages/team.html.haml within layouts/application (4.4ms)
+Completed 500 Internal Server Error in 11ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Illegal nesting: content can't be both given on the same line as %div and nested within it.):
+    12:         - @teamMembers.each_slice(2) do |slice|
+    13:           - slice.each_with_index do |member, index|
+    14:             .profile{class: "side#{index}"}.long-shadow
+    15:               .profile_header
+    16:                 .profile_image
+    17:                   - if member.path.blank?
+    18:                     = image_tag "profiles/default_profile.jpg"
+  
+app/views/static_pages/team.html.haml:15
+  Rendering /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (3.9ms)
+  Rendering /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.3ms)
+  Rendering /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (69.0ms)
+Started GET "/favicon.ico" for ::1 at 2017-01-18 18:06:29 +0000
+  
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  
+actionpack (5.0.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.3.1) lib/web_console/middleware.rb:131:in `call_app'
+web-console (3.3.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.3.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.3.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.0.1) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.0.1) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:70:in `block in tagged'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:70:in `tagged'
+railties (5.0.0.1) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.0.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.0.1) lib/rails/engine.rb:522:in `call'
+puma (3.6.0) lib/puma/configuration.rb:225:in `call'
+puma (3.6.0) lib/puma/server.rb:578:in `handle_request'
+puma (3.6.0) lib/puma/server.rb:415:in `process_client'
+puma (3.6.0) lib/puma/server.rb:275:in `block in run'
+puma (3.6.0) lib/puma/thread_pool.rb:116:in `block in spawn_thread'
+  Rendering /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.3ms)
+  Rendered collection of /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb [7 times] (6.8ms)
+  Rendered /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (7.6ms)
+  Rendering /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (94.9ms)
+Started GET "/team" for ::1 at 2017-01-18 18:06:37 +0000
+Processing by StaticPagesController#team as HTML
+  Rendering static_pages/team.html.haml within layouts/application
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "members"[0m
+  [1m[36mMember Load (0.1ms)[0m  [1m[34mSELECT "members".* FROM "members"[0m
+  Rendered static_pages/team.html.haml within layouts/application (7.6ms)
+Completed 200 OK in 46ms (Views: 43.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/team" for ::1 at 2017-01-18 18:07:24 +0000
+Processing by StaticPagesController#team as HTML
+  Rendering static_pages/team.html.haml within layouts/application
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT COUNT(*) FROM "members"[0m
+  [1m[36mMember Load (0.3ms)[0m  [1m[34mSELECT "members".* FROM "members"[0m
+  Rendered static_pages/team.html.haml within layouts/application (17.5ms)
+Completed 200 OK in 294ms (Views: 291.0ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/team" for ::1 at 2017-01-18 18:07:47 +0000
+Processing by StaticPagesController#team as HTML
+  Rendering static_pages/team.html.haml within layouts/application
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT COUNT(*) FROM "members"[0m
+  [1m[36mMember Load (0.2ms)[0m  [1m[34mSELECT "members".* FROM "members"[0m
+  Rendered static_pages/team.html.haml within layouts/application (10.7ms)
+Completed 200 OK in 256ms (Views: 253.3ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/team" for ::1 at 2017-01-18 18:07:55 +0000
+Processing by StaticPagesController#team as HTML
+  Rendering static_pages/team.html.haml within layouts/application
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "members"[0m
+  [1m[36mMember Load (0.1ms)[0m  [1m[34mSELECT "members".* FROM "members"[0m
+  Rendered static_pages/team.html.haml within layouts/application (8.8ms)
+Completed 200 OK in 44ms (Views: 42.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/team" for ::1 at 2017-01-18 18:08:47 +0000
+Processing by StaticPagesController#team as HTML
+  Rendering static_pages/team.html.haml within layouts/application
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "members"[0m
+  [1m[36mMember Load (0.2ms)[0m  [1m[34mSELECT "members".* FROM "members"[0m
+  Rendered static_pages/team.html.haml within layouts/application (21.5ms)
+Completed 200 OK in 438ms (Views: 434.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/team" for ::1 at 2017-01-18 18:09:24 +0000
+Processing by StaticPagesController#team as HTML
+  Rendering static_pages/team.html.haml within layouts/application
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "members"[0m
+  [1m[36mMember Load (0.2ms)[0m  [1m[34mSELECT "members".* FROM "members"[0m
+  Rendered static_pages/team.html.haml within layouts/application (10.6ms)
+Completed 200 OK in 511ms (Views: 507.9ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/team" for ::1 at 2017-01-18 18:09:42 +0000
+Processing by StaticPagesController#team as HTML
+  Rendering static_pages/team.html.haml within layouts/application
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "members"[0m
+  [1m[36mMember Load (0.1ms)[0m  [1m[34mSELECT "members".* FROM "members"[0m
+  Rendered static_pages/team.html.haml within layouts/application (8.8ms)
+Completed 200 OK in 242ms (Views: 240.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/team" for ::1 at 2017-01-18 18:10:52 +0000
+Processing by StaticPagesController#team as HTML
+  Rendering static_pages/team.html.haml within layouts/application
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "members"[0m
+  [1m[36mMember Load (0.1ms)[0m  [1m[34mSELECT "members".* FROM "members"[0m
+  Rendered static_pages/team.html.haml within layouts/application (9.2ms)
+Completed 200 OK in 216ms (Views: 214.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/team" for ::1 at 2017-01-18 18:11:10 +0000
+Processing by StaticPagesController#team as HTML
+  Rendering static_pages/team.html.haml within layouts/application
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "members"[0m
+  [1m[36mMember Load (0.2ms)[0m  [1m[34mSELECT "members".* FROM "members"[0m
+  Rendered static_pages/team.html.haml within layouts/application (10.3ms)
+Completed 200 OK in 306ms (Views: 303.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/team" for ::1 at 2017-01-18 18:11:19 +0000
+Processing by StaticPagesController#team as HTML
+  Rendering static_pages/team.html.haml within layouts/application
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "members"[0m
+  [1m[36mMember Load (0.1ms)[0m  [1m[34mSELECT "members".* FROM "members"[0m
+  Rendered static_pages/team.html.haml within layouts/application (10.6ms)
+Completed 200 OK in 248ms (Views: 245.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/team" for ::1 at 2017-01-18 18:11:27 +0000
+Processing by StaticPagesController#team as HTML
+  Rendering static_pages/team.html.haml within layouts/application
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "members"[0m
+  [1m[36mMember Load (0.1ms)[0m  [1m[34mSELECT "members".* FROM "members"[0m
+  Rendered static_pages/team.html.haml within layouts/application (9.1ms)
+Completed 200 OK in 217ms (Views: 213.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/team" for ::1 at 2017-01-18 18:13:45 +0000
+Processing by StaticPagesController#team as HTML
+  Rendering static_pages/team.html.haml within layouts/application
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "members"[0m
+  [1m[36mMember Load (0.1ms)[0m  [1m[34mSELECT "members".* FROM "members"[0m
+  Rendered static_pages/team.html.haml within layouts/application (10.2ms)
+Completed 200 OK in 272ms (Views: 267.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for ::1 at 2017-01-18 18:13:49 +0000
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.haml within layouts/application
+  Rendered static_pages/home.html.haml within layouts/application (18.3ms)
+Completed 200 OK in 77ms (Views: 71.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/team" for ::1 at 2017-01-18 18:14:19 +0000
+Processing by StaticPagesController#team as HTML
+  Rendering static_pages/team.html.haml within layouts/application
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "members"[0m
+  [1m[36mMember Load (0.7ms)[0m  [1m[34mSELECT "members".* FROM "members"[0m
+  Rendered static_pages/team.html.haml within layouts/application (23.1ms)
+Completed 200 OK in 132ms (Views: 126.2ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/team" for ::1 at 2017-01-18 18:14:34 +0000
+Processing by StaticPagesController#team as HTML
+  Rendering static_pages/team.html.haml within layouts/application
+  Rendered static_pages/team.html.haml within layouts/application (2.8ms)
+Completed 500 Internal Server Error in 12ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Illegal element: classes and ids must have values.):
+    22:                   .profile_name
+    23:                     %h2
+    24:                       = member.name 
+    25:                     # = evil_icon 'ei-chevron-down', size: :l, class: "home-icon"
+    26:                   .profile_pos
+    27:                     %h5
+    28:                       = member.position
+  
+app/views/static_pages/team.html.haml:25
+  Rendering /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (4.6ms)
+  Rendering /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.8ms)
+  Rendering /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /Users/rafa/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (61.8ms)
+Started GET "/team" for ::1 at 2017-01-18 18:14:39 +0000
+Processing by StaticPagesController#team as HTML
+  Rendering static_pages/team.html.haml within layouts/application
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "members"[0m
+  [1m[36mMember Load (0.1ms)[0m  [1m[34mSELECT "members".* FROM "members"[0m
+  Rendered static_pages/team.html.haml within layouts/application (7.7ms)
+Completed 200 OK in 48ms (Views: 45.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/team" for ::1 at 2017-01-18 18:15:00 +0000
+Processing by StaticPagesController#team as HTML
+  Rendering static_pages/team.html.haml within layouts/application
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "members"[0m
+  [1m[36mMember Load (0.2ms)[0m  [1m[34mSELECT "members".* FROM "members"[0m
+  Rendered static_pages/team.html.haml within layouts/application (63.3ms)
+Completed 200 OK in 178ms (Views: 173.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/team" for ::1 at 2017-01-18 18:15:46 +0000
+Processing by StaticPagesController#team as HTML
+  Rendering static_pages/team.html.haml within layouts/application
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "members"[0m
+  [1m[36mMember Load (0.2ms)[0m  [1m[34mSELECT "members".* FROM "members"[0m
+  Rendered static_pages/team.html.haml within layouts/application (24.6ms)
+Completed 200 OK in 293ms (Views: 288.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/team" for ::1 at 2017-01-18 18:17:26 +0000
+Processing by StaticPagesController#team as HTML
+  Rendering static_pages/team.html.haml within layouts/application
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "members"[0m
+  [1m[36mMember Load (0.2ms)[0m  [1m[34mSELECT "members".* FROM "members"[0m
+  Rendered static_pages/team.html.haml within layouts/application (83.6ms)
+Completed 200 OK in 927ms (Views: 921.9ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/team" for ::1 at 2017-01-18 18:18:10 +0000
+Processing by StaticPagesController#team as HTML
+  Rendering static_pages/team.html.haml within layouts/application
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "members"[0m
+  [1m[36mMember Load (0.2ms)[0m  [1m[34mSELECT "members".* FROM "members"[0m
+  Rendered static_pages/team.html.haml within layouts/application (33.1ms)
+Completed 200 OK in 479ms (Views: 472.0ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/team" for ::1 at 2017-01-18 18:19:03 +0000
+Processing by StaticPagesController#team as HTML
+  Rendering static_pages/team.html.haml within layouts/application
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "members"[0m
+  [1m[36mMember Load (0.2ms)[0m  [1m[34mSELECT "members".* FROM "members"[0m
+  Rendered static_pages/team.html.haml within layouts/application (24.2ms)
+Completed 200 OK in 208ms (Views: 204.5ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/team" for ::1 at 2017-01-18 18:19:26 +0000
+Processing by StaticPagesController#team as HTML
+  Rendering static_pages/team.html.haml within layouts/application
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "members"[0m
+  [1m[36mMember Load (0.2ms)[0m  [1m[34mSELECT "members".* FROM "members"[0m
+  Rendered static_pages/team.html.haml within layouts/application (27.2ms)
+Completed 200 OK in 503ms (Views: 496.6ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/team" for ::1 at 2017-01-18 18:21:11 +0000
+Processing by StaticPagesController#team as HTML
+  Rendering static_pages/team.html.haml within layouts/application
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "members"[0m
+  [1m[36mMember Load (0.2ms)[0m  [1m[34mSELECT "members".* FROM "members"[0m
+  Rendered static_pages/team.html.haml within layouts/application (33.9ms)
+Completed 200 OK in 609ms (Views: 601.6ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/team" for ::1 at 2017-01-18 18:23:09 +0000
+Processing by StaticPagesController#team as HTML
+  Rendering static_pages/team.html.haml within layouts/application
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "members"[0m
+  [1m[36mMember Load (0.4ms)[0m  [1m[34mSELECT "members".* FROM "members"[0m
+  Rendered static_pages/team.html.haml within layouts/application (76.1ms)
+Completed 200 OK in 628ms (Views: 623.2ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/team" for ::1 at 2017-01-18 18:23:24 +0000
+Processing by StaticPagesController#team as HTML
+  Rendering static_pages/team.html.haml within layouts/application
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "members"[0m
+  [1m[36mMember Load (0.1ms)[0m  [1m[34mSELECT "members".* FROM "members"[0m
+  Rendered static_pages/team.html.haml within layouts/application (8.0ms)
+Completed 200 OK in 260ms (Views: 257.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/team" for ::1 at 2017-01-18 18:23:34 +0000
+Processing by StaticPagesController#team as HTML
+  Rendering static_pages/team.html.haml within layouts/application
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT COUNT(*) FROM "members"[0m
+  [1m[36mMember Load (0.2ms)[0m  [1m[34mSELECT "members".* FROM "members"[0m
+  Rendered static_pages/team.html.haml within layouts/application (14.7ms)
+Completed 200 OK in 294ms (Views: 290.3ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/team" for ::1 at 2017-01-18 18:23:44 +0000
+Processing by StaticPagesController#team as HTML
+  Rendering static_pages/team.html.haml within layouts/application
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "members"[0m
+  [1m[36mMember Load (0.2ms)[0m  [1m[34mSELECT "members".* FROM "members"[0m
+  Rendered static_pages/team.html.haml within layouts/application (8.3ms)
+Completed 200 OK in 54ms (Views: 50.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/contacts" for ::1 at 2017-01-18 18:24:07 +0000
+Processing by ContactsController#new as HTML
+  Rendering contacts/new.html.haml within layouts/application
+  Rendered contacts/new.html.haml within layouts/application (52.7ms)
+Completed 200 OK in 120ms (Views: 90.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/timeline" for ::1 at 2017-01-18 18:24:11 +0000
+Processing by StaticPagesController#timeline as HTML
+  Rendering static_pages/timeline.html.haml within layouts/application
+  Rendered static_pages/timeline.html.haml within layouts/application (6.8ms)
+Completed 200 OK in 56ms (Views: 52.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mission" for ::1 at 2017-01-18 18:24:14 +0000
+Processing by StaticPagesController#mission as HTML
+  Rendering static_pages/mission.html.haml within layouts/application
+  Rendered static_pages/mission.html.haml within layouts/application (7.4ms)
+Completed 200 OK in 55ms (Views: 51.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/team" for ::1 at 2017-01-18 18:24:19 +0000
+Processing by StaticPagesController#team as HTML
+  Rendering static_pages/team.html.haml within layouts/application
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "members"[0m
+  [1m[36mMember Load (0.5ms)[0m  [1m[34mSELECT "members".* FROM "members"[0m
+  Rendered static_pages/team.html.haml within layouts/application (26.5ms)
+Completed 200 OK in 94ms (Views: 89.8ms | ActiveRecord: 0.7ms)
+
+

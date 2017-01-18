@@ -73,6 +73,10 @@ section {
   width: 100%;
 }
 
+a {
+  cursor: pointer;
+}
+
 @mixin import_dynamic_image($root) {
 
   background-image: image-url("background/" + $root + "M." + $bg_format);
