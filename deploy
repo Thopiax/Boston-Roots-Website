@@ -1,0 +1,15 @@
+
+msg=$1
+
+rake assets:precompile
+
+git add -A
+
+git ci -m "$1"
+
+git push
+
+git push heroku origin
+
+
+

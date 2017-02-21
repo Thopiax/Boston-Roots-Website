@@ -92,13 +92,16 @@ Rails.application.configure do
   # email
   config.action_mailer.default_url_options = {host: 'https://bostonroots.herokuapp.com'}
   config.action_mailer.delivery_method = :smtp
+  config.action_mailer.raise_delivery_errors = false
   ActionMailer::Base.smtp_settings = {
-      :address => 'smtp.zoho.com',
-      :port => '465',
-      :authentication => :plain,
-      :user_name => ENV["FORM_EMAIL"],
-      :password => ENV["FORM_PASSWORD"],
-      :domain => 'heroku.com',
+      :address              => 'smtp.zoho.com',
+      :port                 => '465',
+      :authentication       => :plain,
+      :user_name            => ENV["FORM_EMAIL"],
+      :password             => ENV["FORM_PASSWORD"],
+      :ssl                  => true,
+      :tls                  => true,
+      :domain               => 'heroku.com',
       :enable_starttls_auto => true
     }
 
