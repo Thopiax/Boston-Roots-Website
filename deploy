@@ -9,7 +9,4 @@ git ci -m "$1"
 
 git push
 
-git push heroku origin
-
-
-
+git push heroku master
