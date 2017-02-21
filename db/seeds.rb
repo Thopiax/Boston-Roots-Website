@@ -16,7 +16,7 @@ Member.create( name: 'Alex Nehrbass', position: 'Co-Founder and President', bio:
                path: 'alex.jpg')
 Member.create( name: 'Leo Yu', position: 'Vice President', bio: 'Born in Chicago, grew up in Jersey and Boston, now in New York. He has a passion for politics and leadership. When he has spare time he enjoys listening to rap and RnB music.',
                path: 'leo.jpg')
-Member.create( name: 'Rafael Toletti Ballestiero', position: 'Chief Technology Officer', bio: 'Rafael is currently studying math and computer science at Imperial College London who attended middle and high school in Cambridge, MA. His passion for soccer, travel and helping his community save him from getting too absorbed with his busy academic schedule.',
+Member.create( name: 'Rafael Toletti Ballestiero', position: 'Chief Technology Officer', bio: 'Rafael, who attended middle and high school in Cambridge, MA, is currently studying math and computer science at Imperial College London. His passion for soccer, travel and helping his community save him from getting too absorbed in his busy academic schedule.',
                path: 'rafa.jpg')
 
 puts "Seeded members"
