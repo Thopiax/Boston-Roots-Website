@@ -28,6 +28,7 @@ gem 'haml-rails'
 # contact form
 gem 'simple_form'
 gem 'mail_form'
+gem 'figaro'
 # cool icons
 gem 'evil_icons'
 
